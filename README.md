@@ -18,5 +18,5 @@ Signed-By: /etc/apt/keyrings/xlibre-deb.asc
 EOF
 
 sudo apt-get update
-sudo apt-get install -y xlibre
+sudo apt-get install xlibre
 ```
