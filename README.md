@@ -25,4 +25,5 @@ sudo apt-get install xlibre
 
 | Release | Status | Arch         |
 |---------|--------|--------------|
+| noble   | ✅     | amd64, arm64 |
 | plucky  | ✅     | amd64, arm64 |
