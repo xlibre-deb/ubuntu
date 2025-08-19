@@ -20,3 +20,9 @@ EOF
 sudo apt-get update
 sudo apt-get install xlibre
 ```
+
+## Support Status
+
+| Release | Status | Arch         |
+|---------|--------|--------------|
+| plucky  | ✅     | amd64, arm64 |
