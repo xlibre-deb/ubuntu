@@ -8,7 +8,7 @@ Source: xorgproto
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
 Depends: x11proto-dev
-Filename: dists/plucky/pool/main/amd64/x11proto-core-dev_2024.1-1~bpo+1_all.deb
+Filename: dists/plucky/pool/main/all/x11proto-core-dev_2024.1-1~bpo+1_all.deb
 Size: 3460
 MD5sum: 33c5f113ec67b0d4ae3d605dd4628e4f
 SHA1: 15c5e5a5427918c88503649eeb98940babeeca61
@@ -31,7 +31,7 @@ Provides: x11proto-core-dev (= 2024.1-1~bpo+1), x11proto-dri2-dev (= 2024.1-1~bp
 Depends: xorg-sgml-doctools (>= 1:1.5)
 Breaks: x11proto-core-dev (<< 2018.3), x11proto-dri2-dev (<< 2018.3), x11proto-fonts-dev (<< 2018.3), x11proto-gl-dev (<< 2018.3), x11proto-input-dev (<< 2018.3), x11proto-kb-dev (<< 2018.3), x11proto-present-dev (<< 2018.3), x11proto-randr-dev (<< 2018.3), x11proto-record-dev (<< 2018.3), x11proto-render-dev (<< 2:2018.3), x11proto-scrnsaver-dev (<< 2018.3), x11proto-video-dev (<< 2018.3), x11proto-xext-dev (<< 2018.3), x11proto-xf86dga-dev (<< 2018.3), x11proto-xf86dri-dev (<< 2018.3), x11proto-xf86vidmode-dev (<< 2018.3), x11proto-xinerama-dev (<< 2018.3)
 Replaces: x11proto-core-dev (<< 2018.3), x11proto-dri2-dev (<< 2018.3), x11proto-fonts-dev (<< 2018.3), x11proto-gl-dev (<< 2018.3), x11proto-input-dev (<< 2018.3), x11proto-kb-dev (<< 2018.3), x11proto-present-dev (<< 2018.3), x11proto-randr-dev (<< 2018.3), x11proto-record-dev (<< 2018.3), x11proto-render-dev (<< 2:2018.3), x11proto-scrnsaver-dev (<< 2018.3), x11proto-video-dev (<< 2018.3), x11proto-xext-dev (<< 2018.3), x11proto-xf86dga-dev (<< 2018.3), x11proto-xf86dri-dev (<< 2018.3), x11proto-xf86vidmode-dev (<< 2018.3), x11proto-xinerama-dev (<< 2018.3)
-Filename: dists/plucky/pool/main/amd64/x11proto-dev_2024.1-1~bpo+1_all.deb
+Filename: dists/plucky/pool/main/all/x11proto-dev_2024.1-1~bpo+1_all.deb
 Size: 597822
 MD5sum: 3f38ca870a6407a252cc5ca500a33969
 SHA1: 725081f8d180b7d55ee213256b092314ba4b2288
@@ -58,7 +58,7 @@ Source: xorgproto
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
 Depends: x11proto-dev
-Filename: dists/plucky/pool/main/amd64/x11proto-dri2-dev_2024.1-1~bpo+1_all.deb
+Filename: dists/plucky/pool/main/all/x11proto-dri2-dev_2024.1-1~bpo+1_all.deb
 Size: 3452
 MD5sum: 8c8108298adfa58691069406e405d008
 SHA1: 19129cf40a74c1cfec8731d66d7cfb631cef78a4
@@ -78,7 +78,7 @@ Source: xorgproto
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
 Depends: x11proto-dev
-Filename: dists/plucky/pool/main/amd64/x11proto-fonts-dev_2024.1-1~bpo+1_all.deb
+Filename: dists/plucky/pool/main/all/x11proto-fonts-dev_2024.1-1~bpo+1_all.deb
 Size: 3448
 MD5sum: 6b1bfede72850561a2f2cf09e5719650
 SHA1: 3e943c502515ae1576f7b47eeb5541ea1dc107d8
@@ -98,7 +98,7 @@ Source: xorgproto
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
 Depends: x11proto-dev
-Filename: dists/plucky/pool/main/amd64/x11proto-gl-dev_2024.1-1~bpo+1_all.deb
+Filename: dists/plucky/pool/main/all/x11proto-gl-dev_2024.1-1~bpo+1_all.deb
 Size: 3454
 MD5sum: 03399163ada99c50841c8b81b7f14e77
 SHA1: 813fa9c856fbbd8ab9e26d045e9ae7895c6dd8ad
@@ -118,7 +118,7 @@ Source: xorgproto
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
 Depends: x11proto-dev
-Filename: dists/plucky/pool/main/amd64/x11proto-input-dev_2024.1-1~bpo+1_all.deb
+Filename: dists/plucky/pool/main/all/x11proto-input-dev_2024.1-1~bpo+1_all.deb
 Size: 3460
 MD5sum: ac07be04c7ef25fbad7541659bcaa548
 SHA1: 4bcc67ae2a95db59393fc8789a830bc978f25dda
@@ -138,7 +138,7 @@ Source: xorgproto
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
 Depends: x11proto-dev
-Filename: dists/plucky/pool/main/amd64/x11proto-kb-dev_2024.1-1~bpo+1_all.deb
+Filename: dists/plucky/pool/main/all/x11proto-kb-dev_2024.1-1~bpo+1_all.deb
 Size: 3454
 MD5sum: 7dcfd8e31072324fcf66f6b1680299b3
 SHA1: 51ac2e4e90ac11f06df320f05c37f47d0730b942
@@ -158,7 +158,7 @@ Source: xorgproto
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
 Depends: x11proto-dev
-Filename: dists/plucky/pool/main/amd64/x11proto-present-dev_2024.1-1~bpo+1_all.deb
+Filename: dists/plucky/pool/main/all/x11proto-present-dev_2024.1-1~bpo+1_all.deb
 Size: 3458
 MD5sum: 31837c3b75d955943c468fbb33431814
 SHA1: 7c85e64c893b8615c0f7eb1728e4151b86e198f7
@@ -178,7 +178,7 @@ Source: xorgproto
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
 Depends: x11proto-dev
-Filename: dists/plucky/pool/main/amd64/x11proto-randr-dev_2024.1-1~bpo+1_all.deb
+Filename: dists/plucky/pool/main/all/x11proto-randr-dev_2024.1-1~bpo+1_all.deb
 Size: 3452
 MD5sum: 02da0638ee3c54df35e92cfc40fbef66
 SHA1: aba1977adeb7a56eff271f6feb40014439429fc7
@@ -198,7 +198,7 @@ Source: xorgproto
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
 Depends: x11proto-dev
-Filename: dists/plucky/pool/main/amd64/x11proto-record-dev_2024.1-1~bpo+1_all.deb
+Filename: dists/plucky/pool/main/all/x11proto-record-dev_2024.1-1~bpo+1_all.deb
 Size: 3462
 MD5sum: 765f19a176dbf09be63b05e5eed3df1e
 SHA1: ebf049f6e602515832fbcf128bb6c5a5cbc8e7f8
@@ -218,7 +218,7 @@ Source: xorgproto (2024.1-1~bpo+1)
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
 Depends: x11proto-dev
-Filename: dists/plucky/pool/main/amd64/x11proto-render-dev_2024.1-1~bpo+1_all.deb
+Filename: dists/plucky/pool/main/all/x11proto-render-dev_2024.1-1~bpo+1_all.deb
 Size: 3464
 MD5sum: 21e8f1cedb10167999c0487089895bfc
 SHA1: 2f69219bcba2f1153b84d3fbc414ae3f153702fd
@@ -238,7 +238,7 @@ Source: xorgproto
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
 Depends: x11proto-dev
-Filename: dists/plucky/pool/main/amd64/x11proto-scrnsaver-dev_2024.1-1~bpo+1_all.deb
+Filename: dists/plucky/pool/main/all/x11proto-scrnsaver-dev_2024.1-1~bpo+1_all.deb
 Size: 3460
 MD5sum: f4130ea1d626ceaa0af2a914c5ee5b61
 SHA1: 3b9399f7cdcb7a636d65116531f5c893f27ff561
@@ -258,7 +258,7 @@ Source: xorgproto
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
 Depends: x11proto-dev
-Filename: dists/plucky/pool/main/amd64/x11proto-video-dev_2024.1-1~bpo+1_all.deb
+Filename: dists/plucky/pool/main/all/x11proto-video-dev_2024.1-1~bpo+1_all.deb
 Size: 3448
 MD5sum: b78be6d1c08bb746d350cf0511b6b849
 SHA1: bd338593829817f27a777edf0b8693ba8ae83ceb
@@ -278,7 +278,7 @@ Source: xorgproto
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
 Depends: x11proto-dev
-Filename: dists/plucky/pool/main/amd64/x11proto-xext-dev_2024.1-1~bpo+1_all.deb
+Filename: dists/plucky/pool/main/all/x11proto-xext-dev_2024.1-1~bpo+1_all.deb
 Size: 3446
 MD5sum: 3ae3dabd2786cf073570aece0c6b21ab
 SHA1: f5b93e91b8164c02d64ad2329c579bb3259972c5
@@ -298,7 +298,7 @@ Source: xorgproto
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
 Depends: x11proto-dev
-Filename: dists/plucky/pool/main/amd64/x11proto-xf86dri-dev_2024.1-1~bpo+1_all.deb
+Filename: dists/plucky/pool/main/all/x11proto-xf86dri-dev_2024.1-1~bpo+1_all.deb
 Size: 3468
 MD5sum: 4f8f18c9835d047ff69a1427b7665acd
 SHA1: 04af745f19c6c33e47cf11aa144b02d90b09ba13
@@ -318,7 +318,7 @@ Source: xorgproto
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
 Depends: x11proto-dev
-Filename: dists/plucky/pool/main/amd64/x11proto-xf86vidmode-dev_2024.1-1~bpo+1_all.deb
+Filename: dists/plucky/pool/main/all/x11proto-xf86vidmode-dev_2024.1-1~bpo+1_all.deb
 Size: 3466
 MD5sum: 4f2037ad4c5698897ace924772c620e9
 SHA1: e1ac081e6db0a742aee0d79024b9189ff5638d86
@@ -338,7 +338,7 @@ Source: xorgproto
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
 Depends: x11proto-dev
-Filename: dists/plucky/pool/main/amd64/x11proto-xinerama-dev_2024.1-1~bpo+1_all.deb
+Filename: dists/plucky/pool/main/all/x11proto-xinerama-dev_2024.1-1~bpo+1_all.deb
 Size: 3466
 MD5sum: d2c908ea328b1ff54bf9ff17406dd02b
 SHA1: fc9c6e7fc2d59d673c1c72decbb273e0317cd501
@@ -359,7 +359,7 @@ Installed-Size: 12
 Provides: xorg-dev
 Depends: libfontenc-dev, libfs-dev, libice-dev, libsm-dev, libx11-dev, libxau-dev, libxaw7-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxdmcp-dev, libxext-dev, libxfixes-dev, libxfont-dev, libxft-dev, libxi-dev, libxinerama-dev, libxkbfile-dev, libxmu-dev, libxmuu-dev, libxpm-dev, libxrandr-dev, libxrender-dev, libxres-dev, libxss-dev, libxt-dev, libxtst-dev, libxv-dev, libxvmc-dev, libxxf86dga-dev, libxxf86vm-dev, x11proto-dev, xserver-xlibre-dev, xtrans-dev
 Conflicts: xorg-dev
-Filename: dists/plucky/pool/main/amd64/xlibre-dev_7.8+1_all.deb
+Filename: dists/plucky/pool/main/all/xlibre-dev_7.8+1_all.deb
 Size: 2756
 MD5sum: 1d2c22d23dbd27a34730b29ea1495b12
 SHA1: 9e2008cb6c09a46aef3420216e0be1dd0605ceb9
@@ -388,7 +388,7 @@ Installed-Size: 12
 Provides: xorg-dev (= 1:7.8+2)
 Depends: libfontenc-dev, libfs-dev, libice-dev, libsm-dev, libx11-dev, libxau-dev, libxaw7-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxdmcp-dev, libxext-dev, libxfixes-dev, libxfont-dev, libxft-dev, libxi-dev, libxinerama-dev, libxkbfile-dev, libxmu-dev, libxmuu-dev, libxpm-dev, libxrandr-dev, libxrender-dev, libxres-dev, libxss-dev, libxt-dev, libxtst-dev, libxv-dev, libxvmc-dev, libxxf86dga-dev, libxxf86vm-dev, x11proto-dev, xserver-xlibre-dev, xtrans-dev
 Conflicts: xorg-dev
-Filename: dists/plucky/pool/main/amd64/xlibre-dev_7.8+2_all.deb
+Filename: dists/plucky/pool/main/all/xlibre-dev_7.8+2_all.deb
 Size: 3018
 MD5sum: bd067ca10ac778569c00ccd5103771e2
 SHA1: e34172213fe742e956b63488f661ba4f7b499057
@@ -416,7 +416,7 @@ Maintainer: apebl <a@pebl.cc>
 Installed-Size: 2935
 Provides: xorg-server-source
 Conflicts: xorg-server-source
-Filename: dists/plucky/pool/main/amd64/xlibre-server-source_25.0.0.8-1_all.deb
+Filename: dists/plucky/pool/main/all/xlibre-server-source_25.0.0.8-1_all.deb
 Size: 2911690
 MD5sum: 38fd168a3d25c791500b57d7c7d98204
 SHA1: dea88624227b24b463a6c0a4f0245597de70d880
@@ -443,7 +443,7 @@ Maintainer: apebl <a@pebl.cc>
 Installed-Size: 2934
 Provides: xorg-server-source (= 2:25.0.0.8-2)
 Conflicts: xorg-server-source
-Filename: dists/plucky/pool/main/amd64/xlibre-server-source_25.0.0.8-2_all.deb
+Filename: dists/plucky/pool/main/all/xlibre-server-source_25.0.0.8-2_all.deb
 Size: 2911564
 MD5sum: 7235ebb550a66a9da14981bffcd1d8fd
 SHA1: 71ddcf02cfb484147b89431cf24bdf2a8041f01c
@@ -470,7 +470,7 @@ Maintainer: apebl <a@pebl.cc>
 Installed-Size: 2934
 Provides: xorg-server-source (= 2:25.0.0.8-3)
 Conflicts: xorg-server-source
-Filename: dists/plucky/pool/main/amd64/xlibre-server-source_25.0.0.8-3_all.deb
+Filename: dists/plucky/pool/main/all/xlibre-server-source_25.0.0.8-3_all.deb
 Size: 2911874
 MD5sum: bb520f8bc1ee6dedb9ff7b36d20da465
 SHA1: ab0c462c3e190cb9a488dc5300b8cd7bf1f2d01e
@@ -499,7 +499,7 @@ Installed-Size: 275
 Provides: x11-common (= 1:7.8+2)
 Depends: lsb-base
 Conflicts: x11-common
-Filename: dists/plucky/pool/main/amd64/xlibre-x11-common_7.8+2_all.deb
+Filename: dists/plucky/pool/main/all/xlibre-x11-common_7.8+2_all.deb
 Size: 215512
 MD5sum: 8af8e74c6e8acd1b746e60cae73843e5
 SHA1: 7a1fe959b5229b69fb3406e76f56e4033542df53
@@ -530,7 +530,7 @@ Provides: xbase-clients (= 1:7.8+2)
 Depends: x11-apps, x11-session-utils, x11-utils, x11-xkb-utils, x11-xserver-utils, xauth, xinit
 Suggests: x11-xfs-utils
 Conflicts: xbase-clients
-Filename: dists/plucky/pool/main/amd64/xlibre-xbase-clients_7.8+2_all.deb
+Filename: dists/plucky/pool/main/all/xlibre-xbase-clients_7.8+2_all.deb
 Size: 3000
 MD5sum: 937751e25b378aa001dd4a2c2ab38b51
 SHA1: a721000f20dd0ca6947cf5d5cc697e098ea30a51
@@ -561,7 +561,7 @@ Provides: xutils (= 1:7.8+2)
 Depends: x11-utils, x11-xserver-utils, x11-session-utils, xfonts-utils
 Suggests: x11-xfs-utils
 Conflicts: xutils
-Filename: dists/plucky/pool/main/amd64/xlibre-xutils_7.8+2_all.deb
+Filename: dists/plucky/pool/main/all/xlibre-xutils_7.8+2_all.deb
 Size: 2896
 MD5sum: b4271ebdbaf746b29f306df5521d67ee
 SHA1: 692995b50812bf54d9765c7f62322ac3e0252253
@@ -577,64 +577,6 @@ Description: X Window System utility programs metapackage
  programs formerly in xutils and xbase-clients having been split out in smaller
  packages.
 
-Package: xlibre
-Architecture: amd64
-Version: 1:7.8+1
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 18
-Provides: x-window-system, x-window-system-core, xorg
-Depends: xserver-xlibre (>= 1:7.8+1), libgl1, libgl1-mesa-dri, libglu1-mesa, xfonts-base, xfonts-100dpi, xfonts-75dpi, xfonts-scalable, x11-apps, x11-session-utils, x11-utils, x11-xkb-utils, x11-xserver-utils, xauth, xinit, xfonts-utils, xkb-data, xorg-docs-core, xterm | x-terminal-emulator
-Suggests: xorg-docs, x11-xfs-utils
-Conflicts: xorg
-Filename: dists/plucky/pool/main/amd64/xlibre_7.8+1_amd64.deb
-Size: 3038
-MD5sum: e8320e80556a3b57885602a70e773719
-SHA1: 1dce654d5803a2b5ecb824367f08d0d075a101c3
-SHA256: a351068d0de9abb30fc587d2bb716026ed3eed3e5c5e8002817e74807cd42c0b
-SHA512: 1cf17459e4297bbda0942d84fa7218fc4247b1e9f593341989b7442214781faa892c6a03c537dfce3274440fb2eb00b548f06504fd5a5b1d7e6f9ebdfba20100
-Homepage: https://github.com/X11Libre
-Description: XLibre X Window System
- This metapackage provides the components for a standalone
- workstation running the X Window System.  It provides the X libraries, an X
- server, a set of fonts, and a group of basic X clients and utilities.
- .
- Higher level metapackages, such as those for desktop environments, can
- depend on this package and simplify their dependencies.
- .
- It should be noted that a package providing x-window-manager should also
- be installed to ensure a comfortable X experience.
-
-Package: xlibre
-Architecture: amd64
-Version: 1:7.8+2
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 18
-Provides: x-window-system, x-window-system-core, xorg (= 1:7.8+2)
-Depends: xserver-xlibre (>= 1:7.8+2), libgl1, libgl1-mesa-dri, libglu1-mesa, xfonts-base, xfonts-100dpi, xfonts-75dpi, xfonts-scalable, x11-apps, x11-session-utils, x11-utils, x11-xkb-utils, x11-xserver-utils, xauth, xinit, xfonts-utils, xkb-data, xorg-docs-core, xterm | x-terminal-emulator
-Suggests: xorg-docs, x11-xfs-utils
-Conflicts: xorg
-Filename: dists/plucky/pool/main/amd64/xlibre_7.8+2_amd64.deb
-Size: 3314
-MD5sum: b52ee84631a794544351d53ca93825bc
-SHA1: a0bc3dfd65b520b5974c8c89f35b74f84117ab9f
-SHA256: 1b6dae91f438ee54eede511f508e637bd2e4b7ee88ba08eebae10ad7ef2d06a1
-SHA512: 612ddccd8a7cd6c27ad0736e85bae8d45e09b07b984ba1977e5375d1bb67fe37d88d8bb597b8cdb98708f03e3fd8c3f9ec85608e7d14fbb571938c3b5a3ab99b
-Homepage: https://github.com/X11Libre
-Description: XLibre X Window System
- This metapackage provides the components for a standalone
- workstation running the X Window System.  It provides the X libraries, an X
- server, a set of fonts, and a group of basic X clients and utilities.
- .
- Higher level metapackages, such as those for desktop environments, can
- depend on this package and simplify their dependencies.
- .
- It should be noted that a package providing x-window-manager should also
- be installed to ensure a comfortable X experience.
-
 Package: xserver-xlibre-common
 Architecture: all
 Version: 2:25.0.0.8-1
@@ -649,7 +591,7 @@ Depends: x11-common, xkb-data, x11-xkb-utils
 Recommends: xfonts-base, xauth
 Conflicts: xserver-common
 Replaces: xserver-xorg-core (<< 2:1.5.2)
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-common_25.0.0.8-1_all.deb
+Filename: dists/plucky/pool/main/all/xserver-xlibre-common_25.0.0.8-1_all.deb
 Size: 25496
 MD5sum: a8a1f0a87046ef8e4fb79083e74b427b
 SHA1: aa481d68c4e889cc23aa204cbffc1112a3e102af
@@ -673,7 +615,7 @@ Depends: xlibre-x11-common, xkb-data, x11-xkb-utils
 Recommends: xfonts-base, xauth
 Conflicts: xserver-common
 Replaces: xserver-xorg-core (<< 2:1.5.2)
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-common_25.0.0.8-2_all.deb
+Filename: dists/plucky/pool/main/all/xserver-xlibre-common_25.0.0.8-2_all.deb
 Size: 25774
 MD5sum: de7e8d7d88727c8f57eb0d902213ad05
 SHA1: df36a8aee1d60c6b1d6e442610f389949a74bfe8
@@ -697,7 +639,7 @@ Depends: xlibre-x11-common, xkb-data, x11-xkb-utils
 Recommends: xfonts-base, xauth
 Conflicts: xserver-common
 Replaces: xserver-xorg-core (<< 2:1.5.2)
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-common_25.0.0.8-3_all.deb
+Filename: dists/plucky/pool/main/all/xserver-xlibre-common_25.0.0.8-3_all.deb
 Size: 25836
 MD5sum: e58ac5c849e7664786bdb2b59a33da7a
 SHA1: 568a4abf1cbe80cd4e4dbf899a0c3bb883508583
@@ -706,305 +648,6 @@ SHA512: c9fc1d846b78d48e9d66d00c918ee412cf031b0f4adc10f605015648463cbcc3f6092d37
 Homepage: https://github.com/X11Libre
 Description: common files used by various X servers
  This package provides files necessary for all XLibre based X servers.
-
-Package: xserver-xlibre-core
-Architecture: amd64
-Version: 2:25.0.0.8-1
-Priority: optional
-Section: x11
-Source: xlibre-server
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 5118
-Provides: xorg-input-abi-26, xorg-video-abi-28, xserver-xlibre-video-modesetting, xserver-xorg-core
-Depends: xserver-xlibre-common (>= 2:25.0.0.8-1), keyboard-configuration, udev (>= 149), libegl1, libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libdrm2 (>= 2.4.107-5~), libepoxy0 (>= 1.5.4), libgbm1 (>= 21.1.0), libgl1, libnettle8t64, libpciaccess0 (>= 0.12.901), libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.11), libxcvt0 (>= 0.1.0), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
-Recommends: libgl1-mesa-dri (>= 7.10.2-4), default-logind | logind, xcvt
-Suggests: xfonts-100dpi | xfonts-75dpi, xfonts-scalable
-Conflicts: xserver-xlibre-input-evtouch, xserver-xlibre-video-modesetting, xserver-xorg-core
-Breaks: libgl1-mesa-dri (<< 18.0.5), systemd (<< 226-4~), xserver-xorg (<< 1:7.7+10~)
-Replaces: xserver-xorg (<< 1:7.7+10~), xserver-xorg-video-modesetting
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-core_25.0.0.8-1_amd64.deb
-Size: 1895262
-MD5sum: 149bb3037815e527dd1204e981e7d252
-SHA1: 2cf4d9832e2cfffb8f97db7267133236f7939b82
-SHA256: 4d84aa4d0c57c18922fb3ff41a9c24bb9c47aad94801df06b9d796d2562fcfc8
-SHA512: ce481e0f03d5a53024f1a9df05eceea4449daba770fab706593083acf981ea19d14dde7c4f42a943484e19e80d4994156b744027a5fca6273ed29b834bce768a
-Homepage: https://github.com/X11Libre
-Description: XLibre X server - core server
- The XLibre X server is an X server for several architectures and operating
- systems, which is derived from the XFree86 4.x series of X servers.
- .
- The XLibre server supports most modern graphics hardware from most vendors,
- and supersedes all XFree86 X servers.
- .
- More information about XLibre can be found at:
- <URL:https://github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xserver module.
-
-Package: xserver-xlibre-core
-Architecture: amd64
-Version: 2:25.0.0.8-2
-Priority: optional
-Section: x11
-Source: xlibre-server
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 5118
-Provides: xorg-input-abi-26, xorg-video-abi-28, xserver-xlibre-video-modesetting, xserver-xorg-core (= 2:25.0.0.8-2)
-Depends: xserver-xlibre-common (>= 2:25.0.0.8-2), keyboard-configuration, udev (>= 149), libegl1, libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libdrm2 (>= 2.4.107-5~), libepoxy0 (>= 1.5.4), libgbm1 (>= 21.1.0), libgl1, libnettle8t64, libpciaccess0 (>= 0.12.901), libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.11), libxcvt0 (>= 0.1.0), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
-Recommends: libgl1-mesa-dri (>= 7.10.2-4), default-logind | logind, xcvt
-Suggests: xfonts-100dpi | xfonts-75dpi, xfonts-scalable
-Conflicts: xserver-xlibre-input-evtouch, xserver-xlibre-video-modesetting, xserver-xorg-core
-Breaks: libgl1-mesa-dri (<< 18.0.5), systemd (<< 226-4~), xserver-xorg (<< 1:7.7+10~)
-Replaces: xserver-xorg (<< 1:7.7+10~), xserver-xorg-video-modesetting
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-core_25.0.0.8-2_amd64.deb
-Size: 1895606
-MD5sum: c5445dcb613be4b58577e3c64325ea1a
-SHA1: 6a347b837805e57e556ab933c70da7c0cb10873d
-SHA256: 6a86a6c6e1e48040ac92995addc7323b5798be5d51b07e314d18dbfb44c21c92
-SHA512: a0fa9c5634840007eacfc6d935bfdfdfdc23b2e9033962f832d81bdea3c6a8dfbe72b2ff758ac9d0f666e0761614ecc1bea19cdb90b7d88cff8cfa3b62560ffe
-Homepage: https://github.com/X11Libre
-Description: XLibre X server - core server
- The XLibre X server is an X server for several architectures and operating
- systems, which is derived from the XFree86 4.x series of X servers.
- .
- The XLibre server supports most modern graphics hardware from most vendors,
- and supersedes all XFree86 X servers.
- .
- More information about XLibre can be found at:
- <URL:https://github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xserver module.
-
-Package: xserver-xlibre-core
-Architecture: amd64
-Version: 2:25.0.0.8-3
-Priority: optional
-Section: x11
-Source: xlibre-server
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 5118
-Provides: xorg-input-abi-26, xorg-video-abi-28, xserver-xlibre-video-modesetting, xserver-xorg-core (= 2:25.0.0.8-3)
-Depends: xserver-xlibre-common (>= 2:25.0.0.8-3), keyboard-configuration, udev (>= 149), libegl1, libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libdrm2 (>= 2.4.107-5~), libepoxy0 (>= 1.5.4), libgbm1 (>= 21.1.0), libgl1, libnettle8t64, libpciaccess0 (>= 0.12.901), libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.11), libxcvt0 (>= 0.1.0), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
-Recommends: libgl1-mesa-dri (>= 7.10.2-4), default-logind | logind, xcvt
-Suggests: xfonts-100dpi | xfonts-75dpi, xfonts-scalable
-Conflicts: xserver-xlibre-input-evtouch, xserver-xlibre-video-modesetting, xserver-xorg-core
-Breaks: libgl1-mesa-dri (<< 18.0.5), systemd (<< 226-4~), xserver-xorg (<< 1:7.7+10~)
-Replaces: xserver-xorg (<< 1:7.7+10~), xserver-xorg-video-modesetting
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-core_25.0.0.8-3_amd64.deb
-Size: 1895678
-MD5sum: 264f9091a029d5ea92c820f6b62320d3
-SHA1: cb2cb502d1790b9134500524ff427cf660c5ae56
-SHA256: 640ebffb1c37a0cca732349910aac7e210c5d38899adc545616085035c15383b
-SHA512: de0ab4f4f2ebb4be783080f8364eb6eaf20ab4b237c017898f7f96b3d62ba12a87f673dfbf0c3d87e84d41205eae6f6c409fee513b87f27502f022c997bfc5e8
-Homepage: https://github.com/X11Libre
-Description: XLibre X server - core server
- The XLibre X server is an X server for several architectures and operating
- systems, which is derived from the XFree86 4.x series of X servers.
- .
- The XLibre server supports most modern graphics hardware from most vendors,
- and supersedes all XFree86 X servers.
- .
- More information about XLibre can be found at:
- <URL:https://github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xserver module.
-
-Package: xserver-xlibre-dev
-Architecture: amd64
-Version: 2:25.0.0.8-1
-Priority: optional
-Section: x11
-Source: xlibre-server
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 1102
-Provides: xserver-xorg-dev
-Depends: libpixman-1-dev (>= 0.27.2), x11proto-dev (>= 2024.1), libxcvt-dev, libxfont-dev, libxkbfile-dev, libpciaccess-dev, mesa-common-dev
-Conflicts: xserver-xorg-dev
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-dev_25.0.0.8-1_amd64.deb
-Size: 168326
-MD5sum: f7ecea24b80f8fae2e58fa1529ab7382
-SHA1: f4eceeb521fc0bb810e7c81fb3fc123c553c405d
-SHA256: 890d57f53e96ed1cdd60f1fa35d49fdf9f64a769a35af2fb3ab3f57bf99ea346
-SHA512: ae1ebff499446b3f993a8e6550124c1bd69da86f5acbe1f224abe75016939587e1c6815ebfbaa25e6d23f1846433d1c852b7463f4d502ac482527840dcf977ac
-Homepage: https://github.com/X11Libre
-Description: XLibre X server - development files
- This package provides development files for the XLibre ('XLibre') X server.
- This is not quite the same as the DDK (Driver Development Kit) from the
- XFree86 4.x and X.Org 6.7, 6.8 and 6.9 series of servers; it provides
- headers and a pkg-config file for drivers using autotools to build
- against.
- .
- Unless you are developing or building a driver, you probably want
- xserver-xlibre and/or xserver-xlibre-core instead.
- .
- More information about XLibre can be found at:
- <URL:https://github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xserver module.
-
-Package: xserver-xlibre-dev
-Architecture: amd64
-Version: 2:25.0.0.8-2
-Priority: optional
-Section: x11
-Source: xlibre-server
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 1102
-Provides: xserver-xorg-dev (= 2:25.0.0.8-2)
-Depends: libpixman-1-dev (>= 0.27.2), x11proto-dev (>= 2024.1), libxcvt-dev, libxfont-dev, libxkbfile-dev, libpciaccess-dev, mesa-common-dev
-Conflicts: xserver-xorg-dev
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-dev_25.0.0.8-2_amd64.deb
-Size: 168622
-MD5sum: be513a9401107b0c2e9e3b45668fe01c
-SHA1: f135140349a84b789f02dd992229386d647e2188
-SHA256: c3d9c61eea702d3bc77cf22dd564158aa4ea9f0e70cc32141ccf7e08ce78aba5
-SHA512: 70aba8a3987882ab2e3552ac8caf998fee3c656d71fcdcf5e2aae76ae7961adb0e2d90216a4381c6310b0eccd559d2c846a32ba290882c7238850fe0dd7d4300
-Homepage: https://github.com/X11Libre
-Description: XLibre X server - development files
- This package provides development files for the XLibre ('XLibre') X server.
- This is not quite the same as the DDK (Driver Development Kit) from the
- XFree86 4.x and X.Org 6.7, 6.8 and 6.9 series of servers; it provides
- headers and a pkg-config file for drivers using autotools to build
- against.
- .
- Unless you are developing or building a driver, you probably want
- xserver-xlibre and/or xserver-xlibre-core instead.
- .
- More information about XLibre can be found at:
- <URL:https://github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xserver module.
-
-Package: xserver-xlibre-dev
-Architecture: amd64
-Version: 2:25.0.0.8-3
-Priority: optional
-Section: x11
-Source: xlibre-server
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 1102
-Provides: xserver-xorg-dev (= 2:25.0.0.8-3)
-Depends: libpixman-1-dev (>= 0.27.2), x11proto-dev (>= 2024.1), libxcvt-dev, libxfont-dev, libxkbfile-dev, libpciaccess-dev, mesa-common-dev
-Conflicts: xserver-xorg-dev
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-dev_25.0.0.8-3_amd64.deb
-Size: 168602
-MD5sum: 8086cab3b8161026adae03cb0538fc95
-SHA1: e4289b9378e880daefe71042d8c7a81f7ced9512
-SHA256: b71a3e45ecda39435d04de6c671972fc7954ccd49a25f96dee00163e143727d6
-SHA512: 0188a20a34eb3e1c24274629bbcbdcbdaece7c1f761aacb6b8ebfa5686534c859fe5001144df3873f1fb0c9dac514e13ae1539c71050369309ea8d3ea2c9aee4
-Homepage: https://github.com/X11Libre
-Description: XLibre X server - development files
- This package provides development files for the XLibre ('XLibre') X server.
- This is not quite the same as the DDK (Driver Development Kit) from the
- XFree86 4.x and X.Org 6.7, 6.8 and 6.9 series of servers; it provides
- headers and a pkg-config file for drivers using autotools to build
- against.
- .
- Unless you are developing or building a driver, you probably want
- xserver-xlibre and/or xserver-xlibre-core instead.
- .
- More information about XLibre can be found at:
- <URL:https://github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xserver module.
-
-Package: xserver-xlibre-input-all
-Architecture: amd64
-Version: 1:7.8+1
-Priority: optional
-Section: x11
-Source: xlibre
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 12
-Provides: xserver-xorg-input-all
-Depends: xserver-xlibre-input-libinput
-Recommends: xserver-xlibre-input-wacom
-Conflicts: xserver-xorg-input-all
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-input-all_7.8+1_amd64.deb
-Size: 2552
-MD5sum: 55e4b6405e7b2e2524dc9fc61f2a398a
-SHA1: 88cfe95d61ae1b058e341ce811eccee0f1fbd08a
-SHA256: 70bd583326a43dd171dc61fdadb39adc619ebb5f79a9ad1cdf050a1dd2f17e73
-SHA512: 24d0c334ba1aaec5200d2f374cbb878402090ed712e819286e04921b51bcc635bc2abce601478e6f53da239cd7875ac4eb3bb57e1be96248d97c76987636807d
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- input driver metapackage
- This package depends on the full suite of input drivers for the XLibre X server
- (XLibre).  It does not provide any drivers itself, and may be removed if you wish
- to only have certain drivers installed.
-
-Package: xserver-xlibre-input-all
-Architecture: amd64
-Version: 1:7.8+2
-Priority: optional
-Section: x11
-Source: xlibre
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 12
-Provides: xserver-xorg-input-all (= 1:7.8+2)
-Depends: xserver-xlibre-input-libinput
-Recommends: xserver-xlibre-input-wacom
-Conflicts: xserver-xorg-input-all
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-input-all_7.8+2_amd64.deb
-Size: 2812
-MD5sum: 3628593daac09752d832a0d0f53e038c
-SHA1: 106a458320000b8662ee0d673725c674255096a1
-SHA256: 21caf4e2ce3605ae2811b2f9705170f200a9de74ddd565bfa440b5850d8a8289
-SHA512: be87006c2cb0ba721e3a4a84b4c51789c13acd39820311da72c5bc34fa829d39acd1804379922655df7a07e38e1a7015076851973ed114046412d26c3e94b637
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- input driver metapackage
- This package depends on the full suite of input drivers for the XLibre X server
- (XLibre).  It does not provide any drivers itself, and may be removed if you wish
- to only have certain drivers installed.
-
-Package: xserver-xlibre-input-elographics
-Architecture: amd64
-Version: 1:1.4.4.1-1
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 47
-Provides: xlibre-driver-input, xserver-xorg-input-elographics
-Depends: libc6 (>= 2.4), xorg-input-abi-26, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xorg-input-elographics
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-input-elographics_1.4.4.1-1_amd64.deb
-Size: 10708
-MD5sum: eafd08d8ecd57411fa2fa81396cef5ec
-SHA1: 6986dbb00d754075279dfe0424d1a329a7b74193
-SHA256: f1c75f310dadbc122f418aa0ca34b8ad10407c840ef6e590b0d962bbd38d8f28
-SHA512: 981301222fec52dcf3c6f04e12357d5bb412ecc331622bb24baeb0881a65d65a382d9769246bcdd79092bc1be80ff29199629fa7597b84d5c6f62b40faab344d
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- ELOGraphics input driver
- This package provides the driver for ELO Graphics touchscreens.
- .
- More information about XLibre can be found at:
- <URL:https://github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xf86-input-elographics driver module.
-
-Package: xserver-xlibre-input-elographics
-Architecture: amd64
-Version: 1:1.4.4.1-2
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 47
-Provides: xlibre-driver-input, xserver-xorg-input-elographics (= 1:1.4.4.1-2)
-Depends: libc6 (>= 2.4), xorg-input-abi-26, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xorg-input-elographics
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-input-elographics_1.4.4.1-2_amd64.deb
-Size: 10818
-MD5sum: 97d047dec1609d3a5786e12c0db3d2ce
-SHA1: 2d5906f34c74f1cb416e6fd605587713c4416c13
-SHA256: 349df65430d63fcae962df64cf62f17646b4e334467120e57057abc160e047e1
-SHA512: 4de40dbfa56df8ae587bfaf2cc3be7b9a6278e2da617a44102a3801184f70c25a03b055dea1d276f431be70059fb088873fde5aa334cb6d725e422529254cc70
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- ELOGraphics input driver
- This package provides the driver for ELO Graphics touchscreens.
- .
- More information about XLibre can be found at:
- <URL:https://github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xf86-input-elographics driver module.
 
 Package: xserver-xlibre-input-evdev-dev
 Architecture: all
@@ -1017,7 +660,7 @@ Maintainer: apebl <a@pebl.cc>
 Installed-Size: 21
 Provides: xserver-xorg-input-evdev-dev
 Conflicts: xserver-xorg-input-evdev-dev
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-input-evdev-dev_2.11.0.1-1_all.deb
+Filename: dists/plucky/pool/main/all/xserver-xlibre-input-evdev-dev_2.11.0.1-1_all.deb
 Size: 3982
 MD5sum: 0c531008ed7bad806dfb3a19c30aa5b8
 SHA1: f5d8a902c834b8c109d7f6ac366f0ac1890571ab
@@ -1042,7 +685,7 @@ Maintainer: apebl <a@pebl.cc>
 Installed-Size: 21
 Provides: xserver-xorg-input-evdev-dev (= 1:2.11.0.1-2)
 Conflicts: xserver-xorg-input-evdev-dev
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-input-evdev-dev_2.11.0.1-2_all.deb
+Filename: dists/plucky/pool/main/all/xserver-xlibre-input-evdev-dev_2.11.0.1-2_all.deb
 Size: 4122
 MD5sum: 28288daca1dc519161ee18983543936b
 SHA1: a3746b5b102d0103b308f25440e19cdf691358ea
@@ -1053,58 +696,6 @@ Description: XLibre X server -- evdev input driver (development headers)
  This package provides the development headers for the evdev input driver
  found in xserver-xlibre-input-evdev. Non-developers likely have little use
  for this package.
- .
- This package is built from the XLibre xf86-input-evdev driver module.
-
-Package: xserver-xlibre-input-evdev
-Architecture: amd64
-Version: 1:2.11.0.1-1
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 103
-Provides: xlibre-driver-input, xserver-xorg-input-evdev
-Depends: libc6 (>= 2.33), libevdev2 (>= 1.2.2+dfsg-1~), libmtdev1t64 (>= 1.1.0), libudev1 (>= 183), xorg-input-abi-26, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xorg-input-evdev
-Breaks: xserver-xorg-core (<< 2:1.18.0-1)
-Replaces: xserver-xorg-core (<< 2:1.18.0-1)
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-input-evdev_2.11.0.1-1_amd64.deb
-Size: 33364
-MD5sum: f28f58c49f3d19be958153a952007a3e
-SHA1: 01f30a7c1846fc7ab740ee14dec17c6ebefaf68d
-SHA256: 966a1f330c93bd6893c15abf4794e47e4599607aee20fa509a2c301fc6a33c1a
-SHA512: 99ecd7b59a274a2b5d3b5456247cfd5391cbddba5d14c426c17e011163298a2b3724bcee6adbc179f922d9d783a95e0282064c442875cf797a64b1027ac5f79b
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- evdev input driver
- This package provides the driver for input devices using evdev, the Linux
- kernel's event delivery mechanism.  This driver allows for multiple keyboards
- and mice to be treated as separate input devices.
- .
- This package is built from the XLibre xf86-input-evdev driver module.
-
-Package: xserver-xlibre-input-evdev
-Architecture: amd64
-Version: 1:2.11.0.1-2
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 103
-Provides: xlibre-driver-input, xserver-xorg-input-evdev (= 1:2.11.0.1-2)
-Depends: libc6 (>= 2.33), libevdev2 (>= 1.2.2+dfsg-1~), libmtdev1t64 (>= 1.1.0), libudev1 (>= 183), xorg-input-abi-26, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xorg-input-evdev
-Breaks: xserver-xorg-core (<< 2:1.18.0-1)
-Replaces: xserver-xorg-core (<< 2:1.18.0-1)
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-input-evdev_2.11.0.1-2_amd64.deb
-Size: 33464
-MD5sum: cfe663ed4376d4d5fbc60d99f8e0dae8
-SHA1: 428a0deea37b85147fa20ffe5c9a6ccff346ea8f
-SHA256: c24274d186ea6a45d029e0ca9fbdd59aaeab304ae479497a9ca3be577d9889fb
-SHA512: 17b01e201c111cc112d6ecd26857dd14617e89f8719658e452db4391a32a07412c4913b96916dfea6223c34d62d6b372a05ea5093cc7f134a927ea42f58a1e9c
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- evdev input driver
- This package provides the driver for input devices using evdev, the Linux
- kernel's event delivery mechanism.  This driver allows for multiple keyboards
- and mice to be treated as separate input devices.
  .
  This package is built from the XLibre xf86-input-evdev driver module.
 
@@ -1119,7 +710,7 @@ Maintainer: apebl <a@pebl.cc>
 Installed-Size: 26
 Provides: xserver-xorg-input-libinput-dev
 Conflicts: xserver-xorg-input-libinput-dev
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-input-libinput-dev_1.5.0.1-1_all.deb
+Filename: dists/plucky/pool/main/all/xserver-xlibre-input-libinput-dev_1.5.0.1-1_all.deb
 Size: 4932
 MD5sum: 026419849060bfe5f10bd1e56ced8b0c
 SHA1: 5b8486a219b20e310f511cd865fc0efdd545da48
@@ -1144,7 +735,7 @@ Maintainer: apebl <a@pebl.cc>
 Installed-Size: 26
 Provides: xserver-xorg-input-libinput-dev (= 1.5.0.1-2)
 Conflicts: xserver-xorg-input-libinput-dev
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-input-libinput-dev_1.5.0.1-2_all.deb
+Filename: dists/plucky/pool/main/all/xserver-xlibre-input-libinput-dev_1.5.0.1-2_all.deb
 Size: 5060
 MD5sum: a9e7a0cc04b8bd3651aa514a61f1a67c
 SHA1: 24997b737110e5b5ad678cac02e0eac090309945
@@ -1169,7 +760,7 @@ Maintainer: apebl <a@pebl.cc>
 Installed-Size: 26
 Provides: xserver-xorg-input-libinput-dev (= 1.5.0.1-3)
 Conflicts: xserver-xorg-input-libinput-dev
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-input-libinput-dev_1.5.0.1-3_all.deb
+Filename: dists/plucky/pool/main/all/xserver-xlibre-input-libinput-dev_1.5.0.1-3_all.deb
 Size: 5114
 MD5sum: 09b5392050d8af31a7fc4006952cab73
 SHA1: d261fb0ac275673d8e8dfa1e226742c5f005f4e6
@@ -1180,78 +771,6 @@ Description: XLibre X server -- libinput input driver (development headers)
  This package provides the development headers for the libinput input driver
  found in xserver-xlibre-input-libinput. Non-developers likely have little use
  for this package.
- .
- This package is built from the XLibre xf86-input-libinput driver module.
-
-Package: xserver-xlibre-input-libinput
-Architecture: amd64
-Version: 1.5.0.1-1
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 131
-Provides: xlibre-driver-input, xserver-xorg-input-libinput
-Depends: libc6 (>= 2.7), libinput10 (>= 1.26.0), xorg-input-abi-26, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xorg-input-libinput
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-input-libinput_1.5.0.1-1_amd64.deb
-Size: 44024
-MD5sum: ef356fa78b9132cecf440853f113cad8
-SHA1: 5d95652cb5d468dd8361821dd039e40ebf3482ac
-SHA256: edacaad44e7d3d068b060852ac8dd1056c41200055762a1796d619f8aea9d268
-SHA512: a778c33a93f82d7086bbcf54408c4738e86605b74055732522919c5828542bdf62bda35c1bb3a2c2b7e11ec2631ded3c0e84ecf3f66c292beab6febadbcfbcfb
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- libinput input driver
- This package provides the driver for input devices using libinput library.
- It can handle keyboards, mice and touchpads, and essentially replaces the
- separate -evdev and -synaptics drivers.
- .
- This package is built from the XLibre xf86-input-libinput driver module.
-
-Package: xserver-xlibre-input-libinput
-Architecture: amd64
-Version: 1.5.0.1-2
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 131
-Provides: xlibre-driver-input, xserver-xorg-input-libinput (= 1.5.0.1-2)
-Depends: libc6 (>= 2.7), libinput10 (>= 1.26.0), xorg-input-abi-26, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xorg-input-libinput
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-input-libinput_1.5.0.1-2_amd64.deb
-Size: 44188
-MD5sum: c02c837cc737f43044b2db4ba6979b21
-SHA1: 2d80d7964919994afb903e528acdbcff17970ab6
-SHA256: 69c7b08bc979ea9680c7c75e0285c542dabc9d5ae0e98441c0c6254b503c12aa
-SHA512: fbbef264e387be1ef46c8b447bb823b28cd6073516690400b6ffbc8478ff7351f2c7dd21aa67df18183d0167bbb0f53d6f50e02317f2ee6ee402152971bc700f
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- libinput input driver
- This package provides the driver for input devices using libinput library.
- It can handle keyboards, mice and touchpads, and essentially replaces the
- separate -evdev and -synaptics drivers.
- .
- This package is built from the XLibre xf86-input-libinput driver module.
-
-Package: xserver-xlibre-input-libinput
-Architecture: amd64
-Version: 1.5.0.1-3
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 131
-Provides: xlibre-driver-input, xserver-xorg-input-libinput (= 1.5.0.1-3)
-Depends: libc6 (>= 2.7), libinput10 (>= 1.26.0), xorg-input-abi-26, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xorg-input-libinput
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-input-libinput_1.5.0.1-3_amd64.deb
-Size: 44224
-MD5sum: a5f311af165c6dc811906b51708d1841
-SHA1: 0a213725f4a9c1add32e95736da1f19bd66bb0a4
-SHA256: ac68aca79a9fa7cddf406f33dd1ff6947b9af01c6e1b86263392a374d26516dd
-SHA512: 168a7224fb27410c0f43b19b88876fe550d397cdc76fa29cea37c884eec104f433d61485354e27cc3e4df321b4694a6c512b1cb14733b56efef2d95da1ca7bd5
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- libinput input driver
- This package provides the driver for input devices using libinput library.
- It can handle keyboards, mice and touchpads, and essentially replaces the
- separate -evdev and -synaptics drivers.
  .
  This package is built from the XLibre xf86-input-libinput driver module.
 
@@ -1267,7 +786,7 @@ Installed-Size: 21
 Provides: xserver-xorg-input-synaptics-dev
 Depends: x11proto-dev | x11proto-core-dev
 Conflicts: xserver-xorg-input-synaptics-dev
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-input-synaptics-dev_1.10.0.1-1_all.deb
+Filename: dists/plucky/pool/main/all/xserver-xlibre-input-synaptics-dev_1.10.0.1-1_all.deb
 Size: 4702
 MD5sum: d7e2ff4e1e6aec5189d4cc126472b4e8
 SHA1: d187b9b3f17bb5a0ae44a289c1ce3dca3cf85ed1
@@ -1291,7 +810,7 @@ Installed-Size: 21
 Provides: xserver-xorg-input-synaptics-dev (= 1.10.0.1-2)
 Depends: x11proto-dev | x11proto-core-dev
 Conflicts: xserver-xorg-input-synaptics-dev
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-input-synaptics-dev_1.10.0.1-2_all.deb
+Filename: dists/plucky/pool/main/all/xserver-xlibre-input-synaptics-dev_1.10.0.1-2_all.deb
 Size: 4826
 MD5sum: 9ad47fd1c6fe149c64e35f311688ad87
 SHA1: 0a43b779ce40b2da61aded414647d7d688ec6d3d
@@ -1302,2038 +821,6 @@ Description: Synaptics TouchPad driver for XLibre server (development headers)
  This package contains the development headers for the Synaptics input
  driver found in xserver-xlibre-input-synaptics. Non-developers likely have
  little use for this package.
-
-Package: xserver-xlibre-input-synaptics
-Architecture: amd64
-Version: 1.10.0.1-1
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 188
-Provides: xlibre-driver-input, xlibre-driver-synaptics, xserver-xorg-input-synaptics
-Depends: libc6 (>= 2.38), libevdev2 (>= 1.3), libx11-6, libxi6 (>= 2:1.2.0), libxtst6 (>= 2:1.2.5), xorg-input-abi-26, xserver-xlibre-core (>= 25.0.0.8)
-Suggests: gpointing-device-settings, touchfreeze
-Conflicts: xlibre-driver-synaptics, xserver-xorg-input-synaptics
-Replaces: xorg-driver-synaptics
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-input-synaptics_1.10.0.1-1_amd64.deb
-Size: 66282
-MD5sum: 8822b84d7be1967e9fb8c03da0bb7dd5
-SHA1: fa7e609a1a48b11b1510faef70d2354bc70759f6
-SHA256: aec713a6586c031bafb23e82b0b605db3f0f871e9c7a56e8e2d75ac912e5249e
-SHA512: 674daf2de053e51a35b52765472a87644e2d0f600e4c2a565783bb4b48d6da04b63aa64e6bde27903c2ab7ebd792917fad652eea239e27c119ec3c2face96c41
-Homepage: https://github.com/X11Libre
-Description: Synaptics TouchPad driver for XLibre server
- This package provides an input driver for the XLibre X server to enable
- advanced features of the Synaptics Touchpad including:
- .
-  * Movement with adjustable, non-linear acceleration and speed
-  * Button events through short touching of the touchpad
-  * Double-Button events through double short touching of the touchpad
-  * Dragging through short touching and holding down the finger on the touchpad
-  * Middle and right button events on the upper and lower corner of the touchpad
-  * Vertical scrolling (button four and five events) through moving the finger
-    on the right side of the touchpad
-  * The up/down button sends button four/five events
-  * Horizontal scrolling (button six and seven events) through moving the finger
-    on the lower side of the touchpad
-  * The multi-buttons send button four/five events, and six/seven events for
-    horizontal scrolling
-  * Adjustable finger detection
-  * Multifinger taps: two finger for middle button and three finger for right
-    button events. (Needs hardware support. Not all models implement this
-    feature.)
-  * Run-time configuration using shared memory. This means you can change
-    parameter settings without restarting the X server (see synclient(1)).
-  * It also provides a daemon to disable touchpad while typing at the keyboard
-    and thus avoid unwanted mouse movements (see syndaemon(1)).
-
-Package: xserver-xlibre-input-synaptics
-Architecture: amd64
-Version: 1.10.0.1-2
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 188
-Provides: xlibre-driver-input, xlibre-driver-synaptics, xserver-xorg-input-synaptics (= 1.10.0.1-2)
-Depends: libc6 (>= 2.38), libevdev2 (>= 1.3), libx11-6, libxi6 (>= 2:1.2.0), libxtst6 (>= 2:1.2.5), xorg-input-abi-26, xserver-xlibre-core (>= 25.0.0.8)
-Suggests: gpointing-device-settings, touchfreeze
-Conflicts: xlibre-driver-synaptics, xserver-xorg-input-synaptics
-Replaces: xorg-driver-synaptics
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-input-synaptics_1.10.0.1-2_amd64.deb
-Size: 66396
-MD5sum: 3ec1534755b5202ce933f6c657c6f4ce
-SHA1: 01b7c9060e8dbcccee2750ec1321e137105ed497
-SHA256: 342f0938679e635417577316202c3599c26c0b59442fd7b33503d4afeeda9dfc
-SHA512: dafb8b22c8d4c447c5db96b85f6d3effe7aa8a7c36e8682cd475a129f35d084bbb52658a380abe8d85296d7a935a3be9394e004cbd75feef8c8c0f1b6ab920c9
-Homepage: https://github.com/X11Libre
-Description: Synaptics TouchPad driver for XLibre server
- This package provides an input driver for the XLibre X server to enable
- advanced features of the Synaptics Touchpad including:
- .
-  * Movement with adjustable, non-linear acceleration and speed
-  * Button events through short touching of the touchpad
-  * Double-Button events through double short touching of the touchpad
-  * Dragging through short touching and holding down the finger on the touchpad
-  * Middle and right button events on the upper and lower corner of the touchpad
-  * Vertical scrolling (button four and five events) through moving the finger
-    on the right side of the touchpad
-  * The up/down button sends button four/five events
-  * Horizontal scrolling (button six and seven events) through moving the finger
-    on the lower side of the touchpad
-  * The multi-buttons send button four/five events, and six/seven events for
-    horizontal scrolling
-  * Adjustable finger detection
-  * Multifinger taps: two finger for middle button and three finger for right
-    button events. (Needs hardware support. Not all models implement this
-    feature.)
-  * Run-time configuration using shared memory. This means you can change
-    parameter settings without restarting the X server (see synclient(1)).
-  * It also provides a daemon to disable touchpad while typing at the keyboard
-    and thus avoid unwanted mouse movements (see syndaemon(1)).
-
-Package: xserver-xlibre-input-vmmouse
-Architecture: amd64
-Version: 1:13.2.0.1-1
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 70
-Provides: xlibre-driver-input, xserver-xorg-input-vmmouse
-Depends: libc6 (>= 2.34), libudev1 (>= 183), xorg-input-abi-26, xserver-xlibre-core (>= 25.0.0.8), udev
-Conflicts: xserver-xorg-input-vmmouse
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-input-vmmouse_13.2.0.1-1_amd64.deb
-Size: 13726
-MD5sum: b7cd80cb0ac7f5368b154ce736d055ac
-SHA1: ebfb433f7faedfa0ba1123ad4e2f20503e8bd7a4
-SHA256: fdbfab588bdf1df4ff7e7805235ff77034de2469f420ca3bab96465ff338ecb9
-SHA512: 2f26f6114931abf1d9cf6b82d8de0ded6156b5de09fb228e1eaaad20bccbbf03fbc3859ac62175172e7c4bc82cb76e59469604674a75d9f3131ef0b7b4e46cc7
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- VMMouse input driver to use with VMWare
- This package provides the driver for the X11 vmmouse input device.
- .
- The VMMouse driver enables support for the special VMMouse protocol
- that is provided by VMware virtual machines to give absolute pointer
- positioning.
- .
- More information about XLibre can be found at:
- <URL:https://www.github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xf86-input-vmmouse driver module.
-
-Package: xserver-xlibre-input-vmmouse
-Architecture: amd64
-Version: 1:13.2.0.1-2
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 70
-Provides: xlibre-driver-input, xserver-xorg-input-vmmouse (= 1:13.2.0.1-2)
-Depends: libc6 (>= 2.34), libudev1 (>= 183), xorg-input-abi-26, xserver-xlibre-core (>= 25.0.0.8), udev
-Conflicts: xserver-xorg-input-vmmouse
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-input-vmmouse_13.2.0.1-2_amd64.deb
-Size: 13842
-MD5sum: eadd82a13e09591d5ad4a8e919bc1c5f
-SHA1: 2604ca6f7116aa5b11b54736a8433b22fb977d33
-SHA256: 5da53e9433f783b6647afbaca50558313c35ecae75058562ab3454a62f221dfc
-SHA512: 0275a4c54d3af1c14f8d00c17a11f1368ec5f50cbc17c84eeb696de2017b45f2bfa0456c085034e825121199edb0a1752d7931305256cf47b16e141632b24fd8
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- VMMouse input driver to use with VMWare
- This package provides the driver for the X11 vmmouse input device.
- .
- The VMMouse driver enables support for the special VMMouse protocol
- that is provided by VMware virtual machines to give absolute pointer
- positioning.
- .
- More information about XLibre can be found at:
- <URL:https://www.github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xf86-input-vmmouse driver module.
-
-Package: xserver-xlibre-input-void
-Architecture: amd64
-Version: 1:1.4.2.1-1
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 36
-Provides: xlibre-driver-input, xserver-xorg-input-void
-Depends: libc6 (>= 2.4), xorg-input-abi-26, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xorg-input-void
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-input-void_1.4.2.1-1_amd64.deb
-Size: 6058
-MD5sum: cf136b316b1c43ed3e51a5c6505c1ddb
-SHA1: baf3f3ca19c88846788ad2e763b36d7a4374bf80
-SHA256: 35001264e142aaabd5def48beb6c17db80d015571318816d19a687d88f39fbe7
-SHA512: b5006630a0d2c4380d6042fc19d15554fac7128c629c48c8d6dd2e4905e00cf2e1702fa4cb9b6cf14c93665f2c31084df42e717462f276a1a11a310e774ed822
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- void input driver
- This package provides the void input driver, which never actually registers
- any input events -- it is, as such, a 'fake' driver.
- .
- More information about XLibre can be found at:
- <URL:https://www.github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xf86-input-void driver module.
-
-Package: xserver-xlibre-input-void
-Architecture: amd64
-Version: 1:1.4.2.1-2
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 36
-Provides: xlibre-driver-input, xserver-xorg-input-void (= 1:1.4.2.1-2)
-Depends: libc6 (>= 2.4), xorg-input-abi-26, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xorg-input-void
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-input-void_1.4.2.1-2_amd64.deb
-Size: 6164
-MD5sum: 4f79b337b26a73806d14321c6b754192
-SHA1: 6dc8dfd31c6ed907270626ff02a4d94b9cb4857d
-SHA256: 987eb5642175629a95279051728cc2305ce21d7e6cdfdbfb64016545672e3939
-SHA512: 69a61fd1f8bb2fbb6bfbbf2275086772e909138fc27455deab42371a3c387278b9d20dc5171d555b67273d10e5a73b8281b1eec655827ff61ffd33db603c44c1
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- void input driver
- This package provides the void input driver, which never actually registers
- any input events -- it is, as such, a 'fake' driver.
- .
- More information about XLibre can be found at:
- <URL:https://www.github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xf86-input-void driver module.
-
-Package: xserver-xlibre-input-wacom
-Architecture: amd64
-Version: 1.2.3.1-1
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 305
-Provides: xlibre-driver-input, xserver-xorg-input-wacom
-Depends: libc6 (>= 2.38), libudev1 (>= 183), libx11-6, libxi6 (>= 2:1.2.0), libxinerama1 (>= 2:1.1.4), libxrandr2 (>= 2:1.2.0), xorg-input-abi-26, xserver-xlibre-core (>= 25.0.0.8)
-Suggests: xinput
-Conflicts: wacom-tools (<< 0.10.0), xserver-xorg-input-wacom
-Replaces: wacom-tools (<< 0.10.0)
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-input-wacom_1.2.3.1-1_amd64.deb
-Size: 100068
-MD5sum: 952e11a18ee17ae1a6d13627570d50e8
-SHA1: ad365b3609fae9e1e05d6699905a5e8884b370d0
-SHA256: 6668de165a9bbbc465da452bbf7ceae25855da2da7854e02d6d356f62bb5f283
-SHA512: 911378149ec99466920030ba20a33b266f36927fc9cc19010fae7ff6c16b96518c88fd0cc71334b99f11a630f5ab367fc948b887a2145166e2bcf52ef2b58da2
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- Wacom input driver
- This package provides the XLibre driver for Wacom tablet devices.
-
-Package: xserver-xlibre-input-wacom
-Architecture: amd64
-Version: 1.2.3.1-2
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 305
-Provides: xlibre-driver-input, xserver-xorg-input-wacom (= 1.2.3.1-2)
-Depends: libc6 (>= 2.38), libudev1 (>= 183), libx11-6, libxi6 (>= 2:1.2.0), libxinerama1 (>= 2:1.1.4), libxrandr2 (>= 2:1.2.0), xorg-input-abi-26, xserver-xlibre-core (>= 25.0.0.8)
-Suggests: xinput
-Conflicts: wacom-tools (<< 0.10.0), xserver-xorg-input-wacom
-Replaces: wacom-tools (<< 0.10.0)
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-input-wacom_1.2.3.1-2_amd64.deb
-Size: 100174
-MD5sum: 75a4a246eb0177266ed14bbe8a4babf8
-SHA1: dfadbd8a7c79106bff2235bae22707f7959bb34b
-SHA256: e79a85f7b4ff4d82415050e862f12e2ab7b91beaf99a41f1a49905e85ca9e1b6
-SHA512: f98f4869a46e11b5700c048ff022e96c062ee33ca3965d8565e49df4bc300b002c6d07d3d59b66c9d78cb54c268f90ac7e0a7fab143905346b37165b5ad24e94
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- Wacom input driver
- This package provides the XLibre driver for Wacom tablet devices.
-
-Package: xserver-xlibre-legacy
-Architecture: amd64
-Version: 2:25.0.0.8-1
-Priority: optional
-Section: x11
-Source: xlibre-server
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 174
-Provides: xserver-xorg-legacy
-Depends: xserver-xlibre-common (>= 2:25.0.0.8-1), libc6 (>= 2.34), debconf (>= 0.5) | debconf-2.0
-Conflicts: xserver-xorg-legacy
-Breaks: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
-Replaces: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-legacy_25.0.0.8-1_amd64.deb
-Size: 33130
-MD5sum: aeadaa484a0f9a92a1dc238fbaff641e
-SHA1: 59ba640618d39a0c93cda2156c780b34f1f65403
-SHA256: fda037bd9f989818947be5fe9dcbbc6089778dda47cc89d5ddb72b705376fee5
-SHA512: e05982ddba6d4e78d5ce49d7274149818e8d0eb556312a0debf8cca6eadd1f9f0c9a52d7cf1194614064fccbfa40871ee14246cee95c822b0dafb2ea96788648
-Homepage: https://github.com/X11Libre
-Description: setuid root XLibre server wrapper
- This package provides a wrapper for the XLibre X server, which is
- necessary for legacy drivers and non-Linux kernels.
-
-Package: xserver-xlibre-legacy
-Architecture: amd64
-Version: 2:25.0.0.8-2
-Priority: optional
-Section: x11
-Source: xlibre-server
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 174
-Provides: xserver-xorg-legacy (= 2:25.0.0.8-2)
-Depends: xserver-xlibre-common (>= 2:25.0.0.8-2), libc6 (>= 2.34), debconf (>= 0.5) | debconf-2.0
-Conflicts: xserver-xorg-legacy
-Breaks: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
-Replaces: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-legacy_25.0.0.8-2_amd64.deb
-Size: 33400
-MD5sum: 1fe8eaef1fc5d85e169e465d37bdead2
-SHA1: 849f6f2d50051b320545ab949bd56b61a0d6dc1a
-SHA256: 0addd0273e3161152b14f7a7796ec0c46d4d92babe32b833ad363979d5547a2d
-SHA512: b67562569bba5bd705650739881e3a0685754852b3a60cabea1be7f0dd187207fdb55fb3582e037b368b6635ec771a685bbec20ec14bf06072178ab02b5bb88c
-Homepage: https://github.com/X11Libre
-Description: setuid root XLibre server wrapper
- This package provides a wrapper for the XLibre X server, which is
- necessary for legacy drivers and non-Linux kernels.
-
-Package: xserver-xlibre-legacy
-Architecture: amd64
-Version: 2:25.0.0.8-3
-Priority: optional
-Section: x11
-Source: xlibre-server
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 174
-Provides: xserver-xorg-legacy (= 2:25.0.0.8-3)
-Depends: xserver-xlibre-common (>= 2:25.0.0.8-3), libc6 (>= 2.34), debconf (>= 0.5) | debconf-2.0
-Conflicts: xserver-xorg-legacy
-Breaks: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
-Replaces: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-legacy_25.0.0.8-3_amd64.deb
-Size: 33462
-MD5sum: f728a3410be075966e2891ca45e6963d
-SHA1: d6d8463efc20f1bb29f54db7d12532691339b813
-SHA256: 76f4f546e8976562ba36089f9b665558be62bd3d6501fad7cfc7e7a485d65596
-SHA512: 558144916a31cd2d5338d2514d41a5358c33bf347ad8a1efb34f961ba946125ab9e90e5a262bdcc702131f3e334b41c5c8d6d456ee6b89e2db5ba14acdbdcc3b
-Homepage: https://github.com/X11Libre
-Description: setuid root XLibre server wrapper
- This package provides a wrapper for the XLibre X server, which is
- necessary for legacy drivers and non-Linux kernels.
-
-Package: xserver-xlibre-video-all
-Architecture: amd64
-Version: 1:7.8+1
-Priority: optional
-Section: x11
-Source: xlibre
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 12
-Provides: xserver-xorg-video-all
-Depends: xserver-xlibre-video-amdgpu, xserver-xlibre-video-ati, xserver-xlibre-video-fbdev, xserver-xlibre-video-nouveau, xserver-xlibre-video-vesa, xserver-xlibre-video-vmware
-Recommends: xserver-xlibre-video-intel, xserver-xlibre-video-qxl
-Conflicts: xserver-xlibre-driver-all, xserver-xorg-video-all
-Replaces: xserver-xorg-driver-all
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-video-all_7.8+1_amd64.deb
-Size: 2594
-MD5sum: cdc5df869948ba3021c0ab4f1116ed6a
-SHA1: b57f5bf3634a7dedbebd4b440eeef8d3b136d705
-SHA256: 8f6d171a44849f3c331f0e291d1c66f4dab127c4e2dcafbc69dea7abe97a80b3
-SHA512: 73acdf385b079ec3fea1e08bd8466fac06a9c7e016021e6031694312fcea0422b8b0acc5a98679c2b18df7d2b5b0da1720d6528fd76bc3eb1da15d5738608cc4
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- output driver metapackage
- This package depends on the full suite of output drivers for the XLibre X server
- (XLibre).  It does not provide any drivers itself, and may be removed if you wish
- to only have certain drivers installed.
-
-Package: xserver-xlibre-video-all
-Architecture: amd64
-Version: 1:7.8+2
-Priority: optional
-Section: x11
-Source: xlibre
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 12
-Provides: xserver-xorg-video-all (= 1:7.8+2)
-Depends: xserver-xlibre-video-amdgpu, xserver-xlibre-video-ati, xserver-xlibre-video-fbdev, xserver-xlibre-video-nouveau, xserver-xlibre-video-vesa, xserver-xlibre-video-vmware
-Recommends: xserver-xlibre-video-intel, xserver-xlibre-video-qxl
-Conflicts: xserver-xorg-driver-all, xserver-xorg-video-all
-Replaces: xserver-xorg-driver-all
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-video-all_7.8+2_amd64.deb
-Size: 2854
-MD5sum: 4574034432654e8d07b9647b0ed3add3
-SHA1: 33dc05f6aba3e8d27efbbe09c4157f5fcdf5708d
-SHA256: ba40873dcf04fb176b4f9d6390f975a82b04f8ea47b3a4e0b13ec122e7ab3af8
-SHA512: 9e48d3d302f93d3068b7e9c7f482aef8d34d226db1793c467adf101ff775c26d759293b75020d5a8e1efe079e8e9a7f8a57a3943a3ee5ccb1bec2ea2425ad31d
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- output driver metapackage
- This package depends on the full suite of output drivers for the XLibre X server
- (XLibre).  It does not provide any drivers itself, and may be removed if you wish
- to only have certain drivers installed.
-
-Package: xserver-xlibre-video-amdgpu
-Architecture: amd64
-Version: 23.0.0.4-1
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 207
-Provides: xlibre-driver-video, xserver-xorg-video-amdgpu
-Depends: libc6 (>= 2.17), libdrm-amdgpu1 (>= 2.4.89), libgbm1 (>= 8.1~0), libudev1 (>= 183), xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
-Suggests: firmware-amd-graphics
-Conflicts: xserver-xorg-video-amdgpu
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-video-amdgpu_23.0.0.4-1_amd64.deb
-Size: 77770
-MD5sum: 0f48a2e4773479f2095e9e67cb69fadc
-SHA1: 200d9b335e11cb63d1a4a556dbddd86d0fd6d702
-SHA256: 19e244dce17ae6064ea1f6ada9cdea0bff7030a2ca06b2560d44d2dbc1347a93
-SHA512: 4d370d00cfc9e3380f79979373889773dfd3efff01589dee1fbadcdda65c32f2e35fc0aaa39135df60920199c8135015723f784df37c743cbf08e6e494f7f182
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- AMDGPU display driver
- This package provides the 'amdgpu' driver for the AMD Radeon cards. The
- following chip families should be supported: Bonaire, Hawaii, Kaveri, Kabini
- Mullins, Iceland, Tonga, Carrizo, Fiji, Stoney.
- .
- More information about XLibre can be found at:
- <URL:https://www.github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xf86-video-amdgpu driver module.
-
-Package: xserver-xlibre-video-amdgpu
-Architecture: amd64
-Version: 23.0.0.4-2
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 207
-Provides: xlibre-driver-video, xserver-xorg-video-amdgpu (= 23.0.0.4-2)
-Depends: libc6 (>= 2.17), libdrm-amdgpu1 (>= 2.4.89), libgbm1 (>= 8.1~0), libudev1 (>= 183), xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
-Suggests: firmware-amd-graphics
-Conflicts: xserver-xorg-video-amdgpu
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-video-amdgpu_23.0.0.4-2_amd64.deb
-Size: 77884
-MD5sum: 7ddb9631661ee329ef1e020f4d5bc6f1
-SHA1: b473cef2f2d9fea0a50860915a53d7a99c0f82d9
-SHA256: 34aabeae3b6d612d39e296b5cfb2d0ec4814b9f632734a1eecd17eed72bcceda
-SHA512: 3731f312864a8d85ad343c852f7fe008311b8bce53566df89800943d9bd100988343d437704d9ab068b042bb594cf30bde9e90de9999b9913ac3c4dcd1e4105b
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- AMDGPU display driver
- This package provides the 'amdgpu' driver for the AMD Radeon cards. The
- following chip families should be supported: Bonaire, Hawaii, Kaveri, Kabini
- Mullins, Iceland, Tonga, Carrizo, Fiji, Stoney.
- .
- More information about XLibre can be found at:
- <URL:https://www.github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xf86-video-amdgpu driver module.
-
-Package: xserver-xlibre-video-ati
-Architecture: amd64
-Version: 1:22.0.0.1-1
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 38
-Provides: xlibre-driver-video, xserver-xorg-video-ati
-Depends: libc6 (>= 2.4), libpciaccess0, xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8), xserver-xlibre-video-radeon
-Suggests: xserver-xorg-video-r128, xserver-xorg-video-mach64
-Conflicts: xserver-xorg-video-ati
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-video-ati_22.0.0.1-1_amd64.deb
-Size: 6878
-MD5sum: 3dcd61cff09eab2effa6696114828445
-SHA1: c637205a537129983f684e8534f7db205dd1d45c
-SHA256: 00d8916e47a6c4992787cd20b661579958c42302a5ce7b12cbac0f379b6a3e5c
-SHA512: 48cc656c23885d105db0053928260c325fe2ff23f53e351898746a9651ef6252b41cb02ddf54990d41c4b5b546e2f44ba866860a8c0152e22233afaca2cb8442
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- AMD/ATI display driver wrapper
- This package provides the 'ati' driver for the AMD/ATI Mach64, Rage128,
- Radeon, FireGL, FireMV, FirePro and FireStream series. This driver is
- actually a wrapper that loads one of the 'mach64', 'r128' or 'radeon'
- sub-drivers depending on the hardware.
- These sub-drivers are brought through package dependencies.
- .
- Users of Rage, Mach, or Radeon boards may remove this package only if
- they use Driver "r128", "mach64", or "radeon" in /etc/X11/xlibre.conf
- instead of relying on autodetection.
- .
- More information about XLibre can be found at:
- <URL:https://www.github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xf86-video-ati driver module.
-
-Package: xserver-xlibre-video-ati
-Architecture: amd64
-Version: 1:22.0.0.1-2
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 38
-Provides: xlibre-driver-video, xserver-xorg-video-ati (= 1:22.0.0.1-2)
-Depends: libc6 (>= 2.4), libpciaccess0, xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8), xserver-xlibre-video-radeon
-Suggests: xserver-xorg-video-r128, xserver-xorg-video-mach64
-Conflicts: xserver-xorg-video-ati
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-video-ati_22.0.0.1-2_amd64.deb
-Size: 6994
-MD5sum: 9fe8d6892e4a2b964b95f59bf92e1277
-SHA1: 636b59c6d2d586463d2ebdb874eb62073a2c9a07
-SHA256: d06a261a813134c342ecefcf44f229b9a1042885460a0ef2344c4e6c3bbb09f2
-SHA512: fb1bf231a872bc035575c21c38885529b2b9900817db4761558ba225e1153af87e5a135df1ae9bde9f7a02507cd7c8d17fb324d06b73853ce2fd02e4ee086514
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- AMD/ATI display driver wrapper
- This package provides the 'ati' driver for the AMD/ATI Mach64, Rage128,
- Radeon, FireGL, FireMV, FirePro and FireStream series. This driver is
- actually a wrapper that loads one of the 'mach64', 'r128' or 'radeon'
- sub-drivers depending on the hardware.
- These sub-drivers are brought through package dependencies.
- .
- Users of Rage, Mach, or Radeon boards may remove this package only if
- they use Driver "r128", "mach64", or "radeon" in /etc/X11/xlibre.conf
- instead of relying on autodetection.
- .
- More information about XLibre can be found at:
- <URL:https://www.github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xf86-video-ati driver module.
-
-Package: xserver-xlibre-video-dummy
-Architecture: amd64
-Version: 1:0.4.1.1-1
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 39
-Provides: xlibre-driver-video, xserver-xorg-video-dummy
-Depends: libc6 (>= 2.4), xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xorg-video-dummy
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-video-dummy_0.4.1.1-1_amd64.deb
-Size: 9924
-MD5sum: 3ee39e920eb97808659cf3122bf38f95
-SHA1: 4c60afe16f4dc6e4d9bfeb4a38d4cb9f74457d65
-SHA256: 4fa49fff80609cbe36fc088c48e80744ed41cc8b7c1c3e51e6f4d612d2195262
-SHA512: a13b214ee0d6007eb2a52e44d50e976a27507d56054e000e7c9789a5c155ad3c6b2205d01436104be0708952f7900a1e0d6d81bf86a6d505cec00719d1d680da
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- dummy display driver
- This package provides a 'dummy' display driver, which does not actually
- display anything.
- .
- More information about XLibre can be found at:
- <URL:https://www.github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xf86-video-dummy driver module.
-
-Package: xserver-xlibre-video-dummy
-Architecture: amd64
-Version: 1:0.4.1.1-2
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 39
-Provides: xlibre-driver-video, xserver-xorg-video-dummy (= 1:0.4.1.1-2)
-Depends: libc6 (>= 2.4), xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xorg-video-dummy
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-video-dummy_0.4.1.1-2_amd64.deb
-Size: 10040
-MD5sum: c5834ad0d6aa4ecbfdf55a155c8874f8
-SHA1: b38dd00ecd8dcf0e655df385f8dbe9be55de9e3a
-SHA256: 311cb250bfda74b03b3bae8c08101fb1251ed1deb7c806ce9d909346a0a480ee
-SHA512: fea90b597ae0e44946a5c58c698bcc40a24a48358952c08a9780a649036f3e71b91d2e71ee30ad846bc855424058c31c635c6d1bdccec4cc53433188ba7c0455
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- dummy display driver
- This package provides a 'dummy' display driver, which does not actually
- display anything.
- .
- More information about XLibre can be found at:
- <URL:https://www.github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xf86-video-dummy driver module.
-
-Package: xserver-xlibre-video-fbdev
-Architecture: amd64
-Version: 1:0.5.1.1-1
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 52
-Provides: xlibre-driver-video, xserver-xorg-video-fbdev
-Depends: libc6 (>= 2.4), xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xorg-video-fbdev
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-video-fbdev_0.5.1.1-1_amd64.deb
-Size: 12134
-MD5sum: d13c05190568a994f9f3c949b8fab4aa
-SHA1: 6615983c3818fc528740302e674f322f0fbc1f3c
-SHA256: f0fe85b73e36e26b2bed4a014709f306a2f9ee3c9787d9a8b976053011e2ba66
-SHA512: 7f4f3c50fa2b19d598b69928fca6f41043dad960311851cb55a25d22e1d451dc1efcb18795ad577380c5fb0f1e136156705785e6f26989d5bd781fec51dbb378
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- fbdev display driver
- This package provides the driver for the Linux framebuffer device (aka
- 'fbdev').
- .
- More information about XLibre can be found at:
- <URL:https://www.github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xf86-video-fbdev driver module.
-
-Package: xserver-xlibre-video-fbdev
-Architecture: amd64
-Version: 1:0.5.1.1-2
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 52
-Provides: xlibre-driver-video, xserver-xorg-video-fbdev (= 1:0.5.1.1-2)
-Depends: libc6 (>= 2.4), xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xorg-video-fbdev
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-video-fbdev_0.5.1.1-2_amd64.deb
-Size: 12246
-MD5sum: e2e761cfdeb2b3d3af06a3781978e697
-SHA1: a8e595ded38ab6ee1704a81aad07f4595cae0ee0
-SHA256: 081bfb212275b7aecdf8f6def6ed7539ef7fefa1d0204c995cbb0f08c8536b01
-SHA512: 0f778595f1844951d71fef628ab497735630935d43df08d2287e6aacfe6a7aeb5a92bbf2573fa40c61fbbcd07ebba178b11700467ca9bdbdaf6ff8974e767a2c
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- fbdev display driver
- This package provides the driver for the Linux framebuffer device (aka
- 'fbdev').
- .
- More information about XLibre can be found at:
- <URL:https://www.github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xf86-video-fbdev driver module.
-
-Package: xserver-xlibre-video-intel
-Architecture: amd64
-Version: 2:3.0.0.2-1
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 3122
-Provides: xlibre-driver-video, xserver-xorg-video-intel
-Depends: libc6 (>= 2.34), libdrm-intel1 (>= 2.4.23), libdrm2 (>= 2.4.62), libpixman-1-0 (>= 0.30.0), libudev1 (>= 183), libx11-6, libx11-xcb1, libxcb-dri2-0, libxcb-util1 (>= 0.4.0), libxcb1, libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxinerama1 (>= 2:1.1.4), libxrandr2 (>= 2:1.2.99.2), libxrender1, libxss1, libxtst6 (>= 2:1.2.5), libxvmc1 (>= 2:1.0.12), xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xorg-video-intel
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-video-intel_3.0.0.2-1_amd64.deb
-Size: 1650056
-MD5sum: 521df0438e01f25565713ae49c944174
-SHA1: 9dfe50c6d43d08d94d91dcaacecf3d56eb8f361b
-SHA256: 8b761002201d90020395450aba1ae7aca8f80233d7d57a22f0adc4124ca26d3f
-SHA512: 10be7b3193fe2f129681f1c71c2fb1ee40c40e94938a38bb0c9cf46ecb15f00aedbe9dc14291887ac0653ccbf0f32ce2dedb95009b8fad19741a835f15e16573
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- Intel i8xx, i9xx display driver
- This package provides the driver for the Intel i8xx and i9xx family
- of chipsets, including i810, i815, i830, i845, i855, i865, i915, i945
- and i965 series chips.
- .
- This package also provides XvMC (XVideo Motion Compensation) drivers
- for i810/i815 and i9xx and newer chipsets.
- .
- This package is built from the XLibre xf86-video-intel driver module.
- .
- The use of this driver is discouraged if your GPU is new enough (ca.
- 2007 and newer). You can try uninstalling this driver and let the
- server use its built-in modesetting driver instead.
-
-Package: xserver-xlibre-video-intel
-Architecture: amd64
-Version: 2:3.0.0.2-2
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 3122
-Provides: xlibre-driver-video, xserver-xorg-video-intel (= 2:3.0.0.2-2)
-Depends: libc6 (>= 2.34), libdrm-intel1 (>= 2.4.23), libdrm2 (>= 2.4.62), libpixman-1-0 (>= 0.30.0), libudev1 (>= 183), libx11-6, libx11-xcb1, libxcb-dri2-0, libxcb-util1 (>= 0.4.0), libxcb1, libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxinerama1 (>= 2:1.1.4), libxrandr2 (>= 2:1.2.99.2), libxrender1, libxss1, libxtst6 (>= 2:1.2.5), libxvmc1 (>= 2:1.0.12), xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xorg-video-intel
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-video-intel_3.0.0.2-2_amd64.deb
-Size: 1650202
-MD5sum: 388a5cec2e8c1cf590bf35ac32890999
-SHA1: eb61e14dc9192d7a106f79b5cbba7ecb7aa0329c
-SHA256: e83c8440691d314f512af25ef64c6b7f57a7736c8cef393a4f7d4709a44a3672
-SHA512: 0b83b7bf1beb42fb18546ae3512fae9a49d3e2c3453d762f3f514d8aca8eec942ee73b03e0a7f32d9684362581b78468f5068e15eb998412293c6203c393ed5e
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- Intel i8xx, i9xx display driver
- This package provides the driver for the Intel i8xx and i9xx family
- of chipsets, including i810, i815, i830, i845, i855, i865, i915, i945
- and i965 series chips.
- .
- This package also provides XvMC (XVideo Motion Compensation) drivers
- for i810/i815 and i9xx and newer chipsets.
- .
- This package is built from the XLibre xf86-video-intel driver module.
- .
- The use of this driver is discouraged if your GPU is new enough (ca.
- 2007 and newer). You can try uninstalling this driver and let the
- server use its built-in modesetting driver instead.
-
-Package: xserver-xlibre-video-nouveau
-Architecture: amd64
-Version: 1:1.0.18.1-1
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 269
-Provides: xlibre-driver-video, xserver-xorg-video-nouveau
-Depends: libc6 (>= 2.33), libdrm-nouveau2 (>= 2.4.38), libdrm2 (>= 2.4.61), libudev1 (>= 183), xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
-Recommends: libgl1-mesa-dri
-Suggests: firmware-misc-nonfree
-Conflicts: xserver-xorg-video-nouveau
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-video-nouveau_1.0.18.1-1_amd64.deb
-Size: 104008
-MD5sum: 88e99d8a3a05d02e59bab0c51778891e
-SHA1: d217d119ab6635c80e3b4e87782ce88ab1ac8b4e
-SHA256: 863a1fc374389fbbb7cdb1eb666f44584768d8e10d66f722f86799d20118faf5
-SHA512: 328d995e7ce48b1544572f2db0f4c0824f5bda84fec447e9d5e30999bdb55b7e1d62281119f61cd7a9a984925a16ac7d74685f821352b9e373cbc9418fca423f
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- Nouveau display driver
- This driver for the XLibre X server (see xserver-xlibre for a further description)
- provides support for NVIDIA Riva, TNT, GeForce, and Quadro cards.
- .
- This package provides 2D support including EXA acceleration, Xv and
- RandR.  3D functionality is provided by the libgl1-mesa-dri package.
- .
- This package is built from the XLibre xf86-video-nouveau driver.
-
-Package: xserver-xlibre-video-nouveau
-Architecture: amd64
-Version: 1:1.0.18.1-2
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 269
-Provides: xlibre-driver-video, xserver-xorg-video-nouveau (= 1:1.0.18.1-2)
-Depends: libc6 (>= 2.33), libdrm-nouveau2 (>= 2.4.38), libdrm2 (>= 2.4.61), libudev1 (>= 183), xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
-Recommends: libgl1-mesa-dri
-Suggests: firmware-misc-nonfree
-Conflicts: xserver-xorg-video-nouveau
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-video-nouveau_1.0.18.1-2_amd64.deb
-Size: 104106
-MD5sum: 61b96fb3689d689387bbf82f87df6ce0
-SHA1: 144a3c59e887cca8fa729fd7e6c981a5a1d8d72f
-SHA256: 9bf564e6bc919290251f489e684942d8aa9db12400a03cf0e8f07b8cddcb80e8
-SHA512: a2658673482b56c38b76bd017e2865701b8bf4e4e664ee1beb3ed8811009e5dbdbb4e9259552ec13bbd08b04d23a3d80d37592fba6b49a67d1e8e66784773e92
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- Nouveau display driver
- This driver for the XLibre X server (see xserver-xlibre for a further description)
- provides support for NVIDIA Riva, TNT, GeForce, and Quadro cards.
- .
- This package provides 2D support including EXA acceleration, Xv and
- RandR.  3D functionality is provided by the libgl1-mesa-dri package.
- .
- This package is built from the XLibre xf86-video-nouveau driver.
-
-Package: xserver-xlibre-video-qxl
-Architecture: amd64
-Version: 0.1.6.1-1
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 212
-Provides: xlibre-driver-video, xserver-xorg-video-qxl
-Depends: libc6 (>= 2.38), libudev1 (>= 183), xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xorg-video-qxl
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-video-qxl_0.1.6.1-1_amd64.deb
-Size: 87698
-MD5sum: ac5c3e9126f9b92a44b6e36e2335b732
-SHA1: db056e3d55dd2437ccedfcb9734733831a93136c
-SHA256: 2090180c2cdf6d81bad793395059d01d356eecb1117bf1444e3d4b82eca15661
-SHA512: 27170cfd3db233523b664a1263c3a77455d56ba0e97a27121d77b6d6de26c23498eeae0e5ea3b9f67fcd3b40ce346a9df00950bbabd8fa24c431c1abe66dce09
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- QXL display driver
- This package provides the driver for QXL video device, i.e. if Linux is
- running inside a RedHat Enterprise Virtualization (RHEV) environment, or
- other SPICE-compatible KVM/Qemu emulator.
- .
- More information about XLibre can be found at:
- <URL:https://github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xf86-video-qxl driver module.
-
-Package: xserver-xlibre-video-qxl
-Architecture: amd64
-Version: 0.1.6.1-2
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 212
-Provides: xlibre-driver-video, xserver-xorg-video-qxl (= 0.1.6.1-2)
-Depends: libc6 (>= 2.38), libudev1 (>= 183), xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xorg-video-qxl
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-video-qxl_0.1.6.1-2_amd64.deb
-Size: 87802
-MD5sum: b1234bd8ee94ff88666aa1b92904ae63
-SHA1: cf61aebaeebc21fa9070ce41042694024f134a7e
-SHA256: ccbb346c1898d1ab3699c6fec3ce8e9771588a670e3b5e9dd0733810397444f4
-SHA512: b82749464bea53d43f02b50b245a3386fbbdf7ff991412f2b66763ff44b1c2eeec09099f2db62758c4651d3abbba3e6fd28fe355045a4434e94862a8650e4d06
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- QXL display driver
- This package provides the driver for QXL video device, i.e. if Linux is
- running inside a RedHat Enterprise Virtualization (RHEV) environment, or
- other SPICE-compatible KVM/Qemu emulator.
- .
- More information about XLibre can be found at:
- <URL:https://github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xf86-video-qxl driver module.
-
-Package: xserver-xlibre-video-radeon
-Architecture: amd64
-Version: 1:22.0.0.1-1
-Priority: optional
-Section: x11
-Source: xserver-xlibre-video-ati
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 565
-Provides: xserver-xorg-video-radeon
-Depends: libc6 (>= 2.17), libdrm-radeon1 (>= 2.4.89), libgbm1 (>= 8.1~0), libudev1 (>= 183)
-Suggests: firmware-amd-graphics
-Conflicts: xserver-xorg-video-radeon
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-video-radeon_22.0.0.1-1_amd64.deb
-Size: 173626
-MD5sum: d63488ec0c9bb58af414a1467d7044e6
-SHA1: 4d49f2632370152938b6c21c4f386161b695d9b9
-SHA256: 4f84598704095a315f40ae133f5eb08f4c8c3574fc227f7b6dc2140ef074140d
-SHA512: 911bdba86da8a78a197e7b791577d1881d861008a5420df9cc513ae58ce0fd5633d964f979a9032a707b4710e69cf350e299f811f828cfae8e02e426d3973990
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- AMD/ATI Radeon display driver
- This package provides the 'radeon' driver for the AMD/ATI cards. The
- following chips should be supported: R100, RV100, RS100, RV200, RS200,
- RS250, R200, RV250, RV280, RS300, RS350, RS400/RS480, R300, R350, R360,
- RV350, RV360, RV370, RV380, RV410, R420, R423/R430, R480/R481,
- RV505/RV515/RV516/RV550, R520, RV530/RV560, RV570/R580,
- RS600/RS690/RS740, R600, RV610/RV630, RV620/RV635, RV670, RS780/RS880,
- RV710/RV730, RV740/RV770/RV790, CEDAR, REDWOOD, JUNIPER, CYPRESS,
- HEMLOCK, PALM, SUMO/SUMO2, BARTS, TURKS, CAICOS, CAYMAN, ARUBA, TAHITI,
- PITCAIRN, VERDE, OLAND, HAINAN, BONAIRE, KABINI, MULLINS, KAVERI, HAWAII.
- .
- More information about XLibre can be found at:
- <URL:https://www.github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xf86-video-ati driver module.
-
-Package: xserver-xlibre-video-radeon
-Architecture: amd64
-Version: 1:22.0.0.1-2
-Priority: optional
-Section: x11
-Source: xserver-xlibre-video-ati
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 565
-Provides: xserver-xorg-video-radeon (= 1:22.0.0.1-2)
-Depends: libc6 (>= 2.17), libdrm-radeon1 (>= 2.4.89), libgbm1 (>= 8.1~0), libudev1 (>= 183)
-Suggests: firmware-amd-graphics
-Conflicts: xserver-xorg-video-radeon
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-video-radeon_22.0.0.1-2_amd64.deb
-Size: 173800
-MD5sum: 57d27c178f8df8c7adc86a05b4b18920
-SHA1: 0ce2a37a83db6b73b4a1c176186da250b61d9d10
-SHA256: effd587c411356c682e7a5f88b2e9a09aa40855a8380525cdad4957acc131634
-SHA512: 9231f91d568b37449e165b422fbea7b7a027bff3b5433d5f6d934186215aadd56aa6600f1749878c346b78c4e82bc39036b031efd6e1342ed85b381b70a5c2b9
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- AMD/ATI Radeon display driver
- This package provides the 'radeon' driver for the AMD/ATI cards. The
- following chips should be supported: R100, RV100, RS100, RV200, RS200,
- RS250, R200, RV250, RV280, RS300, RS350, RS400/RS480, R300, R350, R360,
- RV350, RV360, RV370, RV380, RV410, R420, R423/R430, R480/R481,
- RV505/RV515/RV516/RV550, R520, RV530/RV560, RV570/R580,
- RS600/RS690/RS740, R600, RV610/RV630, RV620/RV635, RV670, RS780/RS880,
- RV710/RV730, RV740/RV770/RV790, CEDAR, REDWOOD, JUNIPER, CYPRESS,
- HEMLOCK, PALM, SUMO/SUMO2, BARTS, TURKS, CAICOS, CAYMAN, ARUBA, TAHITI,
- PITCAIRN, VERDE, OLAND, HAINAN, BONAIRE, KABINI, MULLINS, KAVERI, HAWAII.
- .
- More information about XLibre can be found at:
- <URL:https://www.github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xf86-video-ati driver module.
-
-Package: xserver-xlibre-video-sisusb
-Architecture: amd64
-Version: 1:0.9.7.1-1
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 120
-Provides: xlibre-driver-video, xserver-xorg-video-sisusb
-Depends: libc6 (>= 2.7), xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xorg-video-sisusb
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-video-sisusb_0.9.7.1-1_amd64.deb
-Size: 46354
-MD5sum: 7668b79c7dc9d6988ae45c45830b3e17
-SHA1: 42111dfa53c31038998e99adbcaaffa1eb8cc679
-SHA256: 89a48af5acb2527e4d224d0ff00fb0b483c958ed5e9f03ef10932ac2f28d2e2c
-SHA512: ad6576638e6d7376b42f68bcae2f45e3bb88728a279e1349c97c0a44a875202f3e1e7d6c7df22f9260b77c9abc36cd689c92763ef07b529e4fa3333b7151b7c0
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- SiS USB display driver
- This package provides the driver for SiS USB-attached video devices.
- .
- This package is built from the XLibre xf86-video-sisusb driver module.
-
-Package: xserver-xlibre-video-sisusb
-Architecture: amd64
-Version: 1:0.9.7.1-2
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 120
-Provides: xlibre-driver-video, xserver-xorg-video-sisusb (= 1:0.9.7.1-2)
-Depends: libc6 (>= 2.7), xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xorg-video-sisusb
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-video-sisusb_0.9.7.1-2_amd64.deb
-Size: 46458
-MD5sum: 3e6099c2ca03a0bbd68300b9a7018863
-SHA1: efd2d1e79f6ad19324e4eccff190edd3588fea3d
-SHA256: 0380fa4185633c58aca9727b47ecc611e43ff00a6eb01225fe5e3aa2ca0a6359
-SHA512: 5b13da3b4fdc88b5f8021820904276d934802920b7601aec6af92a1caf0f11b4dc50921c18b151064c166791159bf44988c2425acf3ac285f113d6854f85f3b9
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- SiS USB display driver
- This package provides the driver for SiS USB-attached video devices.
- .
- This package is built from the XLibre xf86-video-sisusb driver module.
-
-Package: xserver-xlibre-video-vesa
-Architecture: amd64
-Version: 1:2.6.0.1-1
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 51
-Provides: xlibre-driver-video, xserver-xorg-video-vesa
-Depends: libc6 (>= 2.14), xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xorg-video-vesa
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-video-vesa_2.6.0.1-1_amd64.deb
-Size: 15346
-MD5sum: aa570b33b3547ca49f897d08c01d2f11
-SHA1: 27ec5e2a5190c66f354942593b882ba146adc27d
-SHA256: 61da858dde005969c3a4f80f3b3b49b18044fc7d80618f6062db499a6b415514
-SHA512: fa47a8c96ab7f7dc073901b02208984825281faa937e8cb34cbc33ef85640a5c1899a47525c3801b1df9e53f428534786b439f22ab8d8abbf3109ba8592a42c3
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- VESA display driver
- This driver for the XLibre X server (see xserver-xlibre for a further description)
- uses the standard VESA interface provided on all video cards, but runs
- unaccelerated.  This driver is not recommended for use unless you have a
- problem with the normal driver for your card, because it will perform very
- badly.
- .
- More information about XLibre can be found at:
- <URL:https://github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xf86-video-vesa driver module.
-
-Package: xserver-xlibre-video-vesa
-Architecture: amd64
-Version: 1:2.6.0.1-2
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 51
-Provides: xlibre-driver-video, xserver-xorg-video-vesa (= 1:2.6.0.1-2)
-Depends: libc6 (>= 2.14), xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xorg-video-vesa
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-video-vesa_2.6.0.1-2_amd64.deb
-Size: 15452
-MD5sum: a37582b864c1a3b3a27612419aae1854
-SHA1: 0a9276ce8c4f84011576c97354ee174799e6fdf4
-SHA256: 8174955709cb0827b6670cb09b5109f15436ef465c4084292da256715605ba52
-SHA512: 713874dd0702ad203528b374cd74d356a4244ff15134b7eaf54369e8cea3044de7dfe617354142cb02151ef79fbfe399c43333c108cf2a7d57a26bab242452b5
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- VESA display driver
- This driver for the XLibre X server (see xserver-xlibre for a further description)
- uses the standard VESA interface provided on all video cards, but runs
- unaccelerated.  This driver is not recommended for use unless you have a
- problem with the normal driver for your card, because it will perform very
- badly.
- .
- More information about XLibre can be found at:
- <URL:https://github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xf86-video-vesa driver module.
-
-Package: xserver-xlibre-video-vmware
-Architecture: amd64
-Version: 1:13.4.0.1-1
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 232
-Provides: xlibre-driver-video, xserver-xorg-video-vmware
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.74), libudev1 (>= 183), libx11-6 (>= 2:1.4.99.1), libxatracker2 (>= 11.1.0~), libxext6, xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xorg-video-vmware
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-video-vmware_13.4.0.1-1_amd64.deb
-Size: 86020
-MD5sum: 96465d862667df48a1bfd89288ef1365
-SHA1: 77322aedc1fec1d03158584dc7537d736dd67617
-SHA256: 19859cf2cbd3e9e2bb4803623bcffa0365413e8b58d2d35d34fc40b995fb4097
-SHA512: 94873980a74a716eb53f0421241146417238e0441cd8da4adc4fcde69ef5bdf77f9425af8caf3d27f8cd1b42f26987969e27f088a22c3df55e5c6aaefe9dd191
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- VMware display driver
- This package provides the driver for VMware client sessions, i.e. if Linux
- is running inside a VMware session.
- .
- More information about XLibre can be found at:
- <URL:https://github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xf86-video-vmware driver module.
-
-Package: xserver-xlibre-video-vmware
-Architecture: amd64
-Version: 1:13.4.0.1-2
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 232
-Provides: xlibre-driver-video, xserver-xorg-video-vmware (= 1:13.4.0.1-2)
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.74), libudev1 (>= 183), libx11-6 (>= 2:1.4.99.1), libxatracker2 (>= 11.1.0~), libxext6, xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xorg-video-vmware
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-video-vmware_13.4.0.1-2_amd64.deb
-Size: 86130
-MD5sum: c02bf45a1b907d6c2e8f69a0a72d9ef7
-SHA1: 42173c7455bf4d6bfd8915b70bcdb8e50c8331fd
-SHA256: 94b2169621ca2556df462784e25c4b4f2a1fa1be8230b24f83445591767467f6
-SHA512: a6cda725cb6d5c9d46bbd7d4da5018d3fc39f8ebf19822074b8dcd5bd35db8ebd89311d19f718d24324441c847c02d956f17e6521dadd9206bd52c050584649b
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- VMware display driver
- This package provides the driver for VMware client sessions, i.e. if Linux
- is running inside a VMware session.
- .
- More information about XLibre can be found at:
- <URL:https://github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xf86-video-vmware driver module.
-
-Package: xserver-xlibre-video-voodoo
-Architecture: amd64
-Version: 1:1.2.6.1-1
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 53
-Provides: xlibre-driver-video, xserver-xorg-video-voodoo
-Depends: libc6 (>= 2.4), xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xorg-video-voodoo
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-video-voodoo_1.2.6.1-1_amd64.deb
-Size: 13814
-MD5sum: a78ea53e1f4efd6fd29116bac5ac47bd
-SHA1: 40fd8dcdfbbcb47ff06caf75bf5152869d6c2883
-SHA256: 31038c38d3fe752de7cc09397b0d5df1edd19f877e8d288de29b9c0b3fbdade3
-SHA512: ee9302c76c774db14a30c5d27d35d78f15362db03f6622041a68439153b1c66a3ac761f9cafbfcadf9d8810fb70dc3c56739f65ce945f8eb8ec52a99c2490109
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- Voodoo display driver
- This package provides the driver for 3dfx Voodoo1 and Voodoo2 chipsets.
- .
- More information about XLibre can be found at:
- <URL:https://github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xf86-video-voodoo driver module.
-
-Package: xserver-xlibre-video-voodoo
-Architecture: amd64
-Version: 1:1.2.6.1-2
-Priority: optional
-Section: x11
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 53
-Provides: xlibre-driver-video, xserver-xorg-video-voodoo (= 1:1.2.6.1-2)
-Depends: libc6 (>= 2.4), xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xorg-video-voodoo
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-video-voodoo_1.2.6.1-2_amd64.deb
-Size: 13918
-MD5sum: 0f76e566909eff3fb276e8e6011d9e03
-SHA1: ddeb8764a76b5f323e2764b0cd66facde3523814
-SHA256: 71526b2fcdca39abe11e6ad83152699470587f6b3f026dbcbeda3a174215183a
-SHA512: 8a5b2e8aadf849ef807fbdc051eb7ba6eb161d0ea50a11c117450ae086ffc06181d39bca20857eecd7de154363c222e8f15f30761bd89f8c31ddf383a09ce05b
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- Voodoo display driver
- This package provides the driver for 3dfx Voodoo1 and Voodoo2 chipsets.
- .
- More information about XLibre can be found at:
- <URL:https://github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xf86-video-voodoo driver module.
-
-Package: xserver-xlibre-xephyr
-Architecture: amd64
-Version: 2:25.0.0.8-1
-Priority: optional
-Section: x11
-Source: xlibre-server
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 2987
-Provides: xserver, xserver-xephyr
-Depends: xserver-xlibre-common (>= 2:25.0.0.8-1), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libepoxy0 (>= 1.5.2), libgl1, libnettle8t64, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.11), libxcb-glx0, libxcb-icccm4 (>= 0.4.2), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.1), libxcb-randr0 (>= 1.1), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb-xv0 (>= 1.2), libxcb1 (>= 1.8), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
-Recommends: libgl1-mesa-dri (>= 7.1~rc1)
-Conflicts: xserver-xephyr
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-xephyr_25.0.0.8-1_amd64.deb
-Size: 1230282
-MD5sum: 414a9ff71c9b272154f4aa284174d1f1
-SHA1: 5cb1ea0cfe2ae994832c9d8d423abd4cb3a0b785
-SHA256: 1f7f6cfbddab175769fef97bd76dedcd03a238a9505761fedd1861ba2353684e
-SHA512: d4d64048f89c84392f670499d1716b517273c367d502d8f67191dad8094168f7bcba3a373c8efe83aba9d8feb3e11a593c034526bbe144025eb87159c1945b04
-Homepage: https://github.com/X11Libre
-Description: nested X server
- Xephyr is an X server that can be run inside another X server,
- much like Xnest. It is based on the kdrive X server, and as a
- result it supports newer extensions than Xnest, including render and
- composite.
- .
- More information about XLibre can be found at:
- <URL:https://github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xserver module.
-
-Package: xserver-xlibre-xephyr
-Architecture: amd64
-Version: 2:25.0.0.8-2
-Priority: optional
-Section: x11
-Source: xlibre-server
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 2987
-Provides: xserver, xserver-xephyr (= 2:25.0.0.8-2)
-Depends: xserver-xlibre-common (>= 2:25.0.0.8-2), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libepoxy0 (>= 1.5.2), libgl1, libnettle8t64, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.11), libxcb-glx0, libxcb-icccm4 (>= 0.4.2), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.1), libxcb-randr0 (>= 1.1), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb-xv0 (>= 1.2), libxcb1 (>= 1.8), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
-Recommends: libgl1-mesa-dri (>= 7.1~rc1)
-Conflicts: xserver-xephyr
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-xephyr_25.0.0.8-2_amd64.deb
-Size: 1230614
-MD5sum: be0ab2ec29de941e4325b26a70f12abf
-SHA1: 86cb8738006632a46487f5fa1443e21bfd2945c9
-SHA256: ee73d98957bd68f54ed688a330609156fb1947354fb14e2f950a55c800960e80
-SHA512: ce6e2c3baa9c36ff723151073a461b72876eaa6c30e2043fb4541cb6fbd13b38d2646b52f140add672f4f92d82243dc6bb498e2625d1e1513adf975b3cf07f24
-Homepage: https://github.com/X11Libre
-Description: nested X server
- Xephyr is an X server that can be run inside another X server,
- much like Xnest. It is based on the kdrive X server, and as a
- result it supports newer extensions than Xnest, including render and
- composite.
- .
- More information about XLibre can be found at:
- <URL:https://github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xserver module.
-
-Package: xserver-xlibre-xephyr
-Architecture: amd64
-Version: 2:25.0.0.8-3
-Priority: optional
-Section: x11
-Source: xlibre-server
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 2987
-Provides: xserver, xserver-xephyr (= 2:25.0.0.8-3)
-Depends: xserver-xlibre-common (>= 2:25.0.0.8-3), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libepoxy0 (>= 1.5.2), libgl1, libnettle8t64, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.11), libxcb-glx0, libxcb-icccm4 (>= 0.4.2), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.1), libxcb-randr0 (>= 1.1), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb-xv0 (>= 1.2), libxcb1 (>= 1.8), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
-Recommends: libgl1-mesa-dri (>= 7.1~rc1)
-Conflicts: xserver-xephyr
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-xephyr_25.0.0.8-3_amd64.deb
-Size: 1230668
-MD5sum: 79ecfd2ab5e65f5ddfcdd20aa6ca2a65
-SHA1: d89f7240d1cf635eb96562609727388b39de73bf
-SHA256: ea309e4c7e6ebd622c1c880bd9af01fe43576cd6d51c2b5bdd392302230c3a3e
-SHA512: c80ef1595e8730b458dc47674c3b43163f4e6cef98ec630d139678302643d1a527fadcd3160fa8dc32edbfb7afb61a1256aa0baae912dc11a41df22acd928854
-Homepage: https://github.com/X11Libre
-Description: nested X server
- Xephyr is an X server that can be run inside another X server,
- much like Xnest. It is based on the kdrive X server, and as a
- result it supports newer extensions than Xnest, including render and
- composite.
- .
- More information about XLibre can be found at:
- <URL:https://github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xserver module.
-
-Package: xserver-xlibre-xnest
-Architecture: amd64
-Version: 2:25.0.0.8-1
-Priority: optional
-Section: x11
-Source: xlibre-server
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 1868
-Provides: xnest, xserver
-Depends: xserver-xlibre-common (>= 2:25.0.0.8-1), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libnettle8t64, libpixman-1-0 (>= 0.13.2), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libxau6 (>= 1:1.0.11), libxcb-icccm4 (>= 0.4.2), libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb1, libxdmcp6, libxfont2 (>= 1:2.0.1)
-Recommends: libgl1-mesa-dri (>= 7.1~rc1)
-Conflicts: xnest
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-xnest_25.0.0.8-1_amd64.deb
-Size: 788052
-MD5sum: 81d4762309c7ceb825be7f014c0be8bb
-SHA1: 6eebb1545a3d2c128d7e69bec5d7184d3310e30b
-SHA256: c5d55996875da2b235cf25b43550de4c29b0d9471e36a3bd718bc52c1e773ac9
-SHA512: 39258f583922e213edd64671f92bc11dde72f364c48f98dcef096cbf7c263386c055cb5017035807e672be9c04bf541837c14874bb8aaee4864a88fc8b554346
-Homepage: https://github.com/X11Libre
-Description: Nested X server
- Xnest is a nested X server that simply relays all its requests to another
- X server, where it runs as a client.  This means that it appears as another
- window in your current X session.  Xnest relies upon its parent X server
- for font services.
- .
- Use of the Xephyr X server instead of Xnest is recommended.
- .
- More information about XLibre can be found at:
- <URL:https://github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xserver module.
-
-Package: xserver-xlibre-xnest
-Architecture: amd64
-Version: 2:25.0.0.8-2
-Priority: optional
-Section: x11
-Source: xlibre-server
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 1868
-Provides: xnest (= 2:25.0.0.8-2), xserver
-Depends: xserver-xlibre-common (>= 2:25.0.0.8-2), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libnettle8t64, libpixman-1-0 (>= 0.13.2), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libxau6 (>= 1:1.0.11), libxcb-icccm4 (>= 0.4.2), libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb1, libxdmcp6, libxfont2 (>= 1:2.0.1)
-Recommends: libgl1-mesa-dri (>= 7.1~rc1)
-Conflicts: xnest
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-xnest_25.0.0.8-2_amd64.deb
-Size: 788294
-MD5sum: 46259de55b816cf2ee2875a84d4bccd1
-SHA1: bf93018a2a01fb9ea85a14a2875090c86e946d21
-SHA256: 12d24b5125dd997ead7292d323775b1af4a84ddc194d8cf1040ac74731ed9889
-SHA512: 26e4439b0bb7e9cf2f9ccc14df8980b06913f02b990351aab6517bea28aa0c265ee60c9e6558bad86f6f55f780c2a987537d2e893334f695f3208f57ae6ae1fb
-Homepage: https://github.com/X11Libre
-Description: Nested X server
- Xnest is a nested X server that simply relays all its requests to another
- X server, where it runs as a client.  This means that it appears as another
- window in your current X session.  Xnest relies upon its parent X server
- for font services.
- .
- Use of the Xephyr X server instead of Xnest is recommended.
- .
- More information about XLibre can be found at:
- <URL:https://github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xserver module.
-
-Package: xserver-xlibre-xnest
-Architecture: amd64
-Version: 2:25.0.0.8-3
-Priority: optional
-Section: x11
-Source: xlibre-server
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 1868
-Provides: xnest (= 2:25.0.0.8-3), xserver
-Depends: xserver-xlibre-common (>= 2:25.0.0.8-3), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libnettle8t64, libpixman-1-0 (>= 0.13.2), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libxau6 (>= 1:1.0.11), libxcb-icccm4 (>= 0.4.2), libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb1, libxdmcp6, libxfont2 (>= 1:2.0.1)
-Recommends: libgl1-mesa-dri (>= 7.1~rc1)
-Conflicts: xnest
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-xnest_25.0.0.8-3_amd64.deb
-Size: 788340
-MD5sum: 666218b8d5ab5f03f35bb1f38f904a58
-SHA1: f45cece1a74cb709e0312833ef57684b7c743d32
-SHA256: 7adab831d2154dc52c2e3647b06300b1a855e8a14ba70872e1c901d748732337
-SHA512: c017fcd40ad17c18c99a541165a996c52298c5946389c79be285d282febec3d1b6d89240f5e3d1e7fb5d7987bef1472ea1509e5f76b8584bbef3a1f83d242a6a
-Homepage: https://github.com/X11Libre
-Description: Nested X server
- Xnest is a nested X server that simply relays all its requests to another
- X server, where it runs as a client.  This means that it appears as another
- window in your current X session.  Xnest relies upon its parent X server
- for font services.
- .
- Use of the Xephyr X server instead of Xnest is recommended.
- .
- More information about XLibre can be found at:
- <URL:https://github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xserver module.
-
-Package: xserver-xlibre-xspice
-Architecture: amd64
-Version: 0.1.6.1-1
-Priority: optional
-Section: x11
-Source: xserver-xlibre-video-qxl
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 262
-Provides: xserver-xspice
-Depends: libc6 (>= 2.38), libspice-server1 (>= 0.13.2), libxfont2 (>= 1:2.0.1), python3:any, xserver-xlibre, xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xspice
-Breaks: xserver-xorg-video-qxl (<< 0.1.4-2~)
-Replaces: xserver-xorg-video-qxl (<< 0.1.4-2~)
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-xspice_0.1.6.1-1_amd64.deb
-Size: 101878
-MD5sum: 43cb444abec1590476ee863d44b328c3
-SHA1: 8af020a85796f2d16edd0aeb2727e5451243bb38
-SHA256: 62eb50ba54ad6717d6826453fab15228c0ba2e88164abc97a1f1f791b496aa38
-SHA512: 8fb227b645655fda3d8e08e1d0f7feac598951c38e186871f23f9984d8917c84dce8e7c1dcbe8841d9d6b4dcf3ac232d3c69e69994751a5dd2a9c91237275853
-Homepage: https://github.com/X11Libre
-Description: Xspice X server
- Xspice is an X server and Spice server in one. It consists of a wrapper script
- for executing XLibre with the right parameters and environment variables, a
- module names spiceqxl_drv.so implementing three drivers: a video mostly
- identical code to the guest qxl X driver, and keyboard and mouse reading from
- the spice inputs channel.
- .
- Xspice allows regular X connections, while a spice client provides the keyboard
- and mouse and video output.
-
-Package: xserver-xlibre-xspice
-Architecture: amd64
-Version: 0.1.6.1-2
-Priority: optional
-Section: x11
-Source: xserver-xlibre-video-qxl
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 262
-Provides: xserver-xspice (= 0.1.6.1-2)
-Depends: libc6 (>= 2.38), libspice-server1 (>= 0.13.2), libxfont2 (>= 1:2.0.1), python3:any, xserver-xlibre, xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
-Conflicts: xserver-xspice
-Breaks: xserver-xorg-video-qxl (<< 0.1.4-2~)
-Replaces: xserver-xorg-video-qxl (<< 0.1.4-2~)
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-xspice_0.1.6.1-2_amd64.deb
-Size: 101994
-MD5sum: f10c5fe943bae3f6e48cf82666524bc4
-SHA1: 7b679ffe9285bec021c4104d7e3adabc74309595
-SHA256: 14091d90fa93c18a5d51198e34de1ffa25691797a2bbd81e939b64950c119de4
-SHA512: 5914d628dead7d7d000a0e9708c794b5e14f01d661d220e55b137453fc472b1cc0411eae495bc091d1cf82ad17d01b0ab2e1045f968a6269680fda1adfe5e8d0
-Homepage: https://github.com/X11Libre
-Description: Xspice X server
- Xspice is an X server and Spice server in one. It consists of a wrapper script
- for executing XLibre with the right parameters and environment variables, a
- module names spiceqxl_drv.so implementing three drivers: a video mostly
- identical code to the guest qxl X driver, and keyboard and mouse reading from
- the spice inputs channel.
- .
- Xspice allows regular X connections, while a spice client provides the keyboard
- and mouse and video output.
-
-Package: xserver-xlibre-xvfb
-Architecture: amd64
-Version: 2:25.0.0.8-1
-Multi-Arch: foreign
-Priority: optional
-Section: x11
-Source: xlibre-server
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 2513
-Provides: xserver, xvfb
-Depends: xserver-xlibre-common (>= 2:25.0.0.8-1), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libgl1, libnettle8t64, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libxau6 (>= 1:1.0.11), libxdmcp6, libxfont2 (>= 1:2.0.1)
-Recommends: xauth
-Conflicts: xvfb
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-xvfb_25.0.0.8-1_amd64.deb
-Size: 1027310
-MD5sum: 700e6e26c1c977ce53e783a95bf7509b
-SHA1: 2f8e1bcbf0e0333aa05e2a30399e986c28468d1a
-SHA256: 30b139d6c55529c2ce4b4d14fcc074562aedff2e0084402f83bbebdcaa0569de
-SHA512: 5896c53d8957e7e941d2ffc8fc902b94bae22fbe9c819b281e7fb3c3dba4ef85e4f5b47cd5ef98b1657a19bae0e698ff8ff8bcd1c68c2575418cc55b2896b394
-Homepage: https://github.com/X11Libre
-Description: Virtual Framebuffer 'fake' X server
- Xvfb provides an X server that can run on machines with no display hardware
- and no physical input devices. It emulates a dumb framebuffer using virtual
- memory. The primary use of this server was intended to be server testing,
- but other novel uses for it have been found, including testing clients
- against unusual depths and screen configurations, doing batch processing with
- Xvfb as a background rendering engine, load testing, as an aid to porting the
- X server to a new platform, and providing an unobtrusive way to run
- applications that don't really need an X server but insist on having one
- anyway.
- .
- This package also contains a convenience script called xvfb-run which
- simplifies the automated execution of X clients in a virtual server
- environment. This convenience script requires the use of the xauth
- program.
- .
- More information about XLibre can be found at:
- <URL:https://github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xserver module.
-
-Package: xserver-xlibre-xvfb
-Architecture: amd64
-Version: 2:25.0.0.8-2
-Multi-Arch: foreign
-Priority: optional
-Section: x11
-Source: xlibre-server
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 2513
-Provides: xserver, xvfb (= 2:25.0.0.8-2)
-Depends: xserver-xlibre-common (>= 2:25.0.0.8-2), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libgl1, libnettle8t64, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libxau6 (>= 1:1.0.11), libxdmcp6, libxfont2 (>= 1:2.0.1)
-Recommends: xauth
-Conflicts: xvfb
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-xvfb_25.0.0.8-2_amd64.deb
-Size: 1027698
-MD5sum: 070d47dc765dd92099f3051dd442365a
-SHA1: deb7692411e89dd037d9d821c35dd913e8db2213
-SHA256: 8c86ab1a029d4cb66ff523bc6770be229a43ce8368821448c53a9f69e0b1b906
-SHA512: f8805da5a0c58f3225421ddcdbd8ee3589c211e08832d6d986616fd75856d4a525eb2d7a981a6ce6bd583377bc09f903e729ed78891a708db4e7ee12b87ea41c
-Homepage: https://github.com/X11Libre
-Description: Virtual Framebuffer 'fake' X server
- Xvfb provides an X server that can run on machines with no display hardware
- and no physical input devices. It emulates a dumb framebuffer using virtual
- memory. The primary use of this server was intended to be server testing,
- but other novel uses for it have been found, including testing clients
- against unusual depths and screen configurations, doing batch processing with
- Xvfb as a background rendering engine, load testing, as an aid to porting the
- X server to a new platform, and providing an unobtrusive way to run
- applications that don't really need an X server but insist on having one
- anyway.
- .
- This package also contains a convenience script called xvfb-run which
- simplifies the automated execution of X clients in a virtual server
- environment. This convenience script requires the use of the xauth
- program.
- .
- More information about XLibre can be found at:
- <URL:https://github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xserver module.
-
-Package: xserver-xlibre-xvfb
-Architecture: amd64
-Version: 2:25.0.0.8-3
-Multi-Arch: foreign
-Priority: optional
-Section: x11
-Source: xlibre-server
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 2513
-Provides: xserver, xvfb (= 2:25.0.0.8-3)
-Depends: xserver-xlibre-common (>= 2:25.0.0.8-3), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libgl1, libnettle8t64, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libxau6 (>= 1:1.0.11), libxdmcp6, libxfont2 (>= 1:2.0.1)
-Recommends: xauth
-Conflicts: xvfb
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre-xvfb_25.0.0.8-3_amd64.deb
-Size: 1027588
-MD5sum: f3943fc5f502881004b39a0215ef5fde
-SHA1: 1123aed1882734bdcf91d4c04bf933bd028d8015
-SHA256: 29152fda37722f89d4fc0c210f0d4eda3425285eea94cfbe487cbb1e85a1046d
-SHA512: 51f34540a445ce0824ae5aaf361bb9bcd14b74ca9aab9143e83b8e36a22936843d2aa1edbc0f550b999e25246fd70c6f2aafe123812360491bd0c2ac91c2211d
-Homepage: https://github.com/X11Libre
-Description: Virtual Framebuffer 'fake' X server
- Xvfb provides an X server that can run on machines with no display hardware
- and no physical input devices. It emulates a dumb framebuffer using virtual
- memory. The primary use of this server was intended to be server testing,
- but other novel uses for it have been found, including testing clients
- against unusual depths and screen configurations, doing batch processing with
- Xvfb as a background rendering engine, load testing, as an aid to porting the
- X server to a new platform, and providing an unobtrusive way to run
- applications that don't really need an X server but insist on having one
- anyway.
- .
- This package also contains a convenience script called xvfb-run which
- simplifies the automated execution of X clients in a virtual server
- environment. This convenience script requires the use of the xauth
- program.
- .
- More information about XLibre can be found at:
- <URL:https://github.com/X11Libre/xserver>
- .
- This package is built from the XLibre xserver module.
-
-Package: xserver-xlibre
-Architecture: amd64
-Version: 1:7.8+1
-Priority: optional
-Section: x11
-Source: xlibre
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 202
-Provides: xserver, xserver-xorg
-Depends: xserver-xlibre-core, xserver-xlibre-video-all | xlibre-driver-video, xserver-xlibre-input-all | xlibre-driver-input, xkb-data, x11-xkb-utils
-Recommends: libgl1-mesa-dri, xserver-xlibre-legacy
-Conflicts: xserver-xorg
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre_7.8+1_amd64.deb
-Size: 58062
-MD5sum: 65a3360dd0d300bc729deda0c87cf8e3
-SHA1: 8a425b48695d6d64480c5ed1d0bb63bfeac29c46
-SHA256: a2afe22d3aa287c1d08b77f07093909ebce0c0c91f765f6e9b4c7c6656aacef1
-SHA512: d42669f180842c059188a1f10e63a16e7706f83fddf58f8338570cd2a0d52ec3ec12c896e83d3f7487d295f69dbdc37fa694e7ebb03f063c948f9f60b306e501
-Homepage: https://github.com/X11Libre
-Description: XLibre X server
- This package depends on the full suite of the server and drivers for the
- XLibre X server.  It does not provide the actual server itself.
-
-Package: xserver-xlibre
-Architecture: amd64
-Version: 1:7.8+2
-Priority: optional
-Section: x11
-Source: xlibre
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 199
-Provides: xserver, xserver-xorg (= 1:7.8+2)
-Depends: xserver-xlibre-core, xserver-xlibre-video-all | xlibre-driver-video, xserver-xlibre-input-all | xlibre-driver-input, xkb-data, x11-xkb-utils
-Recommends: libgl1-mesa-dri, xserver-xlibre-legacy
-Conflicts: xserver-xorg
-Filename: dists/plucky/pool/main/amd64/xserver-xlibre_7.8+2_amd64.deb
-Size: 58148
-MD5sum: af175e659e55dc0b856d57266264b7e1
-SHA1: 627ae33f12d79d07bc425ebb8eb8c59e2af9539b
-SHA256: 6f829057a18228f2a9070178b288e64241262d72bcba9f1b35af6f7bbda5522b
-SHA512: 079d5843e8aeb7371c4f23ae38ff559d02d01764dc5cc3d316960e88dc594ea75ed5090651c839bc94119560956b71a10731ac585655b03a5d7ef756603cc5dc
-Homepage: https://github.com/X11Libre
-Description: XLibre X server
- This package depends on the full suite of the server and drivers for the
- XLibre X server.  It does not provide the actual server itself.
-
-Package: x11proto-core-dev
-Architecture: all
-Version: 2024.1-1~bpo+1
-Multi-Arch: foreign
-Priority: optional
-Section: oldlibs
-Source: xorgproto
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 11
-Depends: x11proto-dev
-Filename: dists/plucky/pool/main/arm64/x11proto-core-dev_2024.1-1~bpo+1_all.deb
-Size: 3460
-MD5sum: 33c5f113ec67b0d4ae3d605dd4628e4f
-SHA1: 15c5e5a5427918c88503649eeb98940babeeca61
-SHA256: 52cb777d83aef7a7fca3814eafe307705a5a3f6951c2f0d68ce5e67435a82911
-SHA512: 925563aed63217c2d3613377454ee5e8a4765e615207a10f44a1154e6cbe6f089c8473246508ff99a0c49a44cca6c8bf4a30ecace1d9e5ee1fddc33837952aa4
-Homepage: https://www.x.org/
-Description: transitional dummy package
- This is a transitional dummy package, it can be safely removed.
-
-Package: x11proto-dev
-Architecture: all
-Version: 2024.1-1~bpo+1
-Multi-Arch: foreign
-Priority: optional
-Section: x11
-Source: xorgproto
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 1697
-Provides: x11proto-core-dev (= 2024.1-1~bpo+1), x11proto-dri2-dev (= 2024.1-1~bpo+1), x11proto-fonts-dev (= 2024.1-1~bpo+1), x11proto-gl-dev (= 2024.1-1~bpo+1), x11proto-input-dev (= 2024.1-1~bpo+1), x11proto-kb-dev (= 2024.1-1~bpo+1), x11proto-present-dev (= 2024.1-1~bpo+1), x11proto-randr-dev (= 2024.1-1~bpo+1), x11proto-record-dev (= 2024.1-1~bpo+1), x11proto-render-dev (= 2024.1-1~bpo+1), x11proto-scrnsaver-dev (= 2024.1-1~bpo+1), x11proto-video-dev (= 2024.1-1~bpo+1), x11proto-xext-dev (= 2024.1-1~bpo+1), x11proto-xf86dga-dev (= 2024.1-1~bpo+1), x11proto-xf86dri-dev (= 2024.1-1~bpo+1), x11proto-xf86vidmode-dev (= 2024.1-1~bpo+1), x11proto-xinerama-dev (= 2024.1-1~bpo+1)
-Depends: xorg-sgml-doctools (>= 1:1.5)
-Breaks: x11proto-core-dev (<< 2018.3), x11proto-dri2-dev (<< 2018.3), x11proto-fonts-dev (<< 2018.3), x11proto-gl-dev (<< 2018.3), x11proto-input-dev (<< 2018.3), x11proto-kb-dev (<< 2018.3), x11proto-present-dev (<< 2018.3), x11proto-randr-dev (<< 2018.3), x11proto-record-dev (<< 2018.3), x11proto-render-dev (<< 2:2018.3), x11proto-scrnsaver-dev (<< 2018.3), x11proto-video-dev (<< 2018.3), x11proto-xext-dev (<< 2018.3), x11proto-xf86dga-dev (<< 2018.3), x11proto-xf86dri-dev (<< 2018.3), x11proto-xf86vidmode-dev (<< 2018.3), x11proto-xinerama-dev (<< 2018.3)
-Replaces: x11proto-core-dev (<< 2018.3), x11proto-dri2-dev (<< 2018.3), x11proto-fonts-dev (<< 2018.3), x11proto-gl-dev (<< 2018.3), x11proto-input-dev (<< 2018.3), x11proto-kb-dev (<< 2018.3), x11proto-present-dev (<< 2018.3), x11proto-randr-dev (<< 2018.3), x11proto-record-dev (<< 2018.3), x11proto-render-dev (<< 2:2018.3), x11proto-scrnsaver-dev (<< 2018.3), x11proto-video-dev (<< 2018.3), x11proto-xext-dev (<< 2018.3), x11proto-xf86dga-dev (<< 2018.3), x11proto-xf86dri-dev (<< 2018.3), x11proto-xf86vidmode-dev (<< 2018.3), x11proto-xinerama-dev (<< 2018.3)
-Filename: dists/plucky/pool/main/arm64/x11proto-dev_2024.1-1~bpo+1_all.deb
-Size: 597822
-MD5sum: 3f38ca870a6407a252cc5ca500a33969
-SHA1: 725081f8d180b7d55ee213256b092314ba4b2288
-SHA256: 73dd6004b4a84ea2bea63a9416c17eef37bdfb133ceb7d8248eb65e8c9534e72
-SHA512: 651412ad80f8d586094cfb67753d9fb5b57481b7cecf7f2ee4fca8c2ee3d682203753e8443802141375ee30f6aba1f279a845ac38c76becbb4ce69a00c38058e
-Homepage: https://www.x.org/
-Description: X11 extension protocols and auxiliary headers
- This package provides development headers describing the wire protocol
- for the X11 core and extension protocols, and also provides a number of
- utility headers, used to abstract OS-specific functions.
- .
- More information about X.Org can be found at:
- <URL:https://www.X.org>
- .
- This package is built from the X.org xorgproto module.
-
-Package: x11proto-dri2-dev
-Architecture: all
-Version: 2024.1-1~bpo+1
-Multi-Arch: foreign
-Priority: optional
-Section: oldlibs
-Source: xorgproto
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 11
-Depends: x11proto-dev
-Filename: dists/plucky/pool/main/arm64/x11proto-dri2-dev_2024.1-1~bpo+1_all.deb
-Size: 3452
-MD5sum: 8c8108298adfa58691069406e405d008
-SHA1: 19129cf40a74c1cfec8731d66d7cfb631cef78a4
-SHA256: 8215cd4375d9a7ee444c7081908409400905f13bac38de0815b864058dfa072f
-SHA512: ab087163d2782b55e5c7cc72ea4d44412d8ec3a68b69433f7a2c0daac83ab35cf9a974129a4797c17167f2f89a0d97b4d173bf5d0b88171be878b1cefe93b458
-Homepage: https://www.x.org/
-Description: transitional dummy package
- This is a transitional dummy package, it can be safely removed.
-
-Package: x11proto-fonts-dev
-Architecture: all
-Version: 2024.1-1~bpo+1
-Multi-Arch: foreign
-Priority: optional
-Section: oldlibs
-Source: xorgproto
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 11
-Depends: x11proto-dev
-Filename: dists/plucky/pool/main/arm64/x11proto-fonts-dev_2024.1-1~bpo+1_all.deb
-Size: 3448
-MD5sum: 6b1bfede72850561a2f2cf09e5719650
-SHA1: 3e943c502515ae1576f7b47eeb5541ea1dc107d8
-SHA256: f5e57dba09d5acccb0980459c49f8b8c053258b7ea63a8fc4555d3a1b394b604
-SHA512: 59c64c824207b00e29baccfa97d7826ac27de83612d42ecfe6476f0cbba421ce47926f4f71b60c47e0696449fd63bc5067f3f60572a1c07cf35e0c6cdc9182c9
-Homepage: https://www.x.org/
-Description: transitional dummy package
- This is a transitional dummy package, it can be safely removed.
-
-Package: x11proto-gl-dev
-Architecture: all
-Version: 2024.1-1~bpo+1
-Multi-Arch: foreign
-Priority: optional
-Section: oldlibs
-Source: xorgproto
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 11
-Depends: x11proto-dev
-Filename: dists/plucky/pool/main/arm64/x11proto-gl-dev_2024.1-1~bpo+1_all.deb
-Size: 3454
-MD5sum: 03399163ada99c50841c8b81b7f14e77
-SHA1: 813fa9c856fbbd8ab9e26d045e9ae7895c6dd8ad
-SHA256: 01eb0014f79b587845a353cbfeb7fc2a01ca426bc2e229321ab407746356d3d9
-SHA512: f58727b62f9ca0b713ece6beca6cddd5bb00209b617d9c5276d0554d833d24f57a449f3229f65050c0d75b29b0ad69f2fdb4009aebd4d191c42cc5b8d855baaa
-Homepage: https://www.x.org/
-Description: transitional dummy package
- This is a transitional dummy package, it can be safely removed.
-
-Package: x11proto-input-dev
-Architecture: all
-Version: 2024.1-1~bpo+1
-Multi-Arch: foreign
-Priority: optional
-Section: oldlibs
-Source: xorgproto
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 11
-Depends: x11proto-dev
-Filename: dists/plucky/pool/main/arm64/x11proto-input-dev_2024.1-1~bpo+1_all.deb
-Size: 3460
-MD5sum: ac07be04c7ef25fbad7541659bcaa548
-SHA1: 4bcc67ae2a95db59393fc8789a830bc978f25dda
-SHA256: e6223655e61b84b650ea6bdc373cea17a0891e51cd732af5d623680e17dcb48a
-SHA512: 972644e256985bb12343cf44bc485a87ec09740bdc7bcf0058fea5884db082c83e845d7262c4978e76b3271cf17bf1c2e6fff9f583b8e586179ebab637bcfbda
-Homepage: https://www.x.org/
-Description: transitional dummy package
- This is a transitional dummy package, it can be safely removed.
-
-Package: x11proto-kb-dev
-Architecture: all
-Version: 2024.1-1~bpo+1
-Multi-Arch: foreign
-Priority: optional
-Section: oldlibs
-Source: xorgproto
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 11
-Depends: x11proto-dev
-Filename: dists/plucky/pool/main/arm64/x11proto-kb-dev_2024.1-1~bpo+1_all.deb
-Size: 3454
-MD5sum: 7dcfd8e31072324fcf66f6b1680299b3
-SHA1: 51ac2e4e90ac11f06df320f05c37f47d0730b942
-SHA256: bb12b8aace9a3fe5cda97f7a6ba3015bb71900088f3f9a963430fd5d09875984
-SHA512: e63958991f6ac7d03b6a17d987eb4abae53e5697b4b986fe9af341434ca0a894e1de3fc7143fd8623895e164676d63c104a345cadb86c11870537ba23e56e140
-Homepage: https://www.x.org/
-Description: transitional dummy package
- This is a transitional dummy package, it can be safely removed.
-
-Package: x11proto-present-dev
-Architecture: all
-Version: 2024.1-1~bpo+1
-Multi-Arch: foreign
-Priority: optional
-Section: oldlibs
-Source: xorgproto
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 11
-Depends: x11proto-dev
-Filename: dists/plucky/pool/main/arm64/x11proto-present-dev_2024.1-1~bpo+1_all.deb
-Size: 3458
-MD5sum: 31837c3b75d955943c468fbb33431814
-SHA1: 7c85e64c893b8615c0f7eb1728e4151b86e198f7
-SHA256: b8f69e8f3583e4e934747667e1c551b81d188fa5f60000201fbebb40cbfb5dab
-SHA512: 469705343b40a5eac9d6b46284f506a367850750ac87ee5184e68819e946034ead4623efae20c08b7f429bc428e34f5dae28c45da3d9d03467456990495b250b
-Homepage: https://www.x.org/
-Description: transitional dummy package
- This is a transitional dummy package, it can be safely removed.
-
-Package: x11proto-randr-dev
-Architecture: all
-Version: 2024.1-1~bpo+1
-Multi-Arch: foreign
-Priority: optional
-Section: oldlibs
-Source: xorgproto
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 11
-Depends: x11proto-dev
-Filename: dists/plucky/pool/main/arm64/x11proto-randr-dev_2024.1-1~bpo+1_all.deb
-Size: 3452
-MD5sum: 02da0638ee3c54df35e92cfc40fbef66
-SHA1: aba1977adeb7a56eff271f6feb40014439429fc7
-SHA256: 866e11e77fd735fb801f724e713d0fcf26048dcd5b39324adc28d01dc3fc8a7c
-SHA512: 2822ed5b5ea4e5ac95cd2da9ae296b352f612313d0252cff8537bdd19a2e53c92fcd274a6fc1a4bee41aadcc9cae6538d73e302d116369d9afc03e2516e64657
-Homepage: https://www.x.org/
-Description: transitional dummy package
- This is a transitional dummy package, it can be safely removed.
-
-Package: x11proto-record-dev
-Architecture: all
-Version: 2024.1-1~bpo+1
-Multi-Arch: foreign
-Priority: optional
-Section: oldlibs
-Source: xorgproto
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 11
-Depends: x11proto-dev
-Filename: dists/plucky/pool/main/arm64/x11proto-record-dev_2024.1-1~bpo+1_all.deb
-Size: 3462
-MD5sum: 765f19a176dbf09be63b05e5eed3df1e
-SHA1: ebf049f6e602515832fbcf128bb6c5a5cbc8e7f8
-SHA256: 93c8dfac983a4cf601e7ed6f909310f256ed0fd37e3fde1384c6c2dcc527bc0c
-SHA512: 61375118b490b7430135e6e7ab6662c1d5ff123799ec90e8a31274b1014f2f4ad75ce5b0bc9181621bd87bf9efa26cb98033e075f7b203354e02e4ea4accde03
-Homepage: https://www.x.org/
-Description: transitional dummy package
- This is a transitional dummy package, it can be safely removed.
-
-Package: x11proto-render-dev
-Architecture: all
-Version: 2:2024.1-1~bpo+1
-Multi-Arch: foreign
-Priority: optional
-Section: oldlibs
-Source: xorgproto (2024.1-1~bpo+1)
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 11
-Depends: x11proto-dev
-Filename: dists/plucky/pool/main/arm64/x11proto-render-dev_2024.1-1~bpo+1_all.deb
-Size: 3464
-MD5sum: 21e8f1cedb10167999c0487089895bfc
-SHA1: 2f69219bcba2f1153b84d3fbc414ae3f153702fd
-SHA256: 35996b39887f1158d6a9aa0fc320b07fda5b149c3917253311d9bb5d8a8bc040
-SHA512: aba526b53a399b6f6dc1b878c030d4dde9ba7874a05000fccca29f2620dea9877d2b6e4717c611f23baf07021bc136cae12c1ac2bfec721167b4653c3af860c3
-Homepage: https://www.x.org/
-Description: transitional dummy package
- This is a transitional dummy package, it can be safely removed.
-
-Package: x11proto-scrnsaver-dev
-Architecture: all
-Version: 2024.1-1~bpo+1
-Multi-Arch: foreign
-Priority: optional
-Section: oldlibs
-Source: xorgproto
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 11
-Depends: x11proto-dev
-Filename: dists/plucky/pool/main/arm64/x11proto-scrnsaver-dev_2024.1-1~bpo+1_all.deb
-Size: 3460
-MD5sum: f4130ea1d626ceaa0af2a914c5ee5b61
-SHA1: 3b9399f7cdcb7a636d65116531f5c893f27ff561
-SHA256: 60db41f96a736635bcc2a690700f40c3c7baeb236a4393ccd23ff1b19b5ef878
-SHA512: 6b22f30bb33afb2880d459473d465b162feb0ef9253320a2641805372d346d9b05255ad0f3fef00d0c1df1a21f736c9991b17b8e33a93d61f843335b6de6ee4e
-Homepage: https://www.x.org/
-Description: transitional dummy package
- This is a transitional dummy package, it can be safely removed.
-
-Package: x11proto-video-dev
-Architecture: all
-Version: 2024.1-1~bpo+1
-Multi-Arch: foreign
-Priority: optional
-Section: oldlibs
-Source: xorgproto
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 11
-Depends: x11proto-dev
-Filename: dists/plucky/pool/main/arm64/x11proto-video-dev_2024.1-1~bpo+1_all.deb
-Size: 3448
-MD5sum: b78be6d1c08bb746d350cf0511b6b849
-SHA1: bd338593829817f27a777edf0b8693ba8ae83ceb
-SHA256: 77c62622a4fd54befe958ec8c93a29b69d1b92bbea7b1fd9afbb8faeab52f845
-SHA512: 8dd3ee6eda0e2beca0ca8a05a53de72170c08895bd09f77e4771c0d7b08604d022fe73f1b1b9b7ca66429a12481cf216f99322a417da40ad425d2c1609f8f52e
-Homepage: https://www.x.org/
-Description: transitional dummy package
- This is a transitional dummy package, it can be safely removed.
-
-Package: x11proto-xext-dev
-Architecture: all
-Version: 2024.1-1~bpo+1
-Multi-Arch: foreign
-Priority: optional
-Section: oldlibs
-Source: xorgproto
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 11
-Depends: x11proto-dev
-Filename: dists/plucky/pool/main/arm64/x11proto-xext-dev_2024.1-1~bpo+1_all.deb
-Size: 3446
-MD5sum: 3ae3dabd2786cf073570aece0c6b21ab
-SHA1: f5b93e91b8164c02d64ad2329c579bb3259972c5
-SHA256: bddfd1f5407b1d506c8274a0aa0f70566fd8eab88f03f13f8606406c285b9db2
-SHA512: 4ac69c2e3f6cab0f3013e25d4ea95c1aca479f916b0812a781f7507f8f3425c1fc9871ce0b1a33492b062f8824f9797db5031c21184e757ff1fbb3f7319fefa4
-Homepage: https://www.x.org/
-Description: transitional dummy package
- This is a transitional dummy package, it can be safely removed.
-
-Package: x11proto-xf86dri-dev
-Architecture: all
-Version: 2024.1-1~bpo+1
-Multi-Arch: foreign
-Priority: optional
-Section: oldlibs
-Source: xorgproto
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 11
-Depends: x11proto-dev
-Filename: dists/plucky/pool/main/arm64/x11proto-xf86dri-dev_2024.1-1~bpo+1_all.deb
-Size: 3468
-MD5sum: 4f8f18c9835d047ff69a1427b7665acd
-SHA1: 04af745f19c6c33e47cf11aa144b02d90b09ba13
-SHA256: d97740f821430a0355b669ad0a8a1b736ae121bfce139cb8e4da275fe6644ec1
-SHA512: a09377bc897b4dbb05989a732ec2f19bd4cd443c07972271aa22a497d27dce8fec3db81a2612012eec3055c683bdcd175c7142190542f1431a3c99dbb6033408
-Homepage: https://www.x.org/
-Description: transitional dummy package
- This is a transitional dummy package, it can be safely removed.
-
-Package: x11proto-xf86vidmode-dev
-Architecture: all
-Version: 2024.1-1~bpo+1
-Multi-Arch: foreign
-Priority: optional
-Section: oldlibs
-Source: xorgproto
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 11
-Depends: x11proto-dev
-Filename: dists/plucky/pool/main/arm64/x11proto-xf86vidmode-dev_2024.1-1~bpo+1_all.deb
-Size: 3466
-MD5sum: 4f2037ad4c5698897ace924772c620e9
-SHA1: e1ac081e6db0a742aee0d79024b9189ff5638d86
-SHA256: 69190359b52cd80886e588ca7526805b1fcd052a1499b8d16a59a87c1823c8c2
-SHA512: 01ff19bd332b0aa0a3700fb900d0e764367d7584ff8527a11c1285a689bd9dd43dac2fa9d86fa4cca6a9367357707c6de6808ca4da8fb5e45cf8f71b80a267b2
-Homepage: https://www.x.org/
-Description: transitional dummy package
- This is a transitional dummy package, it can be safely removed.
-
-Package: x11proto-xinerama-dev
-Architecture: all
-Version: 2024.1-1~bpo+1
-Multi-Arch: foreign
-Priority: optional
-Section: oldlibs
-Source: xorgproto
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 11
-Depends: x11proto-dev
-Filename: dists/plucky/pool/main/arm64/x11proto-xinerama-dev_2024.1-1~bpo+1_all.deb
-Size: 3466
-MD5sum: d2c908ea328b1ff54bf9ff17406dd02b
-SHA1: fc9c6e7fc2d59d673c1c72decbb273e0317cd501
-SHA256: 7890d4032f1f8528a1652b28ef214b22f116e5e5361abd90b9c78bc7d8efa75d
-SHA512: 539da583cc2f8cfafc2eec90328034cea1551fd906d0520f6a745be60af5c902e6a2b94641e79b12bfb37845f78a0d971fee98b7276801412c53adeeaa62a9f1
-Homepage: https://www.x.org/
-Description: transitional dummy package
- This is a transitional dummy package, it can be safely removed.
-
-Package: xlibre-dev
-Architecture: all
-Version: 1:7.8+1
-Priority: optional
-Section: x11
-Source: xlibre
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 12
-Provides: xorg-dev
-Depends: libfontenc-dev, libfs-dev, libice-dev, libsm-dev, libx11-dev, libxau-dev, libxaw7-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxdmcp-dev, libxext-dev, libxfixes-dev, libxfont-dev, libxft-dev, libxi-dev, libxinerama-dev, libxkbfile-dev, libxmu-dev, libxmuu-dev, libxpm-dev, libxrandr-dev, libxrender-dev, libxres-dev, libxss-dev, libxt-dev, libxtst-dev, libxv-dev, libxvmc-dev, libxxf86dga-dev, libxxf86vm-dev, x11proto-dev, xserver-xlibre-dev, xtrans-dev
-Conflicts: xorg-dev
-Filename: dists/plucky/pool/main/arm64/xlibre-dev_7.8+1_all.deb
-Size: 2756
-MD5sum: 1d2c22d23dbd27a34730b29ea1495b12
-SHA1: 9e2008cb6c09a46aef3420216e0be1dd0605ceb9
-SHA256: 038604e0a7e22839aa0fbb26242f7a4abe198ad5926e6a70006f870f84b0141e
-SHA512: 1ecfc6ed8c3c1986e147696590a748a45d03b25fd2dd25cb778a472fa322b1faf4d4e834e0ee85b9e4f4feaa2e0d170386d679f6059cbcae8c6449eca434fc7c
-Homepage: https://github.com/X11Libre
-Description: XLibre X Window System development libraries
- This metapackage provides the development libraries for the XLibre X Window
- System.
- .
- X Window System design documentation, manual pages, library reference
- works, static versions of the shared libraries, and C header files are
- supplied by the packages depended on by this metapackage.
- .
- Note that this is a convenience package for users and is not a package for
- Debian developers to have their package depend on.
-
-Package: xlibre-dev
-Architecture: all
-Version: 1:7.8+2
-Priority: optional
-Section: x11
-Source: xlibre
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 12
-Provides: xorg-dev (= 1:7.8+2)
-Depends: libfontenc-dev, libfs-dev, libice-dev, libsm-dev, libx11-dev, libxau-dev, libxaw7-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxdmcp-dev, libxext-dev, libxfixes-dev, libxfont-dev, libxft-dev, libxi-dev, libxinerama-dev, libxkbfile-dev, libxmu-dev, libxmuu-dev, libxpm-dev, libxrandr-dev, libxrender-dev, libxres-dev, libxss-dev, libxt-dev, libxtst-dev, libxv-dev, libxvmc-dev, libxxf86dga-dev, libxxf86vm-dev, x11proto-dev, xserver-xlibre-dev, xtrans-dev
-Conflicts: xorg-dev
-Filename: dists/plucky/pool/main/arm64/xlibre-dev_7.8+2_all.deb
-Size: 3018
-MD5sum: bd067ca10ac778569c00ccd5103771e2
-SHA1: e34172213fe742e956b63488f661ba4f7b499057
-SHA256: 02cbb69886059b868f9124ba563851a5ef72c1b7ae014857ca73b1ffc3a0c1bb
-SHA512: 649e2bbad584f4b8023730b91f138f998b3c3cdfc05cd002abc7838bb9dea86709a5d9d5fda561037047b35fa804e8759b574f7651ae0d32825f3b454e5f9ff1
-Homepage: https://github.com/X11Libre
-Description: XLibre X Window System development libraries
- This metapackage provides the development libraries for the XLibre X Window
- System.
- .
- X Window System design documentation, manual pages, library reference
- works, static versions of the shared libraries, and C header files are
- supplied by the packages depended on by this metapackage.
- .
- Note that this is a convenience package for users and is not a package for
- Debian developers to have their package depend on.
-
-Package: xlibre-server-source
-Architecture: all
-Version: 2:25.0.0.8-1
-Priority: optional
-Section: x11
-Source: xlibre-server
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 2935
-Provides: xorg-server-source
-Conflicts: xorg-server-source
-Filename: dists/plucky/pool/main/arm64/xlibre-server-source_25.0.0.8-1_all.deb
-Size: 2911690
-MD5sum: 38fd168a3d25c791500b57d7c7d98204
-SHA1: dea88624227b24b463a6c0a4f0245597de70d880
-SHA256: 2967bd5779eae06452690c0d73577e39c36588494528262c4cc6d11f8ff56ab4
-SHA512: 9ff862723d1f66a70a9a4889c5d4d530a4443e379e8f9cc3300fe6bb780e3e2b8ff114f1cfd8ab93ac070a8d8ca46cb84b86cc4b518428628746307c0d041e31
-Homepage: https://github.com/X11Libre
-Description: XLibre X server - source files
- This package provides original Debian (with Debian patches already
- applied, and autotools files updated) sources for the XLibre ('XLibre')
- X server shipped in a tarball.  This enables other projects re-using
- X server codebase (e.g. VNC servers) to (re-)use officially
- Debian-supported version of the X xserver for their builds.
- .
- Unless you are building a software product using X server sources,
- you probably want xserver-xlibre and/or xserver-xlibre-core instead.
-
-Package: xlibre-server-source
-Architecture: all
-Version: 2:25.0.0.8-2
-Priority: optional
-Section: x11
-Source: xlibre-server
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 2934
-Provides: xorg-server-source (= 2:25.0.0.8-2)
-Conflicts: xorg-server-source
-Filename: dists/plucky/pool/main/arm64/xlibre-server-source_25.0.0.8-2_all.deb
-Size: 2911564
-MD5sum: 7235ebb550a66a9da14981bffcd1d8fd
-SHA1: 71ddcf02cfb484147b89431cf24bdf2a8041f01c
-SHA256: eac311ed67f3238f5c001cd06ea27632e1721a3d8a93b05da0a9b704109d8bc3
-SHA512: 9a4f76d430810cee962dec7a13cd7b381ff5455295434d86d93f4f04084d5568f046c39f6d8b36553944bfd1c40543de466825f7f84926d529f73184c047aa5c
-Homepage: https://github.com/X11Libre
-Description: XLibre X server - source files
- This package provides original Debian (with Debian patches already
- applied, and autotools files updated) sources for the XLibre ('XLibre')
- X server shipped in a tarball.  This enables other projects re-using
- X server codebase (e.g. VNC servers) to (re-)use officially
- Debian-supported version of the X xserver for their builds.
- .
- Unless you are building a software product using X server sources,
- you probably want xserver-xlibre and/or xserver-xlibre-core instead.
-
-Package: xlibre-server-source
-Architecture: all
-Version: 2:25.0.0.8-3
-Priority: optional
-Section: x11
-Source: xlibre-server
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 2934
-Provides: xorg-server-source (= 2:25.0.0.8-3)
-Conflicts: xorg-server-source
-Filename: dists/plucky/pool/main/arm64/xlibre-server-source_25.0.0.8-3_all.deb
-Size: 2911874
-MD5sum: bb520f8bc1ee6dedb9ff7b36d20da465
-SHA1: ab0c462c3e190cb9a488dc5300b8cd7bf1f2d01e
-SHA256: f5dbdefb541cfe53f5e7d2372e3595ffbedcc2e7aa902618f55207f6a53c9149
-SHA512: 933852f182772d50dc4b66ec181d33fe1968b074cd84149c3dbb43a6f5289965f572c8dd00280b0683f210e783a6e3ecb6686a4b2d1690076424f091bee716c4
-Homepage: https://github.com/X11Libre
-Description: XLibre X server - source files
- This package provides original Debian (with Debian patches already
- applied, and autotools files updated) sources for the XLibre ('XLibre')
- X server shipped in a tarball.  This enables other projects re-using
- X server codebase (e.g. VNC servers) to (re-)use officially
- Debian-supported version of the X xserver for their builds.
- .
- Unless you are building a software product using X server sources,
- you probably want xserver-xlibre and/or xserver-xlibre-core instead.
-
-Package: xlibre-x11-common
-Architecture: all
-Version: 1:7.8+2
-Multi-Arch: foreign
-Priority: optional
-Section: x11
-Source: xlibre
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 275
-Provides: x11-common (= 1:7.8+2)
-Depends: lsb-base
-Conflicts: x11-common
-Filename: dists/plucky/pool/main/arm64/xlibre-x11-common_7.8+2_all.deb
-Size: 215512
-MD5sum: 8af8e74c6e8acd1b746e60cae73843e5
-SHA1: 7a1fe959b5229b69fb3406e76f56e4033542df53
-SHA256: 01231cd5aa1a22f54dd4b5409479bf5e3a4f2e248d0c7d840ac7ec65b6a64aaa
-SHA512: d707d276a767f2a44a205bc6419ecbafc02835965fc76a88fdae6c0900f247ff092efac19c5c4a69bb061a28132f7bce2fdf86bd5380c31b439ac734655b48ee
-Homepage: https://github.com/X11Libre
-Description: X Window System (X.Org) infrastructure
- x11-common contains the filesystem infrastructure required for further
- installation of the X Window System in any configuration; it does not
- provide a full installation of clients, servers, libraries, and utilities
- required to run the X Window System.
- .
- A number of terms are used to refer to the X Window System, including "X",
- "X Version 11", "X11", "X11R6", and "X11R7".  The version of X used in
- Debian is derived from the version released by the X.Org Foundation, and
- is thus often also referred to as "X.Org".  All of the preceding quoted
- terms are functionally interchangeable in an Debian system.
-
-Package: xlibre-xbase-clients
-Architecture: all
-Version: 1:7.8+2
-Priority: optional
-Section: x11
-Source: xlibre
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 12
-Provides: xbase-clients (= 1:7.8+2)
-Depends: x11-apps, x11-session-utils, x11-utils, x11-xkb-utils, x11-xserver-utils, xauth, xinit
-Suggests: x11-xfs-utils
-Conflicts: xbase-clients
-Filename: dists/plucky/pool/main/arm64/xlibre-xbase-clients_7.8+2_all.deb
-Size: 3000
-MD5sum: 937751e25b378aa001dd4a2c2ab38b51
-SHA1: a721000f20dd0ca6947cf5d5cc697e098ea30a51
-SHA256: df7aea999557d74164710bb71aa00cde66986c6f89048df75f6f20f1ed6a1fcc
-SHA512: be07c744fa99c92d5d6b95042e8828a6fd10bc2449d41ea38902bc6222b585c71d3b216c6667b7536559aa68e3605650f2e0a04c638f81cb492db8c36a0a8116
-Homepage: https://github.com/X11Libre
-Description: miscellaneous X clients - metapackage
- An X client is a program that interfaces with an X server (almost always via
- the X libraries), and thus with some input and output hardware like a
- graphics card, monitor, keyboard, and pointing device (such as a mouse).
- .
- This package provides a miscellaneous assortment of several dozen X clients
- that ship with the X Window System.
- .
- This package is provided for transition from earlier Debian releases, the
- programs formerly in xutils and xbase-clients having been split out in smaller
- packages.
-
-Package: xlibre-xutils
-Architecture: all
-Version: 1:7.8+2
-Priority: optional
-Section: x11
-Source: xlibre
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 12
-Provides: xutils (= 1:7.8+2)
-Depends: x11-utils, x11-xserver-utils, x11-session-utils, xfonts-utils
-Suggests: x11-xfs-utils
-Conflicts: xutils
-Filename: dists/plucky/pool/main/arm64/xlibre-xutils_7.8+2_all.deb
-Size: 2896
-MD5sum: b4271ebdbaf746b29f306df5521d67ee
-SHA1: 692995b50812bf54d9765c7f62322ac3e0252253
-SHA256: 5f367fb7c70266a0bf6ec6cf0c7246cbe84da7db9d5d153c7cd224dd351e40e0
-SHA512: 2282f396ab53f92d1d627303cafab8b972902c116ced36cf1cde243851e1a8b29dc2eca0d0c9dd1686f3f2c1d2e403fb44762fcabdf1621a3a66847960b9c032
-Homepage: https://github.com/X11Libre
-Description: X Window System utility programs metapackage
- xutils provides a set of utility programs shipped with the X Window System.
- Many of these programs are useful even on a system that does not have any X
- clients or X servers installed.
- .
- This package is provided for transition from earlier Debian releases, the
- programs formerly in xutils and xbase-clients having been split out in smaller
- packages.
 
 Package: xlibre
 Architecture: arm64
@@ -3392,78 +879,6 @@ Description: XLibre X Window System
  .
  It should be noted that a package providing x-window-manager should also
  be installed to ensure a comfortable X experience.
-
-Package: xserver-xlibre-common
-Architecture: all
-Version: 2:25.0.0.8-1
-Multi-Arch: foreign
-Priority: optional
-Section: x11
-Source: xlibre-server
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 138
-Provides: xserver-common
-Depends: x11-common, xkb-data, x11-xkb-utils
-Recommends: xfonts-base, xauth
-Conflicts: xserver-common
-Replaces: xserver-xorg-core (<< 2:1.5.2)
-Filename: dists/plucky/pool/main/arm64/xserver-xlibre-common_25.0.0.8-1_all.deb
-Size: 25496
-MD5sum: a8a1f0a87046ef8e4fb79083e74b427b
-SHA1: aa481d68c4e889cc23aa204cbffc1112a3e102af
-SHA256: 56711476e7d92ebf71fd9720a985c8fc10d319022d818ab4bbabd6c0bd6a6b8f
-SHA512: e4e08b5a04511dbd709b9c2a1e3ec42035024ca13a3c5ba5a1bfa4a8de435f8f076cfda8509832c62897ef3d027e0cc48207edd44b4286d54b271716a31d8d08
-Homepage: https://github.com/X11Libre
-Description: common files used by various X servers
- This package provides files necessary for all XLibre based X servers.
-
-Package: xserver-xlibre-common
-Architecture: all
-Version: 2:25.0.0.8-2
-Multi-Arch: foreign
-Priority: optional
-Section: x11
-Source: xlibre-server
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 138
-Provides: xserver-common (= 2:25.0.0.8-2)
-Depends: xlibre-x11-common, xkb-data, x11-xkb-utils
-Recommends: xfonts-base, xauth
-Conflicts: xserver-common
-Replaces: xserver-xorg-core (<< 2:1.5.2)
-Filename: dists/plucky/pool/main/arm64/xserver-xlibre-common_25.0.0.8-2_all.deb
-Size: 25774
-MD5sum: de7e8d7d88727c8f57eb0d902213ad05
-SHA1: df36a8aee1d60c6b1d6e442610f389949a74bfe8
-SHA256: 964c2780547db934e7a4126594935ccf7327a856381673a177d3d91e136e40d5
-SHA512: 411fdce9b0ea41d510fdae0292501a35c97843e658fb71e114a3bbdffd95205e0b7e090df5b57dd25351cd693080756eab055f79cb85950729160b9bf6753e3c
-Homepage: https://github.com/X11Libre
-Description: common files used by various X servers
- This package provides files necessary for all XLibre based X servers.
-
-Package: xserver-xlibre-common
-Architecture: all
-Version: 2:25.0.0.8-3
-Multi-Arch: foreign
-Priority: optional
-Section: x11
-Source: xlibre-server
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 138
-Provides: xserver-common (= 2:25.0.0.8-3)
-Depends: xlibre-x11-common, xkb-data, x11-xkb-utils
-Recommends: xfonts-base, xauth
-Conflicts: xserver-common
-Replaces: xserver-xorg-core (<< 2:1.5.2)
-Filename: dists/plucky/pool/main/arm64/xserver-xlibre-common_25.0.0.8-3_all.deb
-Size: 25836
-MD5sum: e58ac5c849e7664786bdb2b59a33da7a
-SHA1: 568a4abf1cbe80cd4e4dbf899a0c3bb883508583
-SHA256: f3b96b95b7f0f8d715faef5cc60bfb2408a9b4d250f33455afa44dcee9f31d62
-SHA512: c9fc1d846b78d48e9d66d00c918ee412cf031b0f4adc10f605015648463cbcc3f6092d3763eee7577c041627a9e3bbaacb25b456ba278145a8128859cd730711
-Homepage: https://github.com/X11Libre
-Description: common files used by various X servers
- This package provides files necessary for all XLibre based X servers.
 
 Package: xserver-xlibre-core
 Architecture: arm64
@@ -3764,56 +1179,6 @@ Description: XLibre X server -- ELOGraphics input driver
  .
  This package is built from the XLibre xf86-input-elographics driver module.
 
-Package: xserver-xlibre-input-evdev-dev
-Architecture: all
-Version: 1:2.11.0.1-1
-Multi-Arch: foreign
-Priority: optional
-Section: libdevel
-Source: xserver-xlibre-input-evdev
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 21
-Provides: xserver-xorg-input-evdev-dev
-Conflicts: xserver-xorg-input-evdev-dev
-Filename: dists/plucky/pool/main/arm64/xserver-xlibre-input-evdev-dev_2.11.0.1-1_all.deb
-Size: 3982
-MD5sum: 0c531008ed7bad806dfb3a19c30aa5b8
-SHA1: f5d8a902c834b8c109d7f6ac366f0ac1890571ab
-SHA256: ad61977861fdba2e2aa6a3889178568ccb37e09689e9f8b8e4bb7cf2628f199c
-SHA512: 9aaf186bf1ce560fbf3e5847bfaa4b6300a1bc9715e1acbeb70f9b96c267cb9b4503e9efa02fc3b793b6ece6c01d208818ad6d0336190dda982d7aa51c88a646
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- evdev input driver (development headers)
- This package provides the development headers for the evdev input driver
- found in xserver-xlibre-input-evdev. Non-developers likely have little use
- for this package.
- .
- This package is built from the XLibre xf86-input-evdev driver module.
-
-Package: xserver-xlibre-input-evdev-dev
-Architecture: all
-Version: 1:2.11.0.1-2
-Multi-Arch: foreign
-Priority: optional
-Section: libdevel
-Source: xserver-xlibre-input-evdev
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 21
-Provides: xserver-xorg-input-evdev-dev (= 1:2.11.0.1-2)
-Conflicts: xserver-xorg-input-evdev-dev
-Filename: dists/plucky/pool/main/arm64/xserver-xlibre-input-evdev-dev_2.11.0.1-2_all.deb
-Size: 4122
-MD5sum: 28288daca1dc519161ee18983543936b
-SHA1: a3746b5b102d0103b308f25440e19cdf691358ea
-SHA256: 5695997495ea32cdf92b7e0626fcdf38145e214e2d2bc61a524ae3bd55880558
-SHA512: f3401a6680968c63ff68da14d56b1fc997fd83f8f65f22ff6639929b5a52497469d38951b195a338f5d6955b62216a84c60dc654c37dc59fb509d61649f8bad8
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- evdev input driver (development headers)
- This package provides the development headers for the evdev input driver
- found in xserver-xlibre-input-evdev. Non-developers likely have little use
- for this package.
- .
- This package is built from the XLibre xf86-input-evdev driver module.
-
 Package: xserver-xlibre-input-evdev
 Architecture: arm64
 Version: 1:2.11.0.1-1
@@ -3865,81 +1230,6 @@ Description: XLibre X server -- evdev input driver
  and mice to be treated as separate input devices.
  .
  This package is built from the XLibre xf86-input-evdev driver module.
-
-Package: xserver-xlibre-input-libinput-dev
-Architecture: all
-Version: 1.5.0.1-1
-Multi-Arch: foreign
-Priority: optional
-Section: libdevel
-Source: xserver-xlibre-input-libinput
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 26
-Provides: xserver-xorg-input-libinput-dev
-Conflicts: xserver-xorg-input-libinput-dev
-Filename: dists/plucky/pool/main/arm64/xserver-xlibre-input-libinput-dev_1.5.0.1-1_all.deb
-Size: 4932
-MD5sum: 026419849060bfe5f10bd1e56ced8b0c
-SHA1: 5b8486a219b20e310f511cd865fc0efdd545da48
-SHA256: 10545ba7050e995356a8263460432c8e02f7cf3d449f06333ad01e85fb46fb4c
-SHA512: ff53bb7df053f2777de320211c878f163a03b048d9205b16cd3fbdce5b5891b30abf74eca87b9127dbb6ebf796f0eb235177cd8092e5649d4634624e13448f55
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- libinput input driver (development headers)
- This package provides the development headers for the libinput input driver
- found in xserver-xlibre-input-libinput. Non-developers likely have little use
- for this package.
- .
- This package is built from the XLibre xf86-input-libinput driver module.
-
-Package: xserver-xlibre-input-libinput-dev
-Architecture: all
-Version: 1.5.0.1-2
-Multi-Arch: foreign
-Priority: optional
-Section: libdevel
-Source: xserver-xlibre-input-libinput
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 26
-Provides: xserver-xorg-input-libinput-dev (= 1.5.0.1-2)
-Conflicts: xserver-xorg-input-libinput-dev
-Filename: dists/plucky/pool/main/arm64/xserver-xlibre-input-libinput-dev_1.5.0.1-2_all.deb
-Size: 5060
-MD5sum: a9e7a0cc04b8bd3651aa514a61f1a67c
-SHA1: 24997b737110e5b5ad678cac02e0eac090309945
-SHA256: aa3fef1e5ab2ca364c7cd14fe27f9109aa0d83c752f6e9994f3719da9c02ef9f
-SHA512: c68362e5549df147c0ba823a37ebaa27d18cf761e0649e4b0f031d04bf3811cecc68ab19c74c6d7cb904984d0de75f97c4f99145efc1b94c186d6e6679e42fa0
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- libinput input driver (development headers)
- This package provides the development headers for the libinput input driver
- found in xserver-xlibre-input-libinput. Non-developers likely have little use
- for this package.
- .
- This package is built from the XLibre xf86-input-libinput driver module.
-
-Package: xserver-xlibre-input-libinput-dev
-Architecture: all
-Version: 1.5.0.1-3
-Multi-Arch: foreign
-Priority: optional
-Section: libdevel
-Source: xserver-xlibre-input-libinput
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 26
-Provides: xserver-xorg-input-libinput-dev (= 1.5.0.1-3)
-Conflicts: xserver-xorg-input-libinput-dev
-Filename: dists/plucky/pool/main/arm64/xserver-xlibre-input-libinput-dev_1.5.0.1-3_all.deb
-Size: 5114
-MD5sum: 09b5392050d8af31a7fc4006952cab73
-SHA1: d261fb0ac275673d8e8dfa1e226742c5f005f4e6
-SHA256: 2d3d7ae2373f86ea7609b19ec528cab40e07e62f537419953dacd2cd33f184ea
-SHA512: 83bfe27f1e2259cb7e415dab977281e9320822a1a61e50e8d27747121602f853d44a1d279483d89c63a727828abec34bff0b1077d5d173836658c8ecfb310437
-Homepage: https://github.com/X11Libre
-Description: XLibre X server -- libinput input driver (development headers)
- This package provides the development headers for the libinput input driver
- found in xserver-xlibre-input-libinput. Non-developers likely have little use
- for this package.
- .
- This package is built from the XLibre xf86-input-libinput driver module.
 
 Package: xserver-xlibre-input-libinput
 Architecture: arm64
@@ -4012,54 +1302,6 @@ Description: XLibre X server -- libinput input driver
  separate -evdev and -synaptics drivers.
  .
  This package is built from the XLibre xf86-input-libinput driver module.
-
-Package: xserver-xlibre-input-synaptics-dev
-Architecture: all
-Version: 1.10.0.1-1
-Multi-Arch: foreign
-Priority: optional
-Section: libdevel
-Source: xserver-xlibre-input-synaptics
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 21
-Provides: xserver-xorg-input-synaptics-dev
-Depends: x11proto-dev | x11proto-core-dev
-Conflicts: xserver-xorg-input-synaptics-dev
-Filename: dists/plucky/pool/main/arm64/xserver-xlibre-input-synaptics-dev_1.10.0.1-1_all.deb
-Size: 4702
-MD5sum: d7e2ff4e1e6aec5189d4cc126472b4e8
-SHA1: d187b9b3f17bb5a0ae44a289c1ce3dca3cf85ed1
-SHA256: 3eb9f7d788e75a9a13ee7b091d5925e027436633c218121f0e95c8380bd98c15
-SHA512: 615d5d3fdfe2a0761a91b30272e51b2499daca9790f4a66d283c771827510cb911e8e91dee4ae4b0d2865b618e5b4a59bc18b0d30183d6f45294734fe954c982
-Homepage: https://github.com/X11Libre
-Description: Synaptics TouchPad driver for XLibre server (development headers)
- This package contains the development headers for the Synaptics input
- driver found in xserver-xlibre-input-synaptics. Non-developers likely have
- little use for this package.
-
-Package: xserver-xlibre-input-synaptics-dev
-Architecture: all
-Version: 1.10.0.1-2
-Multi-Arch: foreign
-Priority: optional
-Section: libdevel
-Source: xserver-xlibre-input-synaptics
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 21
-Provides: xserver-xorg-input-synaptics-dev (= 1.10.0.1-2)
-Depends: x11proto-dev | x11proto-core-dev
-Conflicts: xserver-xorg-input-synaptics-dev
-Filename: dists/plucky/pool/main/arm64/xserver-xlibre-input-synaptics-dev_1.10.0.1-2_all.deb
-Size: 4826
-MD5sum: 9ad47fd1c6fe149c64e35f311688ad87
-SHA1: 0a43b779ce40b2da61aded414647d7d688ec6d3d
-SHA256: 3a8822361709ab00f3dbe5fd008193379a1d21b6e3cbd835a396588cba412b66
-SHA512: 76681ff092b6b32f982ba08b1fab5add685af5a73b28befe084ac65d2bb33b60a37388fa2650bf06accf933b67d679c5f07a1539624e453c65eca6ea801d328a
-Homepage: https://github.com/X11Libre
-Description: Synaptics TouchPad driver for XLibre server (development headers)
- This package contains the development headers for the Synaptics input
- driver found in xserver-xlibre-input-synaptics. Non-developers likely have
- little use for this package.
 
 Package: xserver-xlibre-input-synaptics
 Architecture: arm64

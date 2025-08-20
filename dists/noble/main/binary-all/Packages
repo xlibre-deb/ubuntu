@@ -1,0 +1,594 @@
+Package: x11proto-core-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/noble/pool/main/all/x11proto-core-dev_2024.1-1~bpo+1_all.deb
+Size: 3460
+MD5sum: 33c5f113ec67b0d4ae3d605dd4628e4f
+SHA1: 15c5e5a5427918c88503649eeb98940babeeca61
+SHA256: 52cb777d83aef7a7fca3814eafe307705a5a3f6951c2f0d68ce5e67435a82911
+SHA512: 925563aed63217c2d3613377454ee5e8a4765e615207a10f44a1154e6cbe6f089c8473246508ff99a0c49a44cca6c8bf4a30ecace1d9e5ee1fddc33837952aa4
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1697
+Provides: x11proto-core-dev (= 2024.1-1~bpo+1), x11proto-dri2-dev (= 2024.1-1~bpo+1), x11proto-fonts-dev (= 2024.1-1~bpo+1), x11proto-gl-dev (= 2024.1-1~bpo+1), x11proto-input-dev (= 2024.1-1~bpo+1), x11proto-kb-dev (= 2024.1-1~bpo+1), x11proto-present-dev (= 2024.1-1~bpo+1), x11proto-randr-dev (= 2024.1-1~bpo+1), x11proto-record-dev (= 2024.1-1~bpo+1), x11proto-render-dev (= 2024.1-1~bpo+1), x11proto-scrnsaver-dev (= 2024.1-1~bpo+1), x11proto-video-dev (= 2024.1-1~bpo+1), x11proto-xext-dev (= 2024.1-1~bpo+1), x11proto-xf86dga-dev (= 2024.1-1~bpo+1), x11proto-xf86dri-dev (= 2024.1-1~bpo+1), x11proto-xf86vidmode-dev (= 2024.1-1~bpo+1), x11proto-xinerama-dev (= 2024.1-1~bpo+1)
+Depends: xorg-sgml-doctools (>= 1:1.5)
+Breaks: x11proto-core-dev (<< 2018.3), x11proto-dri2-dev (<< 2018.3), x11proto-fonts-dev (<< 2018.3), x11proto-gl-dev (<< 2018.3), x11proto-input-dev (<< 2018.3), x11proto-kb-dev (<< 2018.3), x11proto-present-dev (<< 2018.3), x11proto-randr-dev (<< 2018.3), x11proto-record-dev (<< 2018.3), x11proto-render-dev (<< 2:2018.3), x11proto-scrnsaver-dev (<< 2018.3), x11proto-video-dev (<< 2018.3), x11proto-xext-dev (<< 2018.3), x11proto-xf86dga-dev (<< 2018.3), x11proto-xf86dri-dev (<< 2018.3), x11proto-xf86vidmode-dev (<< 2018.3), x11proto-xinerama-dev (<< 2018.3)
+Replaces: x11proto-core-dev (<< 2018.3), x11proto-dri2-dev (<< 2018.3), x11proto-fonts-dev (<< 2018.3), x11proto-gl-dev (<< 2018.3), x11proto-input-dev (<< 2018.3), x11proto-kb-dev (<< 2018.3), x11proto-present-dev (<< 2018.3), x11proto-randr-dev (<< 2018.3), x11proto-record-dev (<< 2018.3), x11proto-render-dev (<< 2:2018.3), x11proto-scrnsaver-dev (<< 2018.3), x11proto-video-dev (<< 2018.3), x11proto-xext-dev (<< 2018.3), x11proto-xf86dga-dev (<< 2018.3), x11proto-xf86dri-dev (<< 2018.3), x11proto-xf86vidmode-dev (<< 2018.3), x11proto-xinerama-dev (<< 2018.3)
+Filename: dists/noble/pool/main/all/x11proto-dev_2024.1-1~bpo+1_all.deb
+Size: 597812
+MD5sum: 8383d59ed8f8cb6523d7c214c5c95d8b
+SHA1: 15890b8f79dd5a2ea0dbb8c2dea08f32238f29be
+SHA256: 26cf86d78f6694945d5ce8537db25f0fccaa8b3111b7aebfb6fa6c1d75b1da69
+SHA512: b7b6bae96ecfa3872e869dce825c41c442b0eac7bb2e71ab70dfe7ee30490cd766573aa67837b91eac540149abe8d2ac3ab7e1604c743dccd6ee24e01d3ee4b1
+Homepage: https://www.x.org/
+Description: X11 extension protocols and auxiliary headers
+ This package provides development headers describing the wire protocol
+ for the X11 core and extension protocols, and also provides a number of
+ utility headers, used to abstract OS-specific functions.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This package is built from the X.org xorgproto module.
+
+Package: x11proto-dri2-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/noble/pool/main/all/x11proto-dri2-dev_2024.1-1~bpo+1_all.deb
+Size: 3452
+MD5sum: 8c8108298adfa58691069406e405d008
+SHA1: 19129cf40a74c1cfec8731d66d7cfb631cef78a4
+SHA256: 8215cd4375d9a7ee444c7081908409400905f13bac38de0815b864058dfa072f
+SHA512: ab087163d2782b55e5c7cc72ea4d44412d8ec3a68b69433f7a2c0daac83ab35cf9a974129a4797c17167f2f89a0d97b4d173bf5d0b88171be878b1cefe93b458
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-fonts-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/noble/pool/main/all/x11proto-fonts-dev_2024.1-1~bpo+1_all.deb
+Size: 3448
+MD5sum: 6b1bfede72850561a2f2cf09e5719650
+SHA1: 3e943c502515ae1576f7b47eeb5541ea1dc107d8
+SHA256: f5e57dba09d5acccb0980459c49f8b8c053258b7ea63a8fc4555d3a1b394b604
+SHA512: 59c64c824207b00e29baccfa97d7826ac27de83612d42ecfe6476f0cbba421ce47926f4f71b60c47e0696449fd63bc5067f3f60572a1c07cf35e0c6cdc9182c9
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-gl-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/noble/pool/main/all/x11proto-gl-dev_2024.1-1~bpo+1_all.deb
+Size: 3454
+MD5sum: 03399163ada99c50841c8b81b7f14e77
+SHA1: 813fa9c856fbbd8ab9e26d045e9ae7895c6dd8ad
+SHA256: 01eb0014f79b587845a353cbfeb7fc2a01ca426bc2e229321ab407746356d3d9
+SHA512: f58727b62f9ca0b713ece6beca6cddd5bb00209b617d9c5276d0554d833d24f57a449f3229f65050c0d75b29b0ad69f2fdb4009aebd4d191c42cc5b8d855baaa
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-input-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/noble/pool/main/all/x11proto-input-dev_2024.1-1~bpo+1_all.deb
+Size: 3460
+MD5sum: ac07be04c7ef25fbad7541659bcaa548
+SHA1: 4bcc67ae2a95db59393fc8789a830bc978f25dda
+SHA256: e6223655e61b84b650ea6bdc373cea17a0891e51cd732af5d623680e17dcb48a
+SHA512: 972644e256985bb12343cf44bc485a87ec09740bdc7bcf0058fea5884db082c83e845d7262c4978e76b3271cf17bf1c2e6fff9f583b8e586179ebab637bcfbda
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-kb-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/noble/pool/main/all/x11proto-kb-dev_2024.1-1~bpo+1_all.deb
+Size: 3454
+MD5sum: 7dcfd8e31072324fcf66f6b1680299b3
+SHA1: 51ac2e4e90ac11f06df320f05c37f47d0730b942
+SHA256: bb12b8aace9a3fe5cda97f7a6ba3015bb71900088f3f9a963430fd5d09875984
+SHA512: e63958991f6ac7d03b6a17d987eb4abae53e5697b4b986fe9af341434ca0a894e1de3fc7143fd8623895e164676d63c104a345cadb86c11870537ba23e56e140
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-present-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/noble/pool/main/all/x11proto-present-dev_2024.1-1~bpo+1_all.deb
+Size: 3458
+MD5sum: 31837c3b75d955943c468fbb33431814
+SHA1: 7c85e64c893b8615c0f7eb1728e4151b86e198f7
+SHA256: b8f69e8f3583e4e934747667e1c551b81d188fa5f60000201fbebb40cbfb5dab
+SHA512: 469705343b40a5eac9d6b46284f506a367850750ac87ee5184e68819e946034ead4623efae20c08b7f429bc428e34f5dae28c45da3d9d03467456990495b250b
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-randr-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/noble/pool/main/all/x11proto-randr-dev_2024.1-1~bpo+1_all.deb
+Size: 3452
+MD5sum: 02da0638ee3c54df35e92cfc40fbef66
+SHA1: aba1977adeb7a56eff271f6feb40014439429fc7
+SHA256: 866e11e77fd735fb801f724e713d0fcf26048dcd5b39324adc28d01dc3fc8a7c
+SHA512: 2822ed5b5ea4e5ac95cd2da9ae296b352f612313d0252cff8537bdd19a2e53c92fcd274a6fc1a4bee41aadcc9cae6538d73e302d116369d9afc03e2516e64657
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-record-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/noble/pool/main/all/x11proto-record-dev_2024.1-1~bpo+1_all.deb
+Size: 3462
+MD5sum: 765f19a176dbf09be63b05e5eed3df1e
+SHA1: ebf049f6e602515832fbcf128bb6c5a5cbc8e7f8
+SHA256: 93c8dfac983a4cf601e7ed6f909310f256ed0fd37e3fde1384c6c2dcc527bc0c
+SHA512: 61375118b490b7430135e6e7ab6662c1d5ff123799ec90e8a31274b1014f2f4ad75ce5b0bc9181621bd87bf9efa26cb98033e075f7b203354e02e4ea4accde03
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-render-dev
+Architecture: all
+Version: 2:2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto (2024.1-1~bpo+1)
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/noble/pool/main/all/x11proto-render-dev_2024.1-1~bpo+1_all.deb
+Size: 3464
+MD5sum: 21e8f1cedb10167999c0487089895bfc
+SHA1: 2f69219bcba2f1153b84d3fbc414ae3f153702fd
+SHA256: 35996b39887f1158d6a9aa0fc320b07fda5b149c3917253311d9bb5d8a8bc040
+SHA512: aba526b53a399b6f6dc1b878c030d4dde9ba7874a05000fccca29f2620dea9877d2b6e4717c611f23baf07021bc136cae12c1ac2bfec721167b4653c3af860c3
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-scrnsaver-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/noble/pool/main/all/x11proto-scrnsaver-dev_2024.1-1~bpo+1_all.deb
+Size: 3460
+MD5sum: f4130ea1d626ceaa0af2a914c5ee5b61
+SHA1: 3b9399f7cdcb7a636d65116531f5c893f27ff561
+SHA256: 60db41f96a736635bcc2a690700f40c3c7baeb236a4393ccd23ff1b19b5ef878
+SHA512: 6b22f30bb33afb2880d459473d465b162feb0ef9253320a2641805372d346d9b05255ad0f3fef00d0c1df1a21f736c9991b17b8e33a93d61f843335b6de6ee4e
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-video-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/noble/pool/main/all/x11proto-video-dev_2024.1-1~bpo+1_all.deb
+Size: 3448
+MD5sum: b78be6d1c08bb746d350cf0511b6b849
+SHA1: bd338593829817f27a777edf0b8693ba8ae83ceb
+SHA256: 77c62622a4fd54befe958ec8c93a29b69d1b92bbea7b1fd9afbb8faeab52f845
+SHA512: 8dd3ee6eda0e2beca0ca8a05a53de72170c08895bd09f77e4771c0d7b08604d022fe73f1b1b9b7ca66429a12481cf216f99322a417da40ad425d2c1609f8f52e
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-xext-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/noble/pool/main/all/x11proto-xext-dev_2024.1-1~bpo+1_all.deb
+Size: 3446
+MD5sum: 3ae3dabd2786cf073570aece0c6b21ab
+SHA1: f5b93e91b8164c02d64ad2329c579bb3259972c5
+SHA256: bddfd1f5407b1d506c8274a0aa0f70566fd8eab88f03f13f8606406c285b9db2
+SHA512: 4ac69c2e3f6cab0f3013e25d4ea95c1aca479f916b0812a781f7507f8f3425c1fc9871ce0b1a33492b062f8824f9797db5031c21184e757ff1fbb3f7319fefa4
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-xf86dri-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/noble/pool/main/all/x11proto-xf86dri-dev_2024.1-1~bpo+1_all.deb
+Size: 3468
+MD5sum: 4f8f18c9835d047ff69a1427b7665acd
+SHA1: 04af745f19c6c33e47cf11aa144b02d90b09ba13
+SHA256: d97740f821430a0355b669ad0a8a1b736ae121bfce139cb8e4da275fe6644ec1
+SHA512: a09377bc897b4dbb05989a732ec2f19bd4cd443c07972271aa22a497d27dce8fec3db81a2612012eec3055c683bdcd175c7142190542f1431a3c99dbb6033408
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-xf86vidmode-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/noble/pool/main/all/x11proto-xf86vidmode-dev_2024.1-1~bpo+1_all.deb
+Size: 3466
+MD5sum: 4f2037ad4c5698897ace924772c620e9
+SHA1: e1ac081e6db0a742aee0d79024b9189ff5638d86
+SHA256: 69190359b52cd80886e588ca7526805b1fcd052a1499b8d16a59a87c1823c8c2
+SHA512: 01ff19bd332b0aa0a3700fb900d0e764367d7584ff8527a11c1285a689bd9dd43dac2fa9d86fa4cca6a9367357707c6de6808ca4da8fb5e45cf8f71b80a267b2
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-xinerama-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/noble/pool/main/all/x11proto-xinerama-dev_2024.1-1~bpo+1_all.deb
+Size: 3466
+MD5sum: d2c908ea328b1ff54bf9ff17406dd02b
+SHA1: fc9c6e7fc2d59d673c1c72decbb273e0317cd501
+SHA256: 7890d4032f1f8528a1652b28ef214b22f116e5e5361abd90b9c78bc7d8efa75d
+SHA512: 539da583cc2f8cfafc2eec90328034cea1551fd906d0520f6a745be60af5c902e6a2b94641e79b12bfb37845f78a0d971fee98b7276801412c53adeeaa62a9f1
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: xlibre-dev
+Architecture: all
+Version: 1:7.8+2
+Priority: optional
+Section: x11
+Source: xlibre
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 12
+Provides: xorg-dev (= 1:7.8+2)
+Depends: libfontenc-dev, libfs-dev, libice-dev, libsm-dev, libx11-dev, libxau-dev, libxaw7-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxdmcp-dev, libxext-dev, libxfixes-dev, libxfont-dev, libxft-dev, libxi-dev, libxinerama-dev, libxkbfile-dev, libxmu-dev, libxmuu-dev, libxpm-dev, libxrandr-dev, libxrender-dev, libxres-dev, libxss-dev, libxt-dev, libxtst-dev, libxv-dev, libxvmc-dev, libxxf86dga-dev, libxxf86vm-dev, x11proto-dev, xserver-xlibre-dev, xtrans-dev
+Conflicts: xorg-dev
+Filename: dists/noble/pool/main/all/xlibre-dev_7.8+2_all.deb
+Size: 3018
+MD5sum: bd067ca10ac778569c00ccd5103771e2
+SHA1: e34172213fe742e956b63488f661ba4f7b499057
+SHA256: 02cbb69886059b868f9124ba563851a5ef72c1b7ae014857ca73b1ffc3a0c1bb
+SHA512: 649e2bbad584f4b8023730b91f138f998b3c3cdfc05cd002abc7838bb9dea86709a5d9d5fda561037047b35fa804e8759b574f7651ae0d32825f3b454e5f9ff1
+Homepage: https://github.com/X11Libre
+Description: XLibre X Window System development libraries
+ This metapackage provides the development libraries for the XLibre X Window
+ System.
+ .
+ X Window System design documentation, manual pages, library reference
+ works, static versions of the shared libraries, and C header files are
+ supplied by the packages depended on by this metapackage.
+ .
+ Note that this is a convenience package for users and is not a package for
+ Debian developers to have their package depend on.
+
+Package: xlibre-server-source
+Architecture: all
+Version: 2:25.0.0.8-3
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 2934
+Provides: xorg-server-source (= 2:25.0.0.8-3)
+Conflicts: xorg-server-source
+Filename: dists/noble/pool/main/all/xlibre-server-source_25.0.0.8-3_all.deb
+Size: 2911864
+MD5sum: 40970a33586091b465fb1178907ea87d
+SHA1: 0d37fbe6e5ee13158dc9a3ba150807d4a0d39b25
+SHA256: 2e845073a4bf4206644be608da31da44108eb8575212ce4d008461b084a59f35
+SHA512: 7c1c49d58913a70b338b7e2f8c766d752993571381b889b91d5cf964e9133b8005c849afeb3b43022fbfaffff7b96d24b9353670864a76ee63357146a6bbe22a
+Homepage: https://github.com/X11Libre
+Description: XLibre X server - source files
+ This package provides original Debian (with Debian patches already
+ applied, and autotools files updated) sources for the XLibre ('XLibre')
+ X server shipped in a tarball.  This enables other projects re-using
+ X server codebase (e.g. VNC servers) to (re-)use officially
+ Debian-supported version of the X xserver for their builds.
+ .
+ Unless you are building a software product using X server sources,
+ you probably want xserver-xlibre and/or xserver-xlibre-core instead.
+
+Package: xlibre-x11-common
+Architecture: all
+Version: 1:7.8+2
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Source: xlibre
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 275
+Provides: x11-common (= 1:7.8+2)
+Depends: lsb-base
+Conflicts: x11-common
+Filename: dists/noble/pool/main/all/xlibre-x11-common_7.8+2_all.deb
+Size: 215516
+MD5sum: 371899a05f445ea0500c1be2f90f4b87
+SHA1: daeacbc02936dbaf9c3eb7f98868f870f6396889
+SHA256: c9bf67a2fbe3f66ef7df054656531717885a4706791c55b1854f50a5cebadc04
+SHA512: a8232bb186e8dc663e1bb83f428bd98926a45a5e13a52e186820e635e0a826f081c8c753a423d190f91e59daa7806d4d2ef05f888f4036be38538e90aab8d05f
+Homepage: https://github.com/X11Libre
+Description: X Window System (X.Org) infrastructure
+ x11-common contains the filesystem infrastructure required for further
+ installation of the X Window System in any configuration; it does not
+ provide a full installation of clients, servers, libraries, and utilities
+ required to run the X Window System.
+ .
+ A number of terms are used to refer to the X Window System, including "X",
+ "X Version 11", "X11", "X11R6", and "X11R7".  The version of X used in
+ Debian is derived from the version released by the X.Org Foundation, and
+ is thus often also referred to as "X.Org".  All of the preceding quoted
+ terms are functionally interchangeable in an Debian system.
+
+Package: xlibre-xbase-clients
+Architecture: all
+Version: 1:7.8+2
+Priority: optional
+Section: x11
+Source: xlibre
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 12
+Provides: xbase-clients (= 1:7.8+2)
+Depends: x11-apps, x11-session-utils, x11-utils, x11-xkb-utils, x11-xserver-utils, xauth, xinit
+Suggests: x11-xfs-utils
+Conflicts: xbase-clients
+Filename: dists/noble/pool/main/all/xlibre-xbase-clients_7.8+2_all.deb
+Size: 3000
+MD5sum: 937751e25b378aa001dd4a2c2ab38b51
+SHA1: a721000f20dd0ca6947cf5d5cc697e098ea30a51
+SHA256: df7aea999557d74164710bb71aa00cde66986c6f89048df75f6f20f1ed6a1fcc
+SHA512: be07c744fa99c92d5d6b95042e8828a6fd10bc2449d41ea38902bc6222b585c71d3b216c6667b7536559aa68e3605650f2e0a04c638f81cb492db8c36a0a8116
+Homepage: https://github.com/X11Libre
+Description: miscellaneous X clients - metapackage
+ An X client is a program that interfaces with an X server (almost always via
+ the X libraries), and thus with some input and output hardware like a
+ graphics card, monitor, keyboard, and pointing device (such as a mouse).
+ .
+ This package provides a miscellaneous assortment of several dozen X clients
+ that ship with the X Window System.
+ .
+ This package is provided for transition from earlier Debian releases, the
+ programs formerly in xutils and xbase-clients having been split out in smaller
+ packages.
+
+Package: xlibre-xutils
+Architecture: all
+Version: 1:7.8+2
+Priority: optional
+Section: x11
+Source: xlibre
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 12
+Provides: xutils (= 1:7.8+2)
+Depends: x11-utils, x11-xserver-utils, x11-session-utils, xfonts-utils
+Suggests: x11-xfs-utils
+Conflicts: xutils
+Filename: dists/noble/pool/main/all/xlibre-xutils_7.8+2_all.deb
+Size: 2896
+MD5sum: b4271ebdbaf746b29f306df5521d67ee
+SHA1: 692995b50812bf54d9765c7f62322ac3e0252253
+SHA256: 5f367fb7c70266a0bf6ec6cf0c7246cbe84da7db9d5d153c7cd224dd351e40e0
+SHA512: 2282f396ab53f92d1d627303cafab8b972902c116ced36cf1cde243851e1a8b29dc2eca0d0c9dd1686f3f2c1d2e403fb44762fcabdf1621a3a66847960b9c032
+Homepage: https://github.com/X11Libre
+Description: X Window System utility programs metapackage
+ xutils provides a set of utility programs shipped with the X Window System.
+ Many of these programs are useful even on a system that does not have any X
+ clients or X servers installed.
+ .
+ This package is provided for transition from earlier Debian releases, the
+ programs formerly in xutils and xbase-clients having been split out in smaller
+ packages.
+
+Package: xserver-xlibre-common
+Architecture: all
+Version: 2:25.0.0.8-3
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 138
+Provides: xserver-common (= 2:25.0.0.8-3)
+Depends: xlibre-x11-common, xkb-data, x11-xkb-utils
+Recommends: xfonts-base, xauth
+Conflicts: xserver-common
+Replaces: xserver-xorg-core (<< 2:1.5.2)
+Filename: dists/noble/pool/main/all/xserver-xlibre-common_25.0.0.8-3_all.deb
+Size: 25836
+MD5sum: e58ac5c849e7664786bdb2b59a33da7a
+SHA1: 568a4abf1cbe80cd4e4dbf899a0c3bb883508583
+SHA256: f3b96b95b7f0f8d715faef5cc60bfb2408a9b4d250f33455afa44dcee9f31d62
+SHA512: c9fc1d846b78d48e9d66d00c918ee412cf031b0f4adc10f605015648463cbcc3f6092d3763eee7577c041627a9e3bbaacb25b456ba278145a8128859cd730711
+Homepage: https://github.com/X11Libre
+Description: common files used by various X servers
+ This package provides files necessary for all XLibre based X servers.
+
+Package: xserver-xlibre-input-evdev-dev
+Architecture: all
+Version: 1:2.11.0.1-2
+Multi-Arch: foreign
+Priority: optional
+Section: libdevel
+Source: xserver-xlibre-input-evdev
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 21
+Provides: xserver-xorg-input-evdev-dev (= 1:2.11.0.1-2)
+Conflicts: xserver-xorg-input-evdev-dev
+Filename: dists/noble/pool/main/all/xserver-xlibre-input-evdev-dev_2.11.0.1-2_all.deb
+Size: 4122
+MD5sum: 28288daca1dc519161ee18983543936b
+SHA1: a3746b5b102d0103b308f25440e19cdf691358ea
+SHA256: 5695997495ea32cdf92b7e0626fcdf38145e214e2d2bc61a524ae3bd55880558
+SHA512: f3401a6680968c63ff68da14d56b1fc997fd83f8f65f22ff6639929b5a52497469d38951b195a338f5d6955b62216a84c60dc654c37dc59fb509d61649f8bad8
+Homepage: https://github.com/X11Libre
+Description: XLibre X server -- evdev input driver (development headers)
+ This package provides the development headers for the evdev input driver
+ found in xserver-xlibre-input-evdev. Non-developers likely have little use
+ for this package.
+ .
+ This package is built from the XLibre xf86-input-evdev driver module.
+
+Package: xserver-xlibre-input-libinput-dev
+Architecture: all
+Version: 1.5.0.1-3
+Multi-Arch: foreign
+Priority: optional
+Section: libdevel
+Source: xserver-xlibre-input-libinput
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 26
+Provides: xserver-xorg-input-libinput-dev (= 1.5.0.1-3)
+Conflicts: xserver-xorg-input-libinput-dev
+Filename: dists/noble/pool/main/all/xserver-xlibre-input-libinput-dev_1.5.0.1-3_all.deb
+Size: 5114
+MD5sum: 09b5392050d8af31a7fc4006952cab73
+SHA1: d261fb0ac275673d8e8dfa1e226742c5f005f4e6
+SHA256: 2d3d7ae2373f86ea7609b19ec528cab40e07e62f537419953dacd2cd33f184ea
+SHA512: 83bfe27f1e2259cb7e415dab977281e9320822a1a61e50e8d27747121602f853d44a1d279483d89c63a727828abec34bff0b1077d5d173836658c8ecfb310437
+Homepage: https://github.com/X11Libre
+Description: XLibre X server -- libinput input driver (development headers)
+ This package provides the development headers for the libinput input driver
+ found in xserver-xlibre-input-libinput. Non-developers likely have little use
+ for this package.
+ .
+ This package is built from the XLibre xf86-input-libinput driver module.
+
+Package: xserver-xlibre-input-synaptics-dev
+Architecture: all
+Version: 1.10.0.1-2
+Multi-Arch: foreign
+Priority: optional
+Section: libdevel
+Source: xserver-xlibre-input-synaptics
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 21
+Provides: xserver-xorg-input-synaptics-dev (= 1.10.0.1-2)
+Depends: x11proto-dev | x11proto-core-dev
+Conflicts: xserver-xorg-input-synaptics-dev
+Filename: dists/noble/pool/main/all/xserver-xlibre-input-synaptics-dev_1.10.0.1-2_all.deb
+Size: 4826
+MD5sum: 9ad47fd1c6fe149c64e35f311688ad87
+SHA1: 0a43b779ce40b2da61aded414647d7d688ec6d3d
+SHA256: 3a8822361709ab00f3dbe5fd008193379a1d21b6e3cbd835a396588cba412b66
+SHA512: 76681ff092b6b32f982ba08b1fab5add685af5a73b28befe084ac65d2bb33b60a37388fa2650bf06accf933b67d679c5f07a1539624e453c65eca6ea801d328a
+Homepage: https://github.com/X11Libre
+Description: Synaptics TouchPad driver for XLibre server (development headers)
+ This package contains the development headers for the Synaptics input
+ driver found in xserver-xlibre-input-synaptics. Non-developers likely have
+ little use for this package.
+
