@@ -11,7 +11,7 @@ sudo chmod a+r /etc/apt/keyrings/xlibre-deb.asc
 cat <<EOF | sudo tee /etc/apt/sources.list.d/xlibre-deb.sources
 Types: deb deb-src
 URIs: https://xlibre-deb.github.io/ubuntu/
-Suites: $(. /etc/upstream-release/lsb-release && echo "$DISTRIB_CODENAME)
+Suites: $(. /etc/os-release && echo "$UBUNTU_CODENAME)
 Components: main
 Architectures: $(dpkg --print-architecture)
 Signed-By: /etc/apt/keyrings/xlibre-deb.asc
