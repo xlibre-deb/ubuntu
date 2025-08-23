@@ -460,6 +460,33 @@ Description: XLibre X server - source files
  Unless you are building a software product using X server sources,
  you probably want xserver-xlibre and/or xserver-xlibre-core instead.
 
+Package: xlibre-server-source
+Architecture: all
+Version: 2:25.0.0.9-2
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 2934
+Provides: xorg-server-source (= 2:25.0.0.9-2)
+Conflicts: xorg-server-source
+Filename: dists/noble/pool/main/all/xlibre-server-source_25.0.0.9-2_all.deb
+Size: 2911988
+MD5sum: a5198c4e458886df4ac1822a442e5efa
+SHA1: 2c8023719445bae6f483d9a1305dd8c4a48548e1
+SHA256: 13a0748fa20b7e69972269ba2220b5d2407a163a73b54a88f18523515beb3383
+SHA512: 5c45202a2c550ce25217615f347900d9dcd4e63c90b52fa08b4fdd6a860e119f617586bf294f3b5a9875f72497239717d559b3e48c44f50032662ee3cc13c95e
+Homepage: https://github.com/X11Libre
+Description: XLibre X server - source files
+ This package provides original Debian (with Debian patches already
+ applied, and autotools files updated) sources for the XLibre ('XLibre')
+ X server shipped in a tarball.  This enables other projects re-using
+ X server codebase (e.g. VNC servers) to (re-)use officially
+ Debian-supported version of the X xserver for their builds.
+ .
+ Unless you are building a software product using X server sources,
+ you probably want xserver-xlibre and/or xserver-xlibre-core instead.
+
 Package: xlibre-x11-common
 Architecture: all
 Version: 1:7.8+2
@@ -722,6 +749,30 @@ Homepage: https://github.com/X11Libre
 Description: common files used by various X servers
  This package provides files necessary for all XLibre based X servers.
 
+Package: xserver-xlibre-common
+Architecture: all
+Version: 2:25.0.0.9-2
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 138
+Provides: xserver-common (= 2:25.0.0.9-2)
+Depends: xlibre-x11-common, xkb-data, x11-xkb-utils
+Recommends: xfonts-base, xauth
+Conflicts: xserver-common
+Replaces: xserver-xorg-core (<< 2:1.5.2)
+Filename: dists/noble/pool/main/all/xserver-xlibre-common_25.0.0.9-2_all.deb
+Size: 25922
+MD5sum: 07b49027d0fb2d663c980e192d9722cf
+SHA1: a6397c6c59f2d9ebe9b4f5fd9e8752b711833ff8
+SHA256: a1287e4c3f3a4439b064fb10c94a4b845468aa9a4a38378d1908965c65a3a500
+SHA512: 3bf7cf2a6dc692c7230b115d5bea9e267b428aa95e86fca945a9c8113aeabbd326b9d24c35aa7b016d464a44cf0a5acc21ed9a5c4d44434c36f5133acaa83ab1
+Homepage: https://github.com/X11Libre
+Description: common files used by various X servers
+ This package provides files necessary for all XLibre based X servers.
+
 Package: xserver-xlibre-input-evdev-dev
 Architecture: all
 Version: 1:2.11.0.1-2
@@ -764,6 +815,31 @@ MD5sum: 09b5392050d8af31a7fc4006952cab73
 SHA1: d261fb0ac275673d8e8dfa1e226742c5f005f4e6
 SHA256: 2d3d7ae2373f86ea7609b19ec528cab40e07e62f537419953dacd2cd33f184ea
 SHA512: 83bfe27f1e2259cb7e415dab977281e9320822a1a61e50e8d27747121602f853d44a1d279483d89c63a727828abec34bff0b1077d5d173836658c8ecfb310437
+Homepage: https://github.com/X11Libre
+Description: XLibre X server -- libinput input driver (development headers)
+ This package provides the development headers for the libinput input driver
+ found in xserver-xlibre-input-libinput. Non-developers likely have little use
+ for this package.
+ .
+ This package is built from the XLibre xf86-input-libinput driver module.
+
+Package: xserver-xlibre-input-libinput-dev
+Architecture: all
+Version: 1.5.1.0-1
+Multi-Arch: foreign
+Priority: optional
+Section: libdevel
+Source: xserver-xlibre-input-libinput
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 27
+Provides: xserver-xorg-input-libinput-dev (= 1.5.1.0-1)
+Conflicts: xserver-xorg-input-libinput-dev
+Filename: dists/noble/pool/main/all/xserver-xlibre-input-libinput-dev_1.5.1.0-1_all.deb
+Size: 5232
+MD5sum: a71603e57e40315dbd5243a5dcaad62a
+SHA1: 8cb2385c85ac23697d1f515d3df8788bcffd8706
+SHA256: 370d960811162fea1d99b7db87ebc31f8ab009bbff1fa6f5b93f7adbe22cec66
+SHA512: cdb33648aaa06ed237da4b8e53b27d8dfe42f0080642f383f528c615ece0f9510b8e988ede7317eacf1a1204c55bd56d857cf13152bed524709933c2cd440dce
 Homepage: https://github.com/X11Libre
 Description: XLibre X server -- libinput input driver (development headers)
  This package provides the development headers for the libinput input driver
