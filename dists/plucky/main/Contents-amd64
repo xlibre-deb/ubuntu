@@ -577,7 +577,6 @@ usr/share/doc/xserver-xlibre/changelog.gz		    xserver-xlibre
 usr/share/doc/xserver-xlibre/copyright			    xserver-xlibre
 usr/share/lintian/overrides/xlibre			    xlibre
 usr/share/lintian/overrides/xlibre-x11-common		    xlibre-x11-common
-usr/share/lintian/overrides/xserver-xlibre		    xserver-xlibre
 usr/share/lintian/overrides/xserver-xlibre-video-intel	    xserver-xlibre-video-intel
 usr/share/man/man1/Xephyr.1.gz				    xserver-xlibre-xephyr
 usr/share/man/man1/Xnest.1.gz				    xserver-xlibre-xnest
