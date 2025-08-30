@@ -379,20 +379,20 @@ Description: XLibre X Window System development libraries
 
 Package: xlibre-server-source
 Architecture: all
-Version: 2:25.0.0.9-3
+Version: 2:25.0.0.9-4
 Priority: optional
 Section: x11
 Source: xlibre-server
 Maintainer: apebl <a@pebl.cc>
-Installed-Size: 2935
-Provides: xorg-server-source (= 2:25.0.0.9-3)
+Installed-Size: 2934
+Provides: xorg-server-source (= 2:25.0.0.9-4)
 Conflicts: xorg-server-source
-Filename: dists/noble/pool/main/all/xlibre-server-source_25.0.0.9-3_all.deb
-Size: 2912194
-MD5sum: 1694e4c4863ee0ee174dede086ac468f
-SHA1: 95c9b73f3c00dc2d0a6f4f67e2e7380839fb944c
-SHA256: b7305efd883d358bf19ad9484eb9c0e24ca7589e43115c08d4ae00add5f63d2d
-SHA512: eeb43e1c76ef5129bda19e99e715ccc029648ad42932fe00762a1eb19252f5c3a32b8705d08306dd5da1cbad354a8961e8b06151e2bc7f352ece47031a4f6d6b
+Filename: dists/noble/pool/main/all/xlibre-server-source_25.0.0.9-4_all.deb
+Size: 2912052
+MD5sum: 96afd3b805147c8d672ec249c5aec12c
+SHA1: 342e0aaa46e2a7a249113a0cffbe060175597e55
+SHA256: 96a97afc78cc0a3d65b00533d5c877377caaee788ad851ab9b969e373f65818f
+SHA512: b7f931f29806641807054fd2e7964c42665eae19daf3873a577ea9b8c17b0b116c8ea5ebf386a1aaae4b4a4bb327ceec26b5fdc7e8a66cf9e84df977b2e2feb0
 Homepage: https://github.com/X11Libre
 Description: XLibre X server - source files
  This package provides original Debian (with Debian patches already
@@ -513,24 +513,24 @@ Description: Dummy package for xorg-video-abi-25
 
 Package: xserver-xlibre-common
 Architecture: all
-Version: 2:25.0.0.9-3
+Version: 2:25.0.0.9-4
 Multi-Arch: foreign
 Priority: optional
 Section: x11
 Source: xlibre-server
 Maintainer: apebl <a@pebl.cc>
 Installed-Size: 138
-Provides: xserver-common (= 2:25.0.0.9-3)
+Provides: xserver-common (= 2:25.0.0.9-4)
 Depends: xlibre-x11-common, xkb-data, x11-xkb-utils
 Recommends: xfonts-base, xauth
 Conflicts: xserver-common
 Replaces: xserver-xorg-core (<< 2:1.5.2)
-Filename: dists/noble/pool/main/all/xserver-xlibre-common_25.0.0.9-3_all.deb
-Size: 25964
-MD5sum: de11d4e2f4b4fb51e2006f0400acbe5a
-SHA1: ff708f51ab83252c7c1fd329966d0a7e9e68495b
-SHA256: 662a49c2e06fffc6eb8549c6fca0a7aa24104bbe5bfb7b2e1a32737d78cb8b85
-SHA512: 4c9d5d6afd72c747e1dc0fa1d788d24416e200a15cc2ba8dd273dfb853e42f3158641443b219cb43dbf70ffca2601ddda26e3df05862c6d75aa8a2d1a0471457
+Filename: dists/noble/pool/main/all/xserver-xlibre-common_25.0.0.9-4_all.deb
+Size: 26048
+MD5sum: 86da70adb56f2229c7966d97801b5e57
+SHA1: 66acc835dc2f887bfde6bb0b7c85df17e1bc59e5
+SHA256: 2fc46636e9b399ea45bce03af847312086095e36cbcd8325abc6452408e39896
+SHA512: d46807ce4044c0385d0ad00571e5f510a44818e71f279c849572f0fb93821cda4b9378b8340275b9bfda9786faf9e7d313143ff617e1c88e8266f676bfad3538
 Homepage: https://github.com/X11Libre
 Description: common files used by various X servers
  This package provides files necessary for all XLibre based X servers.
