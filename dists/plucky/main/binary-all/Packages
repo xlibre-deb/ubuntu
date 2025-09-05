@@ -379,47 +379,20 @@ Description: XLibre X Window System development libraries
 
 Package: xlibre-server-source
 Architecture: all
-Version: 2:25.0.0.11-1
+Version: 2:25.0.0.11-2
 Priority: optional
 Section: x11
 Source: xlibre-server
 Maintainer: apebl <a@pebl.cc>
 Installed-Size: 2935
-Provides: xorg-server-source (= 2:25.0.0.11-1)
+Provides: xorg-server-source (= 2:25.0.0.11-2)
 Conflicts: xorg-server-source
-Filename: dists/plucky/pool/main/all/xlibre-server-source_25.0.0.11-1_all.deb
-Size: 2912398
-MD5sum: b569679535caf34182e53189e31214c4
-SHA1: 8c78beafe65bd58a9d8659a4e3a68f7b071a885e
-SHA256: af81e9100e930a29fbde0b8dc8b52a40bdcd6151f1ba74cc94427b5fabfa6ca8
-SHA512: fc6e93401c63a1301130e83e0ccd868544d604158706a706802e6ca8af45cfbe1f3274323fc60b6bfd32d7ce3d8a213112c6ceb657bcd11f8c9e93320a66e438
-Homepage: https://github.com/X11Libre
-Description: XLibre X server - source files
- This package provides original Debian (with Debian patches already
- applied, and autotools files updated) sources for the XLibre ('XLibre')
- X server shipped in a tarball.  This enables other projects re-using
- X server codebase (e.g. VNC servers) to (re-)use officially
- Debian-supported version of the X xserver for their builds.
- .
- Unless you are building a software product using X server sources,
- you probably want xserver-xlibre and/or xserver-xlibre-core instead.
-
-Package: xlibre-server-source
-Architecture: all
-Version: 2:25.0.0.9-4
-Priority: optional
-Section: x11
-Source: xlibre-server
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 2934
-Provides: xorg-server-source (= 2:25.0.0.9-4)
-Conflicts: xorg-server-source
-Filename: dists/plucky/pool/main/all/xlibre-server-source_25.0.0.9-4_all.deb
-Size: 2912038
-MD5sum: 0ae9ceae5763b3a1cea2f39ae5ed8439
-SHA1: 511211485840ebf9ba6d425a7acd2f57a9e2692e
-SHA256: cd6be8fdca58407cc2db3bc55b2920f6f6bab51c6cb095486e35bb6a6d8c1a67
-SHA512: ae48d56428a84ef7b8ef05c665b80ef0b72341fec0ea71339dae0fe375152ac326e2e50ff00c43e2c1000fdff0c13b6fb9754faa9f3752a052df967063042e0b
+Filename: dists/plucky/pool/main/all/xlibre-server-source_25.0.0.11-2_all.deb
+Size: 2912476
+MD5sum: fbca0d2794c3e17a91bffb846f417bb9
+SHA1: 35326f51b30f515559084243cdef88bc37877121
+SHA256: ac6ebd6ef0c344f00f3ab5727989d5d7b72b258f8ec67f66a569409f1d87cdca
+SHA512: 48a7494a248b9e17c7374ac60fae4a6c3c029d044847ca3646ab4a4c0a4bff1b66225a8c0df245b780b396d9a0b65747d1218924c4fb355742be28eb4ab692ae
 Homepage: https://github.com/X11Libre
 Description: XLibre X server - source files
  This package provides original Debian (with Debian patches already
@@ -540,48 +513,24 @@ Description: Dummy package for xorg-video-abi-25
 
 Package: xserver-xlibre-common
 Architecture: all
-Version: 2:25.0.0.11-1
+Version: 2:25.0.0.11-2
 Multi-Arch: foreign
 Priority: optional
 Section: x11
 Source: xlibre-server
 Maintainer: apebl <a@pebl.cc>
 Installed-Size: 138
-Provides: xserver-common (= 2:25.0.0.11-1)
+Provides: xserver-common (= 2:25.0.0.11-2)
 Depends: xlibre-x11-common, xkb-data, x11-xkb-utils
 Recommends: xfonts-base, xauth
 Conflicts: xserver-common
 Replaces: xserver-xorg-core (<< 2:1.5.2)
-Filename: dists/plucky/pool/main/all/xserver-xlibre-common_25.0.0.11-1_all.deb
-Size: 26074
-MD5sum: 2b244d4060d693c46ae37df922c9cd33
-SHA1: 3a5f3719e1852edd8595a8d3157b270c425ff128
-SHA256: 46962737626e2fe94466b0015e48972e61cca3aaf0120cf9fbd7b745aa21909e
-SHA512: 561e0b8b695eac19a8ccdfc677bf06d9899832ac493d21b36604cf775be5efeacc0aeffc8006b757f4f7e3a311634f7e8184b6176e3974bb7fee0135d893223e
-Homepage: https://github.com/X11Libre
-Description: common files used by various X servers
- This package provides files necessary for all XLibre based X servers.
-
-Package: xserver-xlibre-common
-Architecture: all
-Version: 2:25.0.0.9-4
-Multi-Arch: foreign
-Priority: optional
-Section: x11
-Source: xlibre-server
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 138
-Provides: xserver-common (= 2:25.0.0.9-4)
-Depends: xlibre-x11-common, xkb-data, x11-xkb-utils
-Recommends: xfonts-base, xauth
-Conflicts: xserver-common
-Replaces: xserver-xorg-core (<< 2:1.5.2)
-Filename: dists/plucky/pool/main/all/xserver-xlibre-common_25.0.0.9-4_all.deb
-Size: 26048
-MD5sum: 86da70adb56f2229c7966d97801b5e57
-SHA1: 66acc835dc2f887bfde6bb0b7c85df17e1bc59e5
-SHA256: 2fc46636e9b399ea45bce03af847312086095e36cbcd8325abc6452408e39896
-SHA512: d46807ce4044c0385d0ad00571e5f510a44818e71f279c849572f0fb93821cda4b9378b8340275b9bfda9786faf9e7d313143ff617e1c88e8266f676bfad3538
+Filename: dists/plucky/pool/main/all/xserver-xlibre-common_25.0.0.11-2_all.deb
+Size: 26108
+MD5sum: de7c0f24d0909a9c80e5cb0f2450a213
+SHA1: b9e0e4e964b57548b2506b097efafa24594f1f28
+SHA256: 7f96d65ac96dd1dca504febc040ec13d2959987e4c394ee6700b3886dc4edf8b
+SHA512: b1a26ed8c79ff0651414040f622d4708840d5ab72d7d21a81df232c772edf52be208ab10531646cd3f22e70dd316b0668089ed970f8f1bf44daa022d573c7733
 Homepage: https://github.com/X11Libre
 Description: common files used by various X servers
  This package provides files necessary for all XLibre based X servers.
