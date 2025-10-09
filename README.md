@@ -23,7 +23,8 @@ sudo apt-get install xlibre
 
 ## Support Status
 
-| Release | Status | Arch         |
-|---------|--------|--------------|
-| noble   | ✅     | amd64, arm64 |
-| plucky  | ✅     | amd64, arm64 |
+| Release  | Status | Arch         |
+|----------|--------|--------------|
+| noble    | ✅     | amd64, arm64 |
+| plucky   | ✅     | amd64, arm64 |
+| questing | ✅     | amd64, arm64 |

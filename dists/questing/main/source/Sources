@@ -1,0 +1,660 @@
+Package: xlibre-server
+Format: 3.0 (quilt)
+Binary: xserver-xlibre-core, xserver-xlibre-core-udeb, xserver-xlibre-dev, xserver-xlibre-xnest, xserver-xlibre-xvfb, xserver-xlibre-xephyr, xserver-xlibre-common, xlibre-server-source, xserver-xlibre-legacy
+Architecture: any all
+Version: 2:25.0.0.12-1
+Maintainer: apebl <a@pebl.cc>
+Standards-Version: 3.9.8
+Build-Depends: debhelper-compat (= 12), po-debconf, quilt, pkgconf, bison, flex, xutils-dev (>= 1:7.6+4), xfonts-utils (>= 1:7.5+1), x11proto-dev (>= 2024.1), xtrans-dev (>= 1.3.5), libxau-dev (>= 1:1.0.5-2), libxcvt-dev, libxdmcp-dev (>= 1:0.99.1), libxfont-dev (>= 1:2.0.1), libxkbfile-dev (>= 1:0.99.1), libpixman-1-dev (>= 0.27.2), libpciaccess-dev (>= 0.12.901), nettle-dev, libudev-dev (>= 151-3) [linux-any], libselinux1-dev (>= 2.0.80) [linux-any], libaudit-dev [linux-any], libdrm-dev (>= 2.4.107-5~) [!hurd-any], libglvnd-dev, mesa-common-dev, libunwind-dev [amd64 arm64 armel hppa i386 ia64 mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el sh4], libxmuu-dev (>= 1:0.99.1), libxext-dev (>= 1:0.99.1), libx11-dev (>= 2:1.6), libxrender-dev (>= 1:0.9.0), libxi-dev (>= 2:1.8), libxpm-dev (>= 1:3.5.3), libxaw7-dev (>= 1:0.99.1), libxt-dev (>= 1:0.99.1), libxmu-dev (>= 1:0.99.1), libxtst-dev (>= 1:0.99.1), libxres-dev (>= 1:0.99.1), libxfixes-dev (>= 1:3.0.0), libxv-dev, libxinerama-dev, libxshmfence-dev (>= 1.1) [!hurd-any], libepoxy-dev [linux-any kfreebsd-any], libegl1-mesa-dev [linux-any kfreebsd-any], libgbm-dev (>= 10.2) [linux-any kfreebsd-any], libx11-xcb-dev, libxcb1-dev, libxcb-xkb-dev, libxcb-shape0-dev, libxcb-render0-dev, libxcb-render-util0-dev, libxcb-util-dev, libxcb-image0-dev, libxcb-icccm4-dev, libxcb-shm0-dev, libxcb-keysyms1-dev, libxcb-randr0-dev, libxcb-xv0-dev, libxcb-glx0-dev, libxcb-xf86dri0-dev (>= 1.6), xauth <!nocheck>, xkb-data, x11-utils <!nocheck>, x11-xkb-utils, libbsd-dev, libdbus-1-dev (>= 1.0) [linux-any] <!nosystemd>, libsystemd-dev [linux-any] <!nosystemd>, systemd-dev [linux-any], meson
+Build-Depends-Indep: xz-utils
+Testsuite: autopkgtest
+Testsuite-Triggers: x11-utils, xauth, xvfb
+Homepage: https://github.com/X11Libre
+Vcs-Browser: https://github.com/xlibre-deb/xlibre-server
+Vcs-Git: https://github.com/xlibre-deb/xlibre-server.git
+Directory: dists/questing/pool/main/source
+Package-List:
+ xlibre-server-source deb x11 optional arch=all
+ xserver-xlibre-common deb x11 optional arch=all
+ xserver-xlibre-core deb x11 optional arch=any
+ xserver-xlibre-core-udeb udeb debian-installer optional arch=any
+ xserver-xlibre-dev deb x11 optional arch=any
+ xserver-xlibre-legacy deb x11 optional arch=any
+ xserver-xlibre-xephyr deb x11 optional arch=any
+ xserver-xlibre-xnest deb x11 optional arch=any
+ xserver-xlibre-xvfb deb x11 optional arch=any
+Files:
+ 0f6137a335bf292bd3290dac5ea2f43a 3589 xlibre-server_25.0.0.12-1.dsc
+ 570c02eaaaa5ae1547b7d5f858601642 5414361 xlibre-server_25.0.0.12.orig.tar.gz
+ 260ff59eb6f82e3eed5b776283f1b008 92512 xlibre-server_25.0.0.12-1.debian.tar.xz
+Checksums-Sha1:
+ ee32d7389d4f38682cd437bf7e9bec1486483e15 3589 xlibre-server_25.0.0.12-1.dsc
+ 0970a4d4be7c457e22486c691688c980611dba87 5414361 xlibre-server_25.0.0.12.orig.tar.gz
+ 76c46f06a82ad9f83aa96821631a6e3a5f6d2fb8 92512 xlibre-server_25.0.0.12-1.debian.tar.xz
+Checksums-Sha256:
+ 58f015f3ccb4682aab41a2b395f0171d4eeeda855e65fc79d68bcdd5e2d3e887 3589 xlibre-server_25.0.0.12-1.dsc
+ 32c5760681cbfbc3b8a605a18588c9c5dd721aecf40acc140fbe8b4f765c4e13 5414361 xlibre-server_25.0.0.12.orig.tar.gz
+ a0f109a13984cc912478ec77a3d105e01f2297e313629a0ac4d466107df0b0e6 92512 xlibre-server_25.0.0.12-1.debian.tar.xz
+Checksums-Sha512:
+ 667d8ab747a9fe73fe2a04e1161339c756016afb5d985bd395764daa209b1b21fe2555fbc1ba4143aa262e89cc514a3bc386ddf212032ef648791f3793a0f4e6 3589 xlibre-server_25.0.0.12-1.dsc
+ de529ac3c05f0825c0d5d721831e91bdf77f3b3193ffe7fb899402009d9feb97f6b7a9de803c0a0584cde9fa7bedbd467faec0637f06724fabe77755531b1b40 5414361 xlibre-server_25.0.0.12.orig.tar.gz
+ 11619cb551e77b4686fe605d103e5292fb0998e1dfe9bd4df066d2b06689c5525a3a030817623ab5035526c16893a341072de1f54b75cf19d864d2601b49104a 92512 xlibre-server_25.0.0.12-1.debian.tar.xz
+
+Package: xorgproto
+Format: 3.0 (quilt)
+Binary: x11proto-dev, x11proto-core-dev, x11proto-dri2-dev, x11proto-fonts-dev, x11proto-gl-dev, x11proto-input-dev, x11proto-kb-dev, x11proto-present-dev, x11proto-randr-dev, x11proto-record-dev, x11proto-render-dev, x11proto-scrnsaver-dev, x11proto-video-dev, x11proto-xext-dev, x11proto-xf86dri-dev, x11proto-xf86vidmode-dev, x11proto-xinerama-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 12), quilt, xutils-dev (>= 1:7.6+2), pkg-config, xmlto, xorg-sgml-doctools (>= 1:1.8), w3m, xsltproc
+Homepage: https://www.x.org/
+Vcs-Browser: https://salsa.debian.org/xorg-team/proto/xorgproto.git
+Vcs-Git: https://salsa.debian.org/xorg-team/proto/xorgproto.git
+Directory: dists/questing/pool/main/source
+Package-List:
+ x11proto-core-dev deb oldlibs optional arch=all
+ x11proto-dev deb x11 optional arch=all
+ x11proto-dri2-dev deb oldlibs optional arch=all
+ x11proto-fonts-dev deb oldlibs optional arch=all
+ x11proto-gl-dev deb oldlibs optional arch=all
+ x11proto-input-dev deb oldlibs optional arch=all
+ x11proto-kb-dev deb oldlibs optional arch=all
+ x11proto-present-dev deb oldlibs optional arch=all
+ x11proto-randr-dev deb oldlibs optional arch=all
+ x11proto-record-dev deb oldlibs optional arch=all
+ x11proto-render-dev deb oldlibs optional arch=all
+ x11proto-scrnsaver-dev deb oldlibs optional arch=all
+ x11proto-video-dev deb oldlibs optional arch=all
+ x11proto-xext-dev deb oldlibs optional arch=all
+ x11proto-xf86dri-dev deb oldlibs optional arch=all
+ x11proto-xf86vidmode-dev deb oldlibs optional arch=all
+ x11proto-xinerama-dev deb oldlibs optional arch=all
+Files:
+ bc625a599f138265e92e6a035e40d2bc 2781 xorgproto_2024.1-1~bpo+1.dsc
+ 3a8456e5dc8e5d73931d259e054599d1 1115486 xorgproto_2024.1.orig.tar.gz
+ d402b6680d50a9a14117965cc1261fb0 195 xorgproto_2024.1.orig.tar.gz.asc
+ 2d8f1a0ad044d5c42bcf87ca3bd71c14 23184 xorgproto_2024.1-1~bpo+1.debian.tar.xz
+Checksums-Sha1:
+ 0626fbf39b013f21ba00ce322b9bd52f75f39405 2781 xorgproto_2024.1-1~bpo+1.dsc
+ f02b4797e93f0f4b5ca688153ac6b71c751a173a 1115486 xorgproto_2024.1.orig.tar.gz
+ ec764639c8293beacce1d6dcdcbd63fdab35f2fb 195 xorgproto_2024.1.orig.tar.gz.asc
+ 99130982f0edf606a18dce42344d21eec98dd3d4 23184 xorgproto_2024.1-1~bpo+1.debian.tar.xz
+Checksums-Sha256:
+ fb189be508df59708296d18df1661e56ca23ce919e2fb5cdfae2e1effcc5d5a2 2781 xorgproto_2024.1-1~bpo+1.dsc
+ 4f6b9b4faf91e5df8265b71843a91fc73dc895be6210c84117a996545df296ce 1115486 xorgproto_2024.1.orig.tar.gz
+ 41d650fd19f3df1ae8ad24c2570638d5cdadff819613f8cff96d17310d35347c 195 xorgproto_2024.1.orig.tar.gz.asc
+ a4b63221dd826b89425c50c7716b363c9f5107fa314c73e799a3f6d290ec1dd8 23184 xorgproto_2024.1-1~bpo+1.debian.tar.xz
+Checksums-Sha512:
+ 0904bcd327abb5ebfc0c24e4df24a142ba8260db850d870ac821e016297bdaf19f5630483dc12e4d8993bd0140c866abf85dfd037f527b02e21b415e6ba5f01e 2781 xorgproto_2024.1-1~bpo+1.dsc
+ c2d67a98c5ba9b2f4d0b844c96dab342c497710753a8878b75dbf12ecd64b105c9ee3c5fd11eb91e45960420cf8dd7d02547072a32d5c53e58e009394fe33666 1115486 xorgproto_2024.1.orig.tar.gz
+ 9dc7d40a50178f65b47bcd9a360b85f8d40f30e9151bf242d2eef9a12a3d8e5a1488af7e0c0c4c1dbc3e6cb447acd0735fe749290c46d021b4d7e10de3912a33 195 xorgproto_2024.1.orig.tar.gz.asc
+ 0a3712fec3c3f4d70258ed9003d866a95e13e32b9f7dbc2b35042aced2bb68cc24b7b44b611c5d0235d3d2d320666e8ec58848b755340fd6898de76b643252e5 23184 xorgproto_2024.1-1~bpo+1.debian.tar.xz
+
+Package: xserver-xlibre-input-elographics
+Format: 3.0 (quilt)
+Binary: xserver-xlibre-input-elographics
+Architecture: any
+Version: 1:1.4.4.2-1
+Maintainer: apebl <a@pebl.cc>
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 8), dh-autoreconf, pkg-config, quilt, xserver-xlibre-dev (>= 2:1.10), x11proto-input-dev, x11proto-core-dev, x11proto-randr-dev, xutils-dev
+Homepage: https://github.com/X11Libre
+Vcs-Browser: https://github.com/xlibre-deb/xserver-xlibre-input-elographics
+Vcs-Git: https://github.com/xlibre-deb/xserver-xlibre-input-elographics.git
+Directory: dists/questing/pool/main/source
+Package-List:
+ xserver-xlibre-input-elographics deb x11 optional arch=any
+Files:
+ 7ebb6483193bcb7644047891c5cc1af1 1595 xserver-xlibre-input-elographics_1.4.4.2-1.dsc
+ 9984beef1027874f20d9dfd933f08550 18960 xserver-xlibre-input-elographics_1.4.4.2.orig.tar.gz
+ bd4d5228bdb69d1717265ba1bc474d8c 4964 xserver-xlibre-input-elographics_1.4.4.2-1.debian.tar.xz
+Checksums-Sha1:
+ 22a97bb3084e0df89225bee1cbe8a44e80b43e91 1595 xserver-xlibre-input-elographics_1.4.4.2-1.dsc
+ 73639bcf544f781ec049b8e6d6b148077b8b4619 18960 xserver-xlibre-input-elographics_1.4.4.2.orig.tar.gz
+ c4c604f2df4ecd16d59ab5812d8311c0b206ef37 4964 xserver-xlibre-input-elographics_1.4.4.2-1.debian.tar.xz
+Checksums-Sha256:
+ 88ea6f567c2077013bf7f9c4ad44177a1bb9ce1f7e289f0a25286077f4d013cb 1595 xserver-xlibre-input-elographics_1.4.4.2-1.dsc
+ 704388429ec78b0a38b77c8598e15b6855383f4f1b49c0d7978a29fd18767bf9 18960 xserver-xlibre-input-elographics_1.4.4.2.orig.tar.gz
+ a20b90c694e900ef0b2a824e51eabecfb0679bf6f832c1928701b5715b3f8523 4964 xserver-xlibre-input-elographics_1.4.4.2-1.debian.tar.xz
+Checksums-Sha512:
+ a70f5903c410820625aa7a1b74ee5071ad1b8b737dd335fc4b5340869bae2f24109250a0e67f26fb8e5bc714e523cf8acf44b29687c320e45aab5a0aaf7ea42e 1595 xserver-xlibre-input-elographics_1.4.4.2-1.dsc
+ 31ae857767f7285af516a63740778ac675f359da80026ffcaaf108fd7c8fb55d3a8cc36118f2e141e8a967eca38ea03a588511210431b0c9b37315dde637eac9 18960 xserver-xlibre-input-elographics_1.4.4.2.orig.tar.gz
+ f70d4d8352fdbdadced430dc351bafc8b424111f63298ff77eb78238560e168924d4ca214bd696629811602fb6d17f68f6b719d81fcd23ca005b6d5df75915ed 4964 xserver-xlibre-input-elographics_1.4.4.2-1.debian.tar.xz
+
+Package: xserver-xlibre-input-evdev
+Format: 3.0 (quilt)
+Binary: xserver-xlibre-input-evdev, xserver-xlibre-input-evdev-udeb, xserver-xlibre-input-evdev-dev
+Architecture: linux-any all
+Version: 1:2.11.0.2-1
+Maintainer: apebl <a@pebl.cc>
+Standards-Version: 4.6.1
+Build-Depends: debhelper-compat (= 13), pkgconf, quilt, xserver-xlibre-dev (>= 2:1.15.99), x11proto-dev, libxkbfile-dev, xutils-dev (>= 1:7.5+4), libudev-dev, libmtdev-dev, libevdev-dev (>= 1.2.2+dfsg-1~)
+Homepage: https://github.com/X11Libre
+Vcs-Browser: https://github.com/xlibre-deb/xserver-xlibre-input-evdev
+Vcs-Git: https://github.com/xlibre-deb/xserver-xlibre-input-evdev.git
+Directory: dists/questing/pool/main/source
+Package-List:
+ xserver-xlibre-input-evdev deb x11 optional arch=linux-any
+ xserver-xlibre-input-evdev-dev deb libdevel optional arch=all
+ xserver-xlibre-input-evdev-udeb udeb debian-installer optional arch=linux-any
+Files:
+ 9576944edbe382b9fdc2f042b0e5c67a 1795 xserver-xlibre-input-evdev_2.11.0.2-1.dsc
+ 9c77dda2643e0876929e3a5d5b7a5158 50815 xserver-xlibre-input-evdev_2.11.0.2.orig.tar.gz
+ c42febfcbde811395f0c0ad224d15c3d 9940 xserver-xlibre-input-evdev_2.11.0.2-1.debian.tar.xz
+Checksums-Sha1:
+ 91b1023888ebf9e968f3c2d2dae1fbe4ce7dd6ec 1795 xserver-xlibre-input-evdev_2.11.0.2-1.dsc
+ 239be8eadcf6ac967500ce1279fbb57d3c37ba6c 50815 xserver-xlibre-input-evdev_2.11.0.2.orig.tar.gz
+ 1b9604874077417b3be519ac993ab5d6fb9f9a99 9940 xserver-xlibre-input-evdev_2.11.0.2-1.debian.tar.xz
+Checksums-Sha256:
+ e0dffb15157166fc8644fed3617566926eb3ee6ffe28ee02c70d17edf89dd44e 1795 xserver-xlibre-input-evdev_2.11.0.2-1.dsc
+ 70a8a65ec56cce7057b8491f68744c6883debe8750948bb290ae7b1c3ec28dfc 50815 xserver-xlibre-input-evdev_2.11.0.2.orig.tar.gz
+ 771aad050ea6eb6eb3a16c813ecb434ddea88efa5b9cb934359f944e8274adea 9940 xserver-xlibre-input-evdev_2.11.0.2-1.debian.tar.xz
+Checksums-Sha512:
+ dcb74b35f5e52e7591aad96ecc541f705e5e401efe2d4f7c0eb13534c32224ec374cc099e00c5cf2a751e4c644954ba5359b45ea50593bed45cec34c35c04b68 1795 xserver-xlibre-input-evdev_2.11.0.2-1.dsc
+ e0a42b5ef56054f57515ecbe1919accf88c3e04a0c7a22a07a635e96ae89aa13eae8f6a9cb8301fd5f6761466c931cca7c10ed2c25030e25b4528edaeae05af7 50815 xserver-xlibre-input-evdev_2.11.0.2.orig.tar.gz
+ 6336f822c1c5d99f06ebda15283285eb96fde255934d286ea475db63b897f7f9701fe093d7a858f187d7a8d8d19554132a63c2141179179699811b89b271673a 9940 xserver-xlibre-input-evdev_2.11.0.2-1.debian.tar.xz
+
+Package: xserver-xlibre-input-libinput
+Format: 3.0 (quilt)
+Binary: xserver-xlibre-input-libinput, xserver-xlibre-input-libinput-dev, xserver-xlibre-input-libinput-udeb
+Architecture: linux-any all
+Version: 1.5.1.0-1
+Maintainer: apebl <a@pebl.cc>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13), libinput-dev, libudev-dev, pkgconf, quilt, x11proto-dev (>= 2021.5), xserver-xlibre-dev, xutils-dev
+Homepage: https://github.com/X11Libre
+Vcs-Browser: https://github.com/xlibre-deb/xserver-xlibre-input-libinput
+Vcs-Git: https://github.com/xlibre-deb/xserver-xlibre-input-libinput.git
+Directory: dists/questing/pool/main/source
+Package-List:
+ xserver-xlibre-input-libinput deb x11 optional arch=linux-any
+ xserver-xlibre-input-libinput-dev deb libdevel optional arch=all
+ xserver-xlibre-input-libinput-udeb udeb debian-installer optional arch=linux-any
+Files:
+ 13fd077d0df495be64e1c9f3fdbb879f 1766 xserver-xlibre-input-libinput_1.5.1.0-1.dsc
+ d9eee7c5a4c0622a5bd0fe3acc9afe2d 65498 xserver-xlibre-input-libinput_1.5.1.0.orig.tar.gz
+ 043cbba39e30daf93ce3ba228915775a 5152 xserver-xlibre-input-libinput_1.5.1.0-1.debian.tar.xz
+Checksums-Sha1:
+ a824627c3c392adbe19da33cb838fa27f1805c63 1766 xserver-xlibre-input-libinput_1.5.1.0-1.dsc
+ eb2b315c43e6259cbe8117fdc43d9709b55de96c 65498 xserver-xlibre-input-libinput_1.5.1.0.orig.tar.gz
+ d934e66a807f4c8f211e99181bd4199c268d9f1c 5152 xserver-xlibre-input-libinput_1.5.1.0-1.debian.tar.xz
+Checksums-Sha256:
+ 10ce2a42df078366789fb283171237ac50f711f6c4bec71abf32af24d233a649 1766 xserver-xlibre-input-libinput_1.5.1.0-1.dsc
+ f1be5a443af78307af18103a6bb614021fe163380b0eb43dec820a2389fbd6c8 65498 xserver-xlibre-input-libinput_1.5.1.0.orig.tar.gz
+ 55db6279388fad6853d0e82f0e23fce172a057e328e3aa6ba27fd04e137df185 5152 xserver-xlibre-input-libinput_1.5.1.0-1.debian.tar.xz
+Checksums-Sha512:
+ fa32a60aca5b6f555b85d862a570348cf0696695016190775bcb1b380fa0314cd5694c117f06c51c67692f04c0e26ef5927c933f0e8c14e8d6df9bd4be54389c 1766 xserver-xlibre-input-libinput_1.5.1.0-1.dsc
+ bfffbf2455febc7564a6240ec4f324cf18dfa80b08bdbea663f6b503c164bc8a2225963e04bd9e4f602ddfa613c83390e303b41ff776ddf2f7e99f7e45b6dcb6 65498 xserver-xlibre-input-libinput_1.5.1.0.orig.tar.gz
+ 7e2f1d2d75fee067b08a0aa6841b2ac72fc2ab05f6dd93230033883666c6f853a50b4a18982bec050d795df02ed52a8ff5b696b88ccdcee56a336207376bb157 5152 xserver-xlibre-input-libinput_1.5.1.0-1.debian.tar.xz
+
+Package: xserver-xlibre-input-synaptics
+Format: 3.0 (quilt)
+Binary: xserver-xlibre-input-synaptics, xserver-xlibre-input-synaptics-dev
+Architecture: any all
+Version: 1.10.0.2-1
+Maintainer: apebl <a@pebl.cc>
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 12), libx11-dev, libxext-dev, libxi-dev, libevdev-dev [linux-any], x11proto-dev | x11proto-core-dev, xserver-xlibre-dev, pkg-config, quilt, xutils-dev, libxtst-dev
+Homepage: https://github.com/X11Libre
+Vcs-Browser: https://github.com/xlibre-deb/xserver-xlibre-input-synaptics
+Vcs-Git: https://github.com/xlibre-deb/xserver-xlibre-input-synaptics.git
+Directory: dists/questing/pool/main/source
+Package-List:
+ xserver-xlibre-input-synaptics deb x11 optional arch=any
+ xserver-xlibre-input-synaptics-dev deb libdevel optional arch=all
+Files:
+ 62077957aefd9afe29438b819d037508 1718 xserver-xlibre-input-synaptics_1.10.0.2-1.dsc
+ 87ebb72583120a8dbc24ff51b4fbca0a 95014 xserver-xlibre-input-synaptics_1.10.0.2.orig.tar.gz
+ 597803167f106d6baf3e76800e0ef849 12976 xserver-xlibre-input-synaptics_1.10.0.2-1.debian.tar.xz
+Checksums-Sha1:
+ 56e4af47946075dc15f3b2338e12c6a405687f43 1718 xserver-xlibre-input-synaptics_1.10.0.2-1.dsc
+ 3e439c408132858dc53058fea1cac9a13aaa495d 95014 xserver-xlibre-input-synaptics_1.10.0.2.orig.tar.gz
+ 326f1544d383d268ed748eb8f5575fed80bf6e87 12976 xserver-xlibre-input-synaptics_1.10.0.2-1.debian.tar.xz
+Checksums-Sha256:
+ 76751a2af120432b9697361ab2934f2bd1d1834b43e64db638c22c6e16a2f041 1718 xserver-xlibre-input-synaptics_1.10.0.2-1.dsc
+ 3e6bc8453f5f957074db28b12e4826ef65ab017e0dd5e34a29d57692ce0c7fe5 95014 xserver-xlibre-input-synaptics_1.10.0.2.orig.tar.gz
+ 27c4533ef27f9a3e30d4b8bb9689d06cf544c86f14e0204984cc3e481a53c7b2 12976 xserver-xlibre-input-synaptics_1.10.0.2-1.debian.tar.xz
+Checksums-Sha512:
+ d3d12a2ee953fd13552bf2fa91b825568579d35e3bb981a55fd9b50b5f8a3e1d27b51d7f5a78ebe740b945a143af82b40e0be9df013e20434f3466419362fa24 1718 xserver-xlibre-input-synaptics_1.10.0.2-1.dsc
+ adf85174b1debb4e360499510c7b6ba939fd0522050409362d31504c8a7247dac1b994e431259540bbb77e168b7f1308ea112d5b3f60c29252ba0488967f7735 95014 xserver-xlibre-input-synaptics_1.10.0.2.orig.tar.gz
+ c4c4d59d80633e82eb6346b7d6586d8806a30d72bdbf04af7b74d03c45dc9bb79139eb3be70f424b6d4dbca1c6fee35223bb67ccdde3c9f033fcc1e181dfaafc 12976 xserver-xlibre-input-synaptics_1.10.0.2-1.debian.tar.xz
+
+Package: xserver-xlibre-input-vmmouse
+Format: 3.0 (quilt)
+Binary: xserver-xlibre-input-vmmouse
+Architecture: i386 amd64 x32
+Version: 1:13.2.0.2-1
+Maintainer: apebl <a@pebl.cc>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9), dh-autoreconf, pkg-config, xserver-xlibre-dev (>= 2:1.9.4), x11proto-input-dev, x11proto-core-dev, x11proto-randr-dev, libudev-dev, quilt, xutils-dev (>= 1:7.5+4)
+Homepage: https://github.com/X11Libre
+Vcs-Browser: https://github.com/xlibre-deb/xserver-xlibre-input-vmmouse
+Vcs-Git: https://github.com/xlibre-deb/xserver-xlibre-input-vmmouse.git
+Directory: dists/questing/pool/main/source
+Package-List:
+ xserver-xlibre-input-vmmouse deb x11 optional arch=i386,amd64,x32
+Files:
+ f013ed43554cad4bc0cc049d9ea19c92 1607 xserver-xlibre-input-vmmouse_13.2.0.2-1.dsc
+ 2884ea43dee2e9e046a581ac4efc0b9c 33860 xserver-xlibre-input-vmmouse_13.2.0.2.orig.tar.gz
+ efb47417f4dbf97c6927735f20642ccb 7296 xserver-xlibre-input-vmmouse_13.2.0.2-1.debian.tar.xz
+Checksums-Sha1:
+ 882c916dce981d1693c870f489811895108c3586 1607 xserver-xlibre-input-vmmouse_13.2.0.2-1.dsc
+ 355b85768e14bf380d48c1c5eb19a1ed8c19186a 33860 xserver-xlibre-input-vmmouse_13.2.0.2.orig.tar.gz
+ 27f99afa7f2fefe0f179a554c86127d7d7f4cd8d 7296 xserver-xlibre-input-vmmouse_13.2.0.2-1.debian.tar.xz
+Checksums-Sha256:
+ 7175c3575a0e57efd1f288ce6c69defc17e7ecab45cf6957e980692fa2e0dbce 1607 xserver-xlibre-input-vmmouse_13.2.0.2-1.dsc
+ 84aca84a0cbe3fcbb4d5171b0314fe6e2bf98992ae33fc657dd0a1c43b48feb1 33860 xserver-xlibre-input-vmmouse_13.2.0.2.orig.tar.gz
+ a109541bb12d3a0819640c75248fcd7d7209a4e8b09c6b81b707f254eeeab833 7296 xserver-xlibre-input-vmmouse_13.2.0.2-1.debian.tar.xz
+Checksums-Sha512:
+ 7dc24e7c5a7502a78205805c3c0a3874ecbea75287f3398a6ddf0c4b92a6528e5a534a415a0f60b1e3a3d02001b74f21506d979ba780434530b7509605bd1a63 1607 xserver-xlibre-input-vmmouse_13.2.0.2-1.dsc
+ 124ef32a46340ab82444adec22e4a0c2d1bd9dd78603b465e4bd5b3dd24d2112c4df56112d179802f828872abec4d05b3f44e202dc58f84410e8ebe4d639e89d 33860 xserver-xlibre-input-vmmouse_13.2.0.2.orig.tar.gz
+ e6d8e7e4628baffa27d2fd891f94d07c1d2c51aa653e93f9fbfcacfa212285710266a35f5c02eddea93e8ed0c350d73eab29e4fab39a2f41927185653f2e7442 7296 xserver-xlibre-input-vmmouse_13.2.0.2-1.debian.tar.xz
+
+Package: xserver-xlibre-input-void
+Format: 3.0 (quilt)
+Binary: xserver-xlibre-input-void
+Architecture: any
+Version: 1:1.4.2.2-1
+Maintainer: apebl <a@pebl.cc>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 9), dh-autoreconf, quilt, pkg-config, xserver-xlibre-dev (>= 2:1.9.99.1), x11proto-core-dev, x11proto-randr-dev, x11proto-input-dev, xutils-dev (>= 1:7.5+4)
+Homepage: https://github.com/X11Libre
+Vcs-Browser: https://github.com/xlibre-deb/xserver-xlibre-input-void
+Vcs-Git: https://github.com/xlibre-deb/xserver-xlibre-input-void.git
+Directory: dists/questing/pool/main/source
+Package-List:
+ xserver-xlibre-input-void deb x11 optional arch=any
+Files:
+ 93965c311b24658c31c5c4ca1d0b4167 1535 xserver-xlibre-input-void_1.4.2.2-1.dsc
+ e045753a104ae69ea60fb3b1698188fb 11941 xserver-xlibre-input-void_1.4.2.2.orig.tar.gz
+ a0175c6bcae8d4fa39c4afe7a5e4bb22 5668 xserver-xlibre-input-void_1.4.2.2-1.debian.tar.xz
+Checksums-Sha1:
+ 1b332d5e91aeea6138d37fbd6da4da50a1643cfa 1535 xserver-xlibre-input-void_1.4.2.2-1.dsc
+ 036d79a8d310c8d1264b042d5530ade17e1d7e05 11941 xserver-xlibre-input-void_1.4.2.2.orig.tar.gz
+ f7b8b8105f890b1a0e8e0f687822172ed2f7c7ce 5668 xserver-xlibre-input-void_1.4.2.2-1.debian.tar.xz
+Checksums-Sha256:
+ 197506b3128ec349acaf4ddecfff1d579f69b14c2d67d90ce46feb49c0328159 1535 xserver-xlibre-input-void_1.4.2.2-1.dsc
+ f551a1d295a798dca3ad6d9daf45c6d19dc7ed60525f71f090d087152c5b3f7b 11941 xserver-xlibre-input-void_1.4.2.2.orig.tar.gz
+ 7dfee3e71dfafb9657bdece804fcfe8dec9a7c4e328174fb3f1be955c71306b9 5668 xserver-xlibre-input-void_1.4.2.2-1.debian.tar.xz
+Checksums-Sha512:
+ 9524cdbb978e21b85fd5541009b71a07f9fb0f24f1bca3c9afe1e7a9c14176657c0b5e798f67656c7ea9c4717a7314b5c963aeed864d66b476c1e580837819e5 1535 xserver-xlibre-input-void_1.4.2.2-1.dsc
+ 06b599baafcf28697d53969abef57dfe3e9d9f6d82f8fcb8e70e3b4d02462032649e9b6386c16806e5715a405234ee1b0313d4a784db7246131a252eb2c9a91e 11941 xserver-xlibre-input-void_1.4.2.2.orig.tar.gz
+ edf091b89db1177466b885c7d0a73d10d52e3b346e7a79625300a53886b20b086600fb65e08dacb82384dc63baf33865b4b323ee91db40c725ebae1ce5c3f4d5 5668 xserver-xlibre-input-void_1.4.2.2-1.debian.tar.xz
+
+Package: xserver-xlibre-input-wacom
+Format: 3.0 (quilt)
+Binary: xserver-xlibre-input-wacom
+Architecture: linux-any
+Version: 1.2.3.2-1
+Maintainer: apebl <a@pebl.cc>
+Standards-Version: 4.7.0
+Build-Depends: debhelper-compat (= 13), libudev-dev, libx11-dev, libxi-dev, libxinerama-dev, libxrandr-dev, pkgconf, systemd-dev, xserver-xlibre-dev, xutils-dev
+Homepage: https://github.com/X11Libre
+Vcs-Browser: https://github.com/xlibre-deb/xf86-input-wacom
+Vcs-Git: https://github.com/xlibre-deb/xf86-input-wacom.git
+Directory: dists/questing/pool/main/source
+Package-List:
+ xserver-xlibre-input-wacom deb x11 optional arch=linux-any
+Files:
+ 2b34cc744ce60fe5f6763da4d4d2dc22 1517 xserver-xlibre-input-wacom_1.2.3.2-1.dsc
+ f51d318b5672f4709cdfc3efc1983747 175090 xserver-xlibre-input-wacom_1.2.3.2.orig.tar.gz
+ 84c72f982f581e59ff8a9b02aa8e90ee 12208 xserver-xlibre-input-wacom_1.2.3.2-1.debian.tar.xz
+Checksums-Sha1:
+ a6ce0e372d6c7d604bc0783919dd1d3bdbbbbf57 1517 xserver-xlibre-input-wacom_1.2.3.2-1.dsc
+ e35fb0c9b61e924a5c22391bb6637f7f9717f500 175090 xserver-xlibre-input-wacom_1.2.3.2.orig.tar.gz
+ d3577403aadc5f05315b20df8e08d8b0b70cb364 12208 xserver-xlibre-input-wacom_1.2.3.2-1.debian.tar.xz
+Checksums-Sha256:
+ 705dcaf70f437555cda52aca72e15fdcf5c324f169898fadae0283b22b2e952f 1517 xserver-xlibre-input-wacom_1.2.3.2-1.dsc
+ 8c1942cbf90ee80d6505d115bab27461680c623d7acddf6be931224ea8176c36 175090 xserver-xlibre-input-wacom_1.2.3.2.orig.tar.gz
+ 3b7d0be8d55f22fecb22c3d22a4184e22f7421760a0b9985253bc2f173d58626 12208 xserver-xlibre-input-wacom_1.2.3.2-1.debian.tar.xz
+Checksums-Sha512:
+ 194ecc0aadb6825042876cfabc1191488ad9d2f96cd52d2002e04bec15aa4badd4ba82faceb257b119a196755401ad5b2270d2f88a1420b132ec6e63ef1588b9 1517 xserver-xlibre-input-wacom_1.2.3.2-1.dsc
+ 26681a46f3b944fc6b33e3fd6664c9c6d3e88bc27429324a107591e86bdb86b732a47cfccf396e408e5239ac31564e7e928e28fb693a1620cc4e97f0099d72e8 175090 xserver-xlibre-input-wacom_1.2.3.2.orig.tar.gz
+ f00e966289d8d2875f8c089283d3276d208914aaff00b4c3875703b54e2e3d2a1e084cb0a7a024aee3301d6c6b57caabf62e8711663692a505979293cbe491fc 12208 xserver-xlibre-input-wacom_1.2.3.2-1.debian.tar.xz
+
+Package: xserver-xlibre-video-amdgpu
+Format: 3.0 (quilt)
+Binary: xserver-xlibre-video-amdgpu
+Architecture: linux-any
+Version: 23.0.0.5-1
+Maintainer: apebl <a@pebl.cc>
+Standards-Version: 4.2.1
+Build-Depends: debhelper (>= 11), quilt, libdrm-dev (>= 2.4.89) [!hurd-i386], libgl-dev, libgbm-dev, libudev-dev [linux-any], pkg-config, x11proto-dev, xserver-xlibre-dev (>= 2:1.16), xutils-dev (>= 1:7.5+4)
+Homepage: https://github.com/X11Libre
+Vcs-Browser: https://github.com/xlibre-deb/xserver-xlibre-video-amdgpu
+Vcs-Git: https://github.com/xlibre-deb/xserver-xlibre-video-amdgpu.git
+Directory: dists/questing/pool/main/source
+Package-List:
+ xserver-xlibre-video-amdgpu deb x11 optional arch=linux-any
+Files:
+ d5847840fa037084a84ebb8f4a24a4ca 1596 xserver-xlibre-video-amdgpu_23.0.0.5-1.dsc
+ 400ebc0252ecb5f1640c2ce63b55f619 98771 xserver-xlibre-video-amdgpu_23.0.0.5.orig.tar.gz
+ c62903ad669853155f9adf57d8bcb005 4988 xserver-xlibre-video-amdgpu_23.0.0.5-1.debian.tar.xz
+Checksums-Sha1:
+ 2eff305ae241514f3296c16eda8a2961fe7e3b19 1596 xserver-xlibre-video-amdgpu_23.0.0.5-1.dsc
+ e027f117712edc558bc084538cafb4cd0fbfb498 98771 xserver-xlibre-video-amdgpu_23.0.0.5.orig.tar.gz
+ 024cc763b1401aef24163cc4c0b3df80dc2b948d 4988 xserver-xlibre-video-amdgpu_23.0.0.5-1.debian.tar.xz
+Checksums-Sha256:
+ 98a92e5958cc96c470f880c6837363a8fc1fdcbefb04d1291f188dfa5e02067b 1596 xserver-xlibre-video-amdgpu_23.0.0.5-1.dsc
+ a255bf446272a87907ea0a13274536dcc65898c223fa42aa9afd52007ad23209 98771 xserver-xlibre-video-amdgpu_23.0.0.5.orig.tar.gz
+ 51e69de5b58162a4459e1ad6076499c7334304028193d7d7a476c61c572577c1 4988 xserver-xlibre-video-amdgpu_23.0.0.5-1.debian.tar.xz
+Checksums-Sha512:
+ 619c91ce0fee63f8731f95e6b442bead6f4ace04b4851011cc47a9b2288ef6bf2ebe488e455efb999765272fa263b9d0a3b95b6cfbb6a0a54f80de238cf3517b 1596 xserver-xlibre-video-amdgpu_23.0.0.5-1.dsc
+ c8364dc676fd008342cff72dace8a51bcf4253d7ae4238eeabe872db97a787ec89c76da64aa14b1d3d2dce9f9f3ebc20ceaf2f8c2f093cc73fccc6ba3e19f1a5 98771 xserver-xlibre-video-amdgpu_23.0.0.5.orig.tar.gz
+ e40228834c616047732de454d27bce71ba4b28be14c75d7112c07c2cba7ac6cf216abb1818075e524119c8c28a2f29c8e1155a571ad4c7534849126627dec39b 4988 xserver-xlibre-video-amdgpu_23.0.0.5-1.debian.tar.xz
+
+Package: xserver-xlibre-video-ati
+Format: 3.0 (quilt)
+Binary: xserver-xlibre-video-ati, xserver-xlibre-video-radeon
+Architecture: any
+Version: 1:22.0.0.3-1
+Maintainer: apebl <a@pebl.cc>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 12), quilt, pkg-config, xserver-xlibre-dev (>= 2:1.15.99), libgl-dev, libgbm-dev, libdrm-dev (>= 2.4.89) [!hurd-i386], libudev-dev [linux-any], x11proto-dev, xutils-dev (>= 1:7.5+4)
+Homepage: https://github.com/X11Libre
+Vcs-Browser: https://github.com/xlibre-deb/xserver-xlibre-video-ati
+Vcs-Git: https://github.com/xlibre-deb/xserver-xlibre-video-ati.git
+Directory: dists/questing/pool/main/source
+Package-List:
+ xserver-xlibre-video-ati deb x11 optional arch=any
+ xserver-xlibre-video-radeon deb x11 optional arch=any
+Files:
+ 53de1a4ed5ae2516ceb00960f22f64cb 1652 xserver-xlibre-video-ati_22.0.0.3-1.dsc
+ 0a9883726c843d5f311fbb7454874118 446265 xserver-xlibre-video-ati_22.0.0.3.orig.tar.gz
+ 402ce8320a9d6b387028eb78b2bf0343 15400 xserver-xlibre-video-ati_22.0.0.3-1.debian.tar.xz
+Checksums-Sha1:
+ d5f28ed1603a8bf21b06676db6fbdda18f9db666 1652 xserver-xlibre-video-ati_22.0.0.3-1.dsc
+ 909e8e5f68f89c067c4600a478952b7fcdbceeb9 446265 xserver-xlibre-video-ati_22.0.0.3.orig.tar.gz
+ 690cd5209e9940d56f82edc0d81aaa61b27cf2b1 15400 xserver-xlibre-video-ati_22.0.0.3-1.debian.tar.xz
+Checksums-Sha256:
+ e3ae2c73536ff502ad3f398a12c63db0cd0fedac13b67f62558c52a16859aa09 1652 xserver-xlibre-video-ati_22.0.0.3-1.dsc
+ 4d9925766f18d244b8e5d2e3c8737b9cfb8c86eb48ab7a6aa649992ac836b44f 446265 xserver-xlibre-video-ati_22.0.0.3.orig.tar.gz
+ 30c3484545ae93c186c7968982c960160818cc56c0dd4d05acf1f2f1f4a465ab 15400 xserver-xlibre-video-ati_22.0.0.3-1.debian.tar.xz
+Checksums-Sha512:
+ d42cbc9b84d31b6ea8556470e327dff15e7d8d6d07cc208d50f6620d91b3de5970310fd8e9b64c7d346ff1b99b910ad7bb3bae3b20adf84d2ee8720aa744d915 1652 xserver-xlibre-video-ati_22.0.0.3-1.dsc
+ a562f2c7ddd3b28c019f58ecedfb7564254fbaabed34b1c8a132ae8c23ce0ec129a9d4d2ff344766812de6f17df1de5dd7aa11051a661f216955fa743629e861 446265 xserver-xlibre-video-ati_22.0.0.3.orig.tar.gz
+ 57b937c360c8935e8505dec360f37088b0df85b339673fd6b80053d36ee4140c6aac07181c236facbea0e3805999bcd752193f8ce9b31de8e2230117069099e3 15400 xserver-xlibre-video-ati_22.0.0.3-1.debian.tar.xz
+
+Package: xserver-xlibre-video-dummy
+Format: 3.0 (quilt)
+Binary: xserver-xlibre-video-dummy
+Architecture: any
+Version: 1:0.4.1.2-1
+Maintainer: apebl <a@pebl.cc>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13), quilt, pkg-config, xserver-xlibre-dev (>= 2:21.1), x11proto-dev, xutils-dev
+Homepage: https://github.com/X11Libre
+Vcs-Browser: https://github.com/xlibre-deb/xserver-xlibre-video-dummy
+Vcs-Git: https://github.com/xlibre-deb/xserver-xlibre-video-dummy.git
+Directory: dists/questing/pool/main/source
+Package-List:
+ xserver-xlibre-video-dummy deb x11 optional arch=any
+Files:
+ 7dcf199cee817838fcd7aa33a5cbf55a 1476 xserver-xlibre-video-dummy_0.4.1.2-1.dsc
+ db7f372772bb50360b34cfd4c13ca702 17562 xserver-xlibre-video-dummy_0.4.1.2.orig.tar.gz
+ c64c3561447d2ab65596e6bc6e9213b5 5848 xserver-xlibre-video-dummy_0.4.1.2-1.debian.tar.xz
+Checksums-Sha1:
+ 5110613737f74326e1760f9626f326e5b8fe0121 1476 xserver-xlibre-video-dummy_0.4.1.2-1.dsc
+ 4401a0cc029be98d4eeb1eb73fe5acea93718fc2 17562 xserver-xlibre-video-dummy_0.4.1.2.orig.tar.gz
+ be7397ced125d895b7433c43bac7826d6d41f055 5848 xserver-xlibre-video-dummy_0.4.1.2-1.debian.tar.xz
+Checksums-Sha256:
+ c18bf96e7645e025a3ecb385fbc1f55e5921a78ce140e960c5bdb0c5f8daa131 1476 xserver-xlibre-video-dummy_0.4.1.2-1.dsc
+ 85df099b4b22ab41b25c850f44741092be44d201994a3d8963fd997f6dd365be 17562 xserver-xlibre-video-dummy_0.4.1.2.orig.tar.gz
+ a7c591dd407c0218bb6e7d33414a8da3a2335a37235d1b37ffe5d235efe12473 5848 xserver-xlibre-video-dummy_0.4.1.2-1.debian.tar.xz
+Checksums-Sha512:
+ 4d75484423e3b40b253cb2c84da4d152e96e62b111052bf7c592ebadc095337b259c06d27bda9b58ba36c2a44caa59f9b6f3fe7be09ae980e377dd2013885c92 1476 xserver-xlibre-video-dummy_0.4.1.2-1.dsc
+ 7e5a0b98fdb129f77f78592289e37a658f695226676e23d7a70f224494d590c152e4748518953fae862a513f22d634714441ef30f851a9233d95347136ff780f 17562 xserver-xlibre-video-dummy_0.4.1.2.orig.tar.gz
+ b4d5ca230610d9f5d3e844cbdb160f23bd08924015cd12ab33ab1d73b2eb67fd39486fe76829e4f8eb408e53172588ca48647ddcb84fefbd199c0528c9b1e0e1 5848 xserver-xlibre-video-dummy_0.4.1.2-1.debian.tar.xz
+
+Package: xserver-xlibre-video-fbdev
+Format: 3.0 (quilt)
+Binary: xserver-xlibre-video-fbdev, xserver-xlibre-video-fbdev-udeb
+Architecture: any
+Version: 1:0.5.1.2-1
+Maintainer: apebl <a@pebl.cc>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), quilt, pkg-config, xserver-xlibre-dev (>= 2:21.1), x11proto-dev, xutils-dev (>= 1:7.5+1)
+Homepage: https://github.com/X11Libre
+Vcs-Browser: https://github.com/xlibre-deb/xserver-xlibre-video-fbdev
+Vcs-Git: https://github.com/xlibre-deb/xserver-xlibre-video-fbdev.git
+Directory: dists/questing/pool/main/source
+Package-List:
+ xserver-xlibre-video-fbdev deb x11 optional arch=any
+ xserver-xlibre-video-fbdev-udeb udeb debian-installer optional arch=any
+Files:
+ 6fd1e2ab402d2ed4fc01af6554cadc08 1595 xserver-xlibre-video-fbdev_0.5.1.2-1.dsc
+ 4f61356653cf561f22a9ed92d212f4c4 18830 xserver-xlibre-video-fbdev_0.5.1.2.orig.tar.gz
+ 4539f988d53ede3715594bffd3c60181 7032 xserver-xlibre-video-fbdev_0.5.1.2-1.debian.tar.xz
+Checksums-Sha1:
+ 48a9f422f076c3367e56face32f726c6254c1bfa 1595 xserver-xlibre-video-fbdev_0.5.1.2-1.dsc
+ dd7170b231c9121a3b96b526ebc2d07504211b6d 18830 xserver-xlibre-video-fbdev_0.5.1.2.orig.tar.gz
+ 35fbce70fcf7659a65770c38ccb3804908883c32 7032 xserver-xlibre-video-fbdev_0.5.1.2-1.debian.tar.xz
+Checksums-Sha256:
+ 943c8820bf6178a2423a10fff420631141a0dca35789f27de89f15739f329b94 1595 xserver-xlibre-video-fbdev_0.5.1.2-1.dsc
+ 05127ef534bef76f10eea3ad583fd364243cd3bb956584ab203ca8fc58fb9793 18830 xserver-xlibre-video-fbdev_0.5.1.2.orig.tar.gz
+ 0e1b26ff0369f4d161848943914f585259a99f2ad0d44322647698e84f7d937a 7032 xserver-xlibre-video-fbdev_0.5.1.2-1.debian.tar.xz
+Checksums-Sha512:
+ a91ea179e6aee1ebb1fe95083a3c6441ed78cf8d667b766849f1a6fa5faef4a2c3603577a96447c69ff681cad93a9f4e27cb1547a64c7b60e09eef6bdccec0d4 1595 xserver-xlibre-video-fbdev_0.5.1.2-1.dsc
+ 0b08a3d0ab37a7576e1bd41835e37aade4410e5f56c02cd701ea9482b3980cf95828e378b82671568e0fded5f3c13e932ea06d40202e39e8937b26dd64f54695 18830 xserver-xlibre-video-fbdev_0.5.1.2.orig.tar.gz
+ 49140b4ea13318383176be86d1cfabb5e1058804c5ca89d5887046151c74e7561299b01228f09e2c6c29e03ca19e36e97c922ef456cf55bcf08fd466b7b2198a 7032 xserver-xlibre-video-fbdev_0.5.1.2-1.debian.tar.xz
+
+Package: xserver-xlibre-video-intel
+Format: 3.0 (quilt)
+Binary: xserver-xlibre-video-intel
+Architecture: amd64 i386 kfreebsd-amd64 kfreebsd-i386 x32
+Version: 2:3.0.0.4-1
+Maintainer: apebl <a@pebl.cc>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13), pkg-config, xserver-xlibre-dev (>= 2:21.1), x11proto-dev, libx11-dev, libdrm-dev (>= 2.4.23), libgl1-mesa-dev | libgl-dev, libpciaccess-dev (>= 0.8.0+git20071002), libxvmc-dev (>= 2:1.0.12), libxext-dev, libxfixes-dev, libx11-xcb-dev, libxcb-util0-dev, libxcb-dri2-0-dev, libudev-dev [linux-any], quilt, xutils-dev (>= 1:7.5+4), valgrind [amd64 arm64 armhf i386 mips mipsel mips64 mips64el powerpc ppc64 ppc64el s390x x32], libxinerama-dev, libxrandr-dev, libxdamage-dev, libxcursor-dev, libxtst-dev, libxrender-dev, libpixman-1-dev, libxss-dev
+Homepage: https://github.com/X11Libre
+Vcs-Browser: https://github.com/xlibre-deb/xserver-xlibre-video-intel
+Vcs-Git: https://github.com/xlibre-deb/xserver-xlibre-video-intel.git
+Directory: dists/questing/pool/main/source
+Package-List:
+ xserver-xlibre-video-intel deb x11 optional arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386,x32
+Files:
+ 2dad8b95b75bd691c13b3440ec7eaae8 2037 xserver-xlibre-video-intel_3.0.0.4-1.dsc
+ eb5b8bf6ee679c7418b143afa2c69676 1704102 xserver-xlibre-video-intel_3.0.0.4.orig.tar.gz
+ e6441dabfb35c4c1fdad4d2f9d899d64 717912 xserver-xlibre-video-intel_3.0.0.4-1.debian.tar.xz
+Checksums-Sha1:
+ 8cbc108798ab5df15c887a0bf51b7d3727b90ffd 2037 xserver-xlibre-video-intel_3.0.0.4-1.dsc
+ b3a2578a35f89eec91ffbe98df2d021ee7bfe92b 1704102 xserver-xlibre-video-intel_3.0.0.4.orig.tar.gz
+ 0f2214544e291a555285ca2805d121e0aedff6c6 717912 xserver-xlibre-video-intel_3.0.0.4-1.debian.tar.xz
+Checksums-Sha256:
+ e859f4cbbf32a8fa2c2d05242ad6c0dd65ec4d1279fac705267377aa57c9c960 2037 xserver-xlibre-video-intel_3.0.0.4-1.dsc
+ 892482d79e5e16a3e312a52e863a5c8d5cd858626d6e988a459b2bec22b2472d 1704102 xserver-xlibre-video-intel_3.0.0.4.orig.tar.gz
+ c80184350f00060898a8443af8da8b1a97bdd661a26224f9a3cecd31f702322c 717912 xserver-xlibre-video-intel_3.0.0.4-1.debian.tar.xz
+Checksums-Sha512:
+ 807fc5bcd52a073f915aa37429432e682c5f1f6fc7cf1c2f93ae8d51ded454bb8f488afeabd2a9e11c88862a2127ec273cc5a43bff7b88aed0011256facc08ed 2037 xserver-xlibre-video-intel_3.0.0.4-1.dsc
+ 75f94dba9979edbabcae22d987a9a39e6f596dc68a006678336d2329afaba8b8c1d6fc2ad6dad711fa6f558f3a8be0485cef02c6c808016d7b511b7193fc2c5d 1704102 xserver-xlibre-video-intel_3.0.0.4.orig.tar.gz
+ eb52d40febb419948016ecd287bf0b6fbaaadcfcc84147d8ee5677efdd1d786cad5af9e7c81414521a667eb973fa277a4470689b46aa517aaf567cea874a0603 717912 xserver-xlibre-video-intel_3.0.0.4-1.debian.tar.xz
+
+Package: xserver-xlibre-video-nouveau
+Format: 3.0 (quilt)
+Binary: xserver-xlibre-video-nouveau
+Architecture: linux-any
+Version: 1:1.0.18.3-1
+Maintainer: apebl <a@pebl.cc>
+Standards-Version: 4.7.0
+Build-Depends: debhelper-compat (= 13), pkgconf, xserver-xlibre-dev (>= 2:21.1), x11proto-dev, libdrm-dev, libudev-dev, xutils-dev
+Homepage: https://github.com/X11Libre
+Vcs-Browser: https://github.com/xlibre-deb/xserver-xlibre-video-nouveau
+Vcs-Git: https://github.com/xlibre-deb/xserver-xlibre-video-nouveau.git
+Directory: dists/questing/pool/main/source
+Package-List:
+ xserver-xlibre-video-nouveau deb x11 optional arch=linux-any
+Files:
+ ca0742cf03a619a727fc6654aa6443d5 1538 xserver-xlibre-video-nouveau_1.0.18.3-1.dsc
+ 36b3b5efd3f1a3a3c89c58d89f17ea5d 214651 xserver-xlibre-video-nouveau_1.0.18.3.orig.tar.gz
+ 2109befed84eb60a1d00d9748c4a464b 33508 xserver-xlibre-video-nouveau_1.0.18.3-1.debian.tar.xz
+Checksums-Sha1:
+ 02d1198d3c73eab73d9035cbb56b902d23adeff3 1538 xserver-xlibre-video-nouveau_1.0.18.3-1.dsc
+ 18a1c3ed6d9959c6b15a2740630f0f7e7aef50bd 214651 xserver-xlibre-video-nouveau_1.0.18.3.orig.tar.gz
+ aa006fc2d67dbe7c2ebe969b7d6359a021a904cb 33508 xserver-xlibre-video-nouveau_1.0.18.3-1.debian.tar.xz
+Checksums-Sha256:
+ 2e81de5e90c7e5396a411984bb23530ff7edcd8dcb5693639525e678376b642a 1538 xserver-xlibre-video-nouveau_1.0.18.3-1.dsc
+ fdd2d1492ec9b80298cb62fcd78e01b19bb54a5077ab7eb7510726e7bca288c4 214651 xserver-xlibre-video-nouveau_1.0.18.3.orig.tar.gz
+ ec1d4df763d58ab7353fe1f713d1ed6b15c7adffa3585ce5d901e517562e867c 33508 xserver-xlibre-video-nouveau_1.0.18.3-1.debian.tar.xz
+Checksums-Sha512:
+ 5d87632931245c78d5cda09e4771a782ae5b523e01d47e0452721493d8af7808cc350a69acb6ecd7627e797f24debfaae931b512530a2940e29c38f34a05ea0c 1538 xserver-xlibre-video-nouveau_1.0.18.3-1.dsc
+ 252c2ce0b086e5f11737455aebbb4c6ddb278c272f9bdc048d27c49726ba7a7b30af42aba9453cf41c0dddc7c833b3f72eb5390a668c75568d0b064811ec0aac 214651 xserver-xlibre-video-nouveau_1.0.18.3.orig.tar.gz
+ 9133a51620baa06ed8ed2c4ba972dfe9b545b98477d284a226c31e75e3bc93093b8ebbd49b4e279ed50d976b65ad66602d391823adab4ee4b58893d2bb3a5e11 33508 xserver-xlibre-video-nouveau_1.0.18.3-1.debian.tar.xz
+
+Package: xserver-xlibre-video-qxl
+Format: 3.0 (quilt)
+Binary: xserver-xlibre-video-qxl, xserver-xlibre-xspice
+Architecture: any
+Version: 0.1.6.2-1
+Maintainer: apebl <a@pebl.cc>
+Standards-Version: 4.6.1
+Build-Depends: debhelper-compat (= 13), pkg-config, dh-python, xserver-xlibre-dev (>= 2:1.9.4), x11proto-dev, dpkg-dev (>= 1.14.17), xutils-dev (>= 1:7.5), quilt (>= 0.46-7~), libudev-dev [linux-any], libspice-protocol-dev (>= 0.12.2~), libspice-server-dev [amd64], libxext-dev, libxfont-dev, python3:any
+Homepage: https://github.com/X11Libre
+Vcs-Browser: https://github.com/xlibre-deb/xserver-xlibre-video-qxl
+Vcs-Git: https://github.com/xlibre-deb/xserver-xlibre-video-qxl.git
+Directory: dists/questing/pool/main/source
+Package-List:
+ xserver-xlibre-video-qxl deb x11 optional arch=any
+ xserver-xlibre-xspice deb x11 optional arch=amd64
+Files:
+ 4164190bca6e88f3291ccd30f67c4690 1718 xserver-xlibre-video-qxl_0.1.6.2-1.dsc
+ 3985e02c06b8527fce685f1ea129fec6 177407 xserver-xlibre-video-qxl_0.1.6.2.orig.tar.gz
+ 48522b72cc6b9ea1a29b18374fcfadca 8456 xserver-xlibre-video-qxl_0.1.6.2-1.debian.tar.xz
+Checksums-Sha1:
+ 671c912280e3571bc950180452b84997e3676540 1718 xserver-xlibre-video-qxl_0.1.6.2-1.dsc
+ fc3f40de6fdf058278cebbdcf5261e02fdfe698e 177407 xserver-xlibre-video-qxl_0.1.6.2.orig.tar.gz
+ 059d9cc0413c47375376e34bd423656322fbad13 8456 xserver-xlibre-video-qxl_0.1.6.2-1.debian.tar.xz
+Checksums-Sha256:
+ 544958b80753b684c5ef9717cc9036fee1e11ea987282eb7ab328a537b1689e6 1718 xserver-xlibre-video-qxl_0.1.6.2-1.dsc
+ 25542b7a7239c9af32da190c93251bcb3e59a47550f26665195baf36d6d51d8e 177407 xserver-xlibre-video-qxl_0.1.6.2.orig.tar.gz
+ 69ab615a7bd0f3634491955a1e4d6a3bb548a3a9f228604b86051fe107264f76 8456 xserver-xlibre-video-qxl_0.1.6.2-1.debian.tar.xz
+Checksums-Sha512:
+ 5157fca166d3820303172de9eba1a384c5af479f7e9f0f45363ee4d48e74e568cb90d50a5d49d99f8eddb2f8da05a9573ac1029b423db086284a531cb7589d6d 1718 xserver-xlibre-video-qxl_0.1.6.2-1.dsc
+ 6b15f3c168dbd1aae0555fe73b1e5c05d9cd9e59234814400c37cc54794b46341938c813f42b6df4db73e0b36d283053665835924392a589531779fb1d51938f 177407 xserver-xlibre-video-qxl_0.1.6.2.orig.tar.gz
+ eaafad7ce686b516077f028c2758c742b0490149004f9298f0f5e14ac53b4386c9f8f4aa51b045994dfa5e47b9ef8eb9f7a4cded4e7304e4f8b7531191bd966a 8456 xserver-xlibre-video-qxl_0.1.6.2-1.debian.tar.xz
+
+Package: xserver-xlibre-video-sisusb
+Format: 3.0 (quilt)
+Binary: xserver-xlibre-video-sisusb
+Architecture: linux-any
+Version: 1:0.9.7.2-1
+Maintainer: apebl <a@pebl.cc>
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 10), quilt, pkg-config, xserver-xlibre-dev (>= 2:1.9.4), x11proto-video-dev, x11proto-xext-dev, x11proto-xinerama-dev, x11proto-core-dev, x11proto-fonts-dev, x11proto-randr-dev, x11proto-render-dev, xutils-dev
+Homepage: https://github.com/X11Libre
+Vcs-Browser: https://github.com/xlibre-deb/xserver-xlibre-video-sisusb
+Vcs-Git: https://github.com/xlibre-deb/xserver-xlibre-video-sisusb.git
+Directory: dists/questing/pool/main/source
+Package-List:
+ xserver-xlibre-video-sisusb deb x11 optional arch=linux-any
+Files:
+ bd839fb3b55e349bf854b1da3624569c 1625 xserver-xlibre-video-sisusb_0.9.7.2-1.dsc
+ 2f761013c971b0674cc59faf326ff862 118900 xserver-xlibre-video-sisusb_0.9.7.2.orig.tar.gz
+ 7b612a04b3088c99c78581f6d6765605 5624 xserver-xlibre-video-sisusb_0.9.7.2-1.debian.tar.xz
+Checksums-Sha1:
+ 8d0201e15f1ef6771fcbd4cf0f850369bc505c28 1625 xserver-xlibre-video-sisusb_0.9.7.2-1.dsc
+ b3cd6abf1b4a0a460dcc05b29cfac07d31a770bb 118900 xserver-xlibre-video-sisusb_0.9.7.2.orig.tar.gz
+ 4b2789ca0ebf9ed25d8794771901724ffc123985 5624 xserver-xlibre-video-sisusb_0.9.7.2-1.debian.tar.xz
+Checksums-Sha256:
+ d4e604d3c94fd881f2d3ee92901085bb3250fff6366108c3d704e1e63947ea24 1625 xserver-xlibre-video-sisusb_0.9.7.2-1.dsc
+ 19835f66f4684c6e08184a00d1bb563effe0bc934fa877842f1953971bcce998 118900 xserver-xlibre-video-sisusb_0.9.7.2.orig.tar.gz
+ 5779f6509f338b50e72f83d13c2ed1bdf9ba4a2b89a3e697b6d1cc72df765c00 5624 xserver-xlibre-video-sisusb_0.9.7.2-1.debian.tar.xz
+Checksums-Sha512:
+ abc74704bfc84973665ba18aa9550275095ff20a70d0947cd6b5a400b5d417a15fa4ce1041ddc102c00fa6e6c46aecaf3999630b79e4cc0c7ea7cbb0b002bdc7 1625 xserver-xlibre-video-sisusb_0.9.7.2-1.dsc
+ 2dadef3c9a35b4eef6f44fd8c2e77695e2c15c8381b8112b4795e5657486ed367473e69b28d6640681d26fab598b443b740c31db9bd67a98a9c7fe564e7252ab 118900 xserver-xlibre-video-sisusb_0.9.7.2.orig.tar.gz
+ ac7e41fd12089569aaf2d2141fffa220331cf295c4f23c8f77662e1a7a28d250679b6d4c115f556c75c7f2cd4194345df770741f4f46474b709b0480e57ea78c 5624 xserver-xlibre-video-sisusb_0.9.7.2-1.debian.tar.xz
+
+Package: xserver-xlibre-video-vesa
+Format: 3.0 (quilt)
+Binary: xserver-xlibre-video-vesa, xserver-xlibre-video-vesa-udeb
+Architecture: any-amd64 any-i386 hurd-any kfreebsd-any
+Version: 1:2.6.0.3-1
+Maintainer: apebl <a@pebl.cc>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 12), pkgconf, xserver-xlibre-dev (>= 2:1.11), x11proto-dev, xutils-dev (>= 1:7.5+4), quilt, libpciaccess-dev (>= 0.12.901)
+Homepage: https://github.com/X11Libre
+Vcs-Browser: https://github.com/xlibre-deb/xserver-xlibre-video-vesa
+Vcs-Git: https://github.com/xlibre-deb/xserver-xlibre-video-vesa.git
+Directory: dists/questing/pool/main/source
+Package-List:
+ xserver-xlibre-video-vesa deb x11 optional arch=any-amd64,any-i386
+ xserver-xlibre-video-vesa-udeb udeb debian-installer optional arch=hurd-any,kfreebsd-any
+Files:
+ ad193daf9d0b0724ac9408245a0085bc 1681 xserver-xlibre-video-vesa_2.6.0.3-1.dsc
+ aa1abb8590f5f7a95c48667012b130a5 25437 xserver-xlibre-video-vesa_2.6.0.3.orig.tar.gz
+ 906404ff81922c9dff9e1394e4cd530c 6688 xserver-xlibre-video-vesa_2.6.0.3-1.debian.tar.xz
+Checksums-Sha1:
+ eba7bd8e13cfe7b7b1a4052601994b43cbc101f1 1681 xserver-xlibre-video-vesa_2.6.0.3-1.dsc
+ d52002dbbb537367b7f60044b8f2d0e040278838 25437 xserver-xlibre-video-vesa_2.6.0.3.orig.tar.gz
+ 341a74eda39caad15df36f27f078f6cda06efce2 6688 xserver-xlibre-video-vesa_2.6.0.3-1.debian.tar.xz
+Checksums-Sha256:
+ 97de5f7051cd2e06569005348e80646128e1ca075e4cd7c90c95d17b0fe648c3 1681 xserver-xlibre-video-vesa_2.6.0.3-1.dsc
+ 7137c2bdd9e290aff83565d77b842a209b138776785c745cf7c0d10c9f25fe8f 25437 xserver-xlibre-video-vesa_2.6.0.3.orig.tar.gz
+ a315f2404861b7457b099f4a37d1b4c108cf747930407e39fe97fe4dd7bf9287 6688 xserver-xlibre-video-vesa_2.6.0.3-1.debian.tar.xz
+Checksums-Sha512:
+ cb275c98f0750ef56bc93f59ae2b36d12ba86e4576b1030b6bf5af7df616a38a1ba92c3561756cb2d73efd13abaf788892476a5b852a2ffb8e59cdbf09812734 1681 xserver-xlibre-video-vesa_2.6.0.3-1.dsc
+ 7ca5183a84e5111d747932beec1dc0e53525bbac72f97c9c14b7c9c36e1c16dfb2d4c40c6062588d30deb8bd45ee4430275a84e365a7285c6d7f8597a318f19c 25437 xserver-xlibre-video-vesa_2.6.0.3.orig.tar.gz
+ 75ecc652c832396ce2d2e908bd16b288e3d52d7c18c80e0aba97da52679c4b4c097710f3e7b2f284678370817484c05693587366d26404090b4047d43866ae34 6688 xserver-xlibre-video-vesa_2.6.0.3-1.debian.tar.xz
+
+Package: xserver-xlibre-video-vmware
+Format: 3.0 (quilt)
+Binary: xserver-xlibre-video-vmware
+Architecture: any-amd64 any-i386
+Version: 1:13.4.0.3-2
+Maintainer: apebl <a@pebl.cc>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 12), quilt, pkgconf, xserver-xlibre-dev (>= 2:1.9.4), x11proto-dev, xutils-dev (>= 1:7.5+4), libdrm-dev [!hurd-i386], libudev-dev [linux-any], libxext-dev, libx11-dev, libxatracker-dev [linux-any] <xatracker>
+Homepage: https://github.com/X11Libre
+Vcs-Browser: https://github.com/xlibre-deb/xserver-xlibre-video-vmware
+Vcs-Git: https://github.com/xlibre-deb/xserver-xlibre-video-vmware.git
+Directory: dists/questing/pool/main/source
+Package-List:
+ xserver-xlibre-video-vmware deb x11 optional arch=any-amd64,any-i386
+Files:
+ 0584cebb5c39edc8c808f7c0a47c9218 1655 xserver-xlibre-video-vmware_13.4.0.3-2.dsc
+ 35fe4d9546561590a1e4302470594f59 178336 xserver-xlibre-video-vmware_13.4.0.3.orig.tar.gz
+ 2a5ccd2a03d9151feed945c7e4450287 7032 xserver-xlibre-video-vmware_13.4.0.3-2.debian.tar.xz
+Checksums-Sha1:
+ 7e4d1b51ed63afee222515a5eea59d586640e578 1655 xserver-xlibre-video-vmware_13.4.0.3-2.dsc
+ 3d50570c8003b74d03b1ceb755281bdb96b4bc0d 178336 xserver-xlibre-video-vmware_13.4.0.3.orig.tar.gz
+ ef24842517b84fc3c146d416e71ac69b55d339eb 7032 xserver-xlibre-video-vmware_13.4.0.3-2.debian.tar.xz
+Checksums-Sha256:
+ da2e2fd12e08a6f64afae4170acdf525f1662dbdb0dbe9ec91f82ea6149fba1d 1655 xserver-xlibre-video-vmware_13.4.0.3-2.dsc
+ 1773016119fc0e7d5992ad95e1e7ad26a103b5f0198516389447bed5dd9d963d 178336 xserver-xlibre-video-vmware_13.4.0.3.orig.tar.gz
+ 494c04b0babf4cf6e9d3de79f4e82d458508cfcc0dfd5d2e831112b5dffdc885 7032 xserver-xlibre-video-vmware_13.4.0.3-2.debian.tar.xz
+Checksums-Sha512:
+ d4f9e51b809be741c58976beee02906711db3b1b7bad656601174e4b075c4406e33bb16f487c6b56cde4927c9f050b4199d1ce9c7e216ebaa2e1fe6406bd201c 1655 xserver-xlibre-video-vmware_13.4.0.3-2.dsc
+ 6f0426fea9077f20c1e0c58a8cbb93a6ecb5964fc6c4f689b1702dfe307143b55cce780b10396ed2370442684d8c7845f41eed4f9978f3f520b4c4c5a74d07a9 178336 xserver-xlibre-video-vmware_13.4.0.3.orig.tar.gz
+ 400d93501c24cc850909a0e4edc7aa1e7ea7ef46c0ccdfb8d94fc887d63087a9146f106ad2907590f8be5a898f83bd85f206ec17c57f9a21f4db1c6ca308bb30 7032 xserver-xlibre-video-vmware_13.4.0.3-2.debian.tar.xz
+
+Package: xserver-xlibre-video-voodoo
+Format: 3.0 (quilt)
+Binary: xserver-xlibre-video-voodoo
+Architecture: any
+Version: 1:1.2.6.2-1
+Maintainer: apebl <a@pebl.cc>
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 8), dh-autoreconf, quilt, pkg-config, xutils-dev, xserver-xlibre-dev (>= 2:1.14), x11proto-xext-dev, x11proto-xf86dga-dev, x11proto-core-dev, x11proto-fonts-dev, x11proto-randr-dev, x11proto-render-dev, libpciaccess-dev (>= 0.8)
+Homepage: https://github.com/X11Libre
+Vcs-Browser: https://github.com/xlibre-deb/xserver-xlibre-video-voodoo
+Vcs-Git: https://github.com/xlibre-deb/xserver-xlibre-video-voodoo.git
+Directory: dists/questing/pool/main/source
+Package-List:
+ xserver-xlibre-video-voodoo deb x11 optional arch=any
+Files:
+ 4ace4547617ac4fd1ab3daadfb4fd8c1 1629 xserver-xlibre-video-voodoo_1.2.6.2-1.dsc
+ 0001e9ca036a4c06936b98446f122805 28717 xserver-xlibre-video-voodoo_1.2.6.2.orig.tar.gz
+ 411154e3cd7b7fcbfa95dedd0959d458 6012 xserver-xlibre-video-voodoo_1.2.6.2-1.debian.tar.xz
+Checksums-Sha1:
+ 6e1e9fbe5b3992949718d0f1160b015609600c84 1629 xserver-xlibre-video-voodoo_1.2.6.2-1.dsc
+ 1a08ed1622df8ca8b02cfc8ead56320177166a82 28717 xserver-xlibre-video-voodoo_1.2.6.2.orig.tar.gz
+ f327710bebca7255d1e67974363bf478a18a2b2b 6012 xserver-xlibre-video-voodoo_1.2.6.2-1.debian.tar.xz
+Checksums-Sha256:
+ 7f09ae636fdae712ad52cc752ea19f84a8c88ec35a0ef6994aba364a6e61b485 1629 xserver-xlibre-video-voodoo_1.2.6.2-1.dsc
+ acdea470f57d33c27a4b1bbb18568a950ac344230e5a9a2ee57ad99f09acc97a 28717 xserver-xlibre-video-voodoo_1.2.6.2.orig.tar.gz
+ d20b5da561e903c38ca6ac3de5c3c0b090c46a9bbe5a82600c85e9adba34ceab 6012 xserver-xlibre-video-voodoo_1.2.6.2-1.debian.tar.xz
+Checksums-Sha512:
+ 415ff2b6cca80ed66c2abd5bf301b3374bb493a0553a7fb24b1555a388686b68550bfdf100e22ac29300147ff683d0349fb872e6b72521285d29622ed9b4ba57 1629 xserver-xlibre-video-voodoo_1.2.6.2-1.dsc
+ ea6fb42bec9e74f021689376cfff96c9c65e08644ef65e225fe2f784b0728ab8774764ed3b2dadf3832134df7b37f7a9cafb1242c484f895cf0a02f41e56214c 28717 xserver-xlibre-video-voodoo_1.2.6.2.orig.tar.gz
+ 7155bd331f62721c071998796983e5ef96f6cee4d9af902e87c1e4f9bf22951bbc6ca37d4911e6f51248ee06c126f8853dad628b1665f92ddfb50b428698d9da 6012 xserver-xlibre-video-voodoo_1.2.6.2-1.debian.tar.xz
+
