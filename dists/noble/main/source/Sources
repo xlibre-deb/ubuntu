@@ -600,10 +600,10 @@ Package: xserver-xlibre-video-vmware
 Format: 3.0 (quilt)
 Binary: xserver-xlibre-video-vmware
 Architecture: any-amd64 any-i386
-Version: 1:13.4.0.3-1
+Version: 1:13.4.0.3-2
 Maintainer: apebl <a@pebl.cc>
 Standards-Version: 4.6.2
-Build-Depends: debhelper-compat (= 12), quilt, pkgconf, xserver-xlibre-dev (>= 2:1.9.4), x11proto-dev, xutils-dev (>= 1:7.5+4), libdrm-dev [!hurd-i386], libudev-dev [linux-any], libxext-dev, libx11-dev
+Build-Depends: debhelper-compat (= 12), quilt, pkgconf, xserver-xlibre-dev (>= 2:1.9.4), x11proto-dev, xutils-dev (>= 1:7.5+4), libdrm-dev [!hurd-i386], libudev-dev [linux-any], libxext-dev, libx11-dev, libxatracker-dev [linux-any] <xatracker>
 Homepage: https://github.com/X11Libre
 Vcs-Browser: https://github.com/xlibre-deb/xserver-xlibre-video-vmware
 Vcs-Git: https://github.com/xlibre-deb/xserver-xlibre-video-vmware.git
@@ -611,21 +611,21 @@ Directory: dists/noble/pool/main/source
 Package-List:
  xserver-xlibre-video-vmware deb x11 optional arch=any-amd64,any-i386
 Files:
- 59fb7a28b1e612b8a759924b797db3ce 1613 xserver-xlibre-video-vmware_13.4.0.3-1.dsc
+ a76b068f6bf25cb8a35c1392394f94fa 1655 xserver-xlibre-video-vmware_13.4.0.3-2.dsc
  35fe4d9546561590a1e4302470594f59 178336 xserver-xlibre-video-vmware_13.4.0.3.orig.tar.gz
- 4030f58332e68439f6892020b6931d11 6984 xserver-xlibre-video-vmware_13.4.0.3-1.debian.tar.xz
+ 2a5ccd2a03d9151feed945c7e4450287 7032 xserver-xlibre-video-vmware_13.4.0.3-2.debian.tar.xz
 Checksums-Sha1:
- 2735f41b979aca55f16b19d0153df0bab9cec846 1613 xserver-xlibre-video-vmware_13.4.0.3-1.dsc
+ f5d1804785e82a9b02ff4e29395312425df23cc1 1655 xserver-xlibre-video-vmware_13.4.0.3-2.dsc
  3d50570c8003b74d03b1ceb755281bdb96b4bc0d 178336 xserver-xlibre-video-vmware_13.4.0.3.orig.tar.gz
- 0f04776b9fdb95490eb0ec1175bbe0a56322280f 6984 xserver-xlibre-video-vmware_13.4.0.3-1.debian.tar.xz
+ ef24842517b84fc3c146d416e71ac69b55d339eb 7032 xserver-xlibre-video-vmware_13.4.0.3-2.debian.tar.xz
 Checksums-Sha256:
- 70291a904bf81712c40a5054924130d49e03ef68aac2a3b51e3da49ca4996414 1613 xserver-xlibre-video-vmware_13.4.0.3-1.dsc
+ 89c1424f6518e2406bdd1792749c36a9107f19a837b4cebd1ee3f83e4492d5ee 1655 xserver-xlibre-video-vmware_13.4.0.3-2.dsc
  1773016119fc0e7d5992ad95e1e7ad26a103b5f0198516389447bed5dd9d963d 178336 xserver-xlibre-video-vmware_13.4.0.3.orig.tar.gz
- 4c6177b1013c08aec2298a67d2932451703508c714dfce762bcbe53289a78d2a 6984 xserver-xlibre-video-vmware_13.4.0.3-1.debian.tar.xz
+ 494c04b0babf4cf6e9d3de79f4e82d458508cfcc0dfd5d2e831112b5dffdc885 7032 xserver-xlibre-video-vmware_13.4.0.3-2.debian.tar.xz
 Checksums-Sha512:
- 894c6b7c073e388447106f30d2cbda783297f6395938372f905ffe4098ae603bf0a5f6d1dd8ff8ee1e2b3c66116f3f19ede9295ce673f601b19dbafc21423a48 1613 xserver-xlibre-video-vmware_13.4.0.3-1.dsc
+ 3493b53e358549ad39c15ed43c779e3cc38a07b2a455050f80cb6b07f4018a4978bc05a271d1ead7b57c5cbd16af49759e5003f2e96a0e526e5d2259450a43ac 1655 xserver-xlibre-video-vmware_13.4.0.3-2.dsc
  6f0426fea9077f20c1e0c58a8cbb93a6ecb5964fc6c4f689b1702dfe307143b55cce780b10396ed2370442684d8c7845f41eed4f9978f3f520b4c4c5a74d07a9 178336 xserver-xlibre-video-vmware_13.4.0.3.orig.tar.gz
- 945c14305623ab2de34eb157903a29b33c14a58190511b4f613d40ec18da0b5aaee3629d764d9277dbb9f69c2de703df25e989d969e354f0323e381defe529b6 6984 xserver-xlibre-video-vmware_13.4.0.3-1.debian.tar.xz
+ 400d93501c24cc850909a0e4edc7aa1e7ea7ef46c0ccdfb8d94fc887d63087a9146f106ad2907590f8be5a898f83bd85f206ec17c57f9a21f4db1c6ca308bb30 7032 xserver-xlibre-video-vmware_13.4.0.3-2.debian.tar.xz
 
 Package: xserver-xlibre-video-voodoo
 Format: 3.0 (quilt)
