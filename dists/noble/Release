@@ -6,9 +6,9 @@ UDebComponents: main
 Origin: XLibre
 Label: xlibre-deb
 Description: XLibre deb repo
-Date: Thu, 09 Oct 2025 13:22:17 +0000
+Date: Thu, 09 Oct 2025 15:14:13 +0000
 MD5Sum:
- 8344528de207642621239c5bbb59c63a              201 Release
+ 308566e49ee9fbcb6a1e67d1d72215d6              201 Release
  ac62ba4d02d2782b0a64c1978c7ba68f            16090 main/Contents-all
  795c8013a301abac28b42b16192fd421             1776 main/Contents-all.xz
  923f24fd832149fcb14fe2a5dce82ab5            41165 main/Contents-amd64
@@ -24,7 +24,7 @@ MD5Sum:
  1f229f4d49a2604d646b095a1d1025e1            48420 main/source/Sources
  2e1d802ecb79e67aff5c9461928d7b72            12696 main/source/Sources.xz
 SHA1:
- 2049f2e5c6dd4c6d3c9b7c24a768e3e6b7ed99dc              201 Release
+ faeb4db9b5e62cf373a55e1e00f2ab2be1d2ba9a              201 Release
  fd1758f0b38417f14e9c9f86be01a83c689abcbc            16090 main/Contents-all
  2eebc6a2cb3bdba094e29a9fbe8f27c093655422             1776 main/Contents-all.xz
  25fd9fec4f3b54389246c748e763433fc7f9c0bf            41165 main/Contents-amd64
@@ -40,7 +40,7 @@ SHA1:
  d1516381988c9d8938fa40ca8b54c3670d4e268f            48420 main/source/Sources
  4b2c34bf1e33f4f9554f7498e0f474c82fa90c75            12696 main/source/Sources.xz
 SHA256:
- 2019987a9353f91f3510d2dcc1b021edfd9a23e2a9c117f300c4b2eb51f67ffa              201 Release
+ b023ae2f770f95e30da05ee80cbaf6570ec3569cb4f17db55522d7ebb26e4a7b              201 Release
  887f050a52c5cc940f0b0d489702fe1b50e13f30332fc591a093dd0348ae0081            16090 main/Contents-all
  cc8041657d3c751ed5e7d0b62f98db1431ee803bbb7e4243b6fd3e15d243a080             1776 main/Contents-all.xz
  b54409d50162347d4679a0fbb245f96c64fe87293a1dd7a734475235727d3f6d            41165 main/Contents-amd64
@@ -56,7 +56,7 @@ SHA256:
  366c35bcc1d6bbbd53a67ccef1095139e1d605a9e89fee383c7bd2c4202ee93e            48420 main/source/Sources
  c1dbce2f802f688d5e5df3b75ebdb7c24201eda8a03abc397a5480721dd130cc            12696 main/source/Sources.xz
 SHA512:
- 78654966ba786ea3ccf83181daf6320757485adeb2066703f7dc82a89610a0d2ad9abbe2d763af649f29a695b1ab6488650a9d88ebc6829243a3b308541ad789              201 Release
+ 4be8435b08b7e2cd8cfd37ebb66b71c532afa6d14ed51d368b03b02107a40f7486b199072f1f141b3fbca52c06825c12db8c2d9faa5139d3ca8f325fb65a19a5              201 Release
  152ea37774c296ca7ce03717ee86f18bc5ced07f474551121c4f6acb3f0d2db5501f7863ca8a35446c95bf1eb8adcd422cbefbee252d21eb510b9e01063daf11            16090 main/Contents-all
  94545b3c4ffa30c5c44eb2da05515a3dd553a183b1ca52c5153fe68c2d5bbb67fabf0b21e691f45616bfd85deba8fde9d49df780c033845e1fc0cac0622bb8f2             1776 main/Contents-all.xz
  1e65e7dea442199e6191ef92ae8b95f776f3c01e15be3d475d48e2fa519729b4251ede941d1cc18d93f1e0a38db2f873ee306c42e21aed700a3e20bcff385ea2            41165 main/Contents-amd64
